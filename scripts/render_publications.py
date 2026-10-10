@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the publication page from the authoritative structured bibliography."""
+"""Generate the publications and outreach page from structured records."""
 import json
 from html import escape
 from pathlib import Path
@@ -20,10 +20,10 @@ def main():
             raise ValueError(f"Duplicate or malformed DOI: {doi}")
         seen.add(doi)
     lines = [
-        '---', 'title: "Publications"',
-        'description: "Peer-reviewed publications and manuscripts by Ricardo N. Santos."',
+        '---', 'title: "Publications & outreach"',
+        'description: "Research papers, outreach, and science communication by Ricardo N. Santos."',
         '---', '', '::: {.page-intro}',
-        'Research on lipid biomarkers, paleohydroclimate, vegetation, and lake-sediment archives. '
+        'Research papers and outreach on lipid biomarkers, paleohydroclimate, vegetation, and lake-sediment archives. '
         '[My Google Scholar profile](https://scholar.google.com/citations?user=VAgWEa4AAAAJ&hl=en) '
         'provides an additional overview.', ':::', '',
         '## Peer-reviewed publications', '', '```{=html}'
@@ -43,21 +43,25 @@ def main():
                 f'<p class="doi"><a href="https://doi.org/{doi}">DOI: {doi} ↗</a></p>',
                 '</article>'
             ])
-    lines.extend(['```', '', '## Manuscripts in review and preparation {.manuscripts}', '',
-                  'Status as listed in my October 2026 CV. These manuscripts have not yet been published.', '',
-                  '```{=html}'])
-    for paper in data["manuscripts"]:
-        status = escape(paper["status"])
-        if paper.get("journal"):
-            status += " · " + escape(paper["journal"])
-        lines.extend(['<article class="publication">',
-                      f'<p class="pub-status">{status}</p>',
-                      f'<h3>{escape(paper["title"])}</h3>',
-                      f'<p class="authors">{authors_html(paper["authors"])}</p>',
-                      '</article>'])
     lines.extend(['```', ''])
+    if data.get("outreach"):
+        lines.extend(['## Outreach {.outreach}', '', '```{=html}'])
+        for item in data["outreach"]:
+            url = escape(item["url"], quote=True)
+            outlet = escape(item["outlet"])
+            if item.get("language"):
+                outlet += " · " + escape(item["language"])
+            lines.extend([
+                '<article class="publication">',
+                f'<h3><a href="{url}">{escape(item["title"])}</a></h3>',
+                f'<p class="journal"><em>{outlet}</em></p>',
+                f'<p class="authors">{escape(item["description"])}</p>',
+                f'<p class="doi"><a href="{url}">{escape(item.get("link_label", "Read more"))} ↗</a></p>',
+                '</article>'
+            ])
+        lines.extend(['```', ''])
     (ROOT / "publications.qmd").write_text("\n".join(lines), encoding="utf-8")
-    print(f'Publications: {len(data["published"])} published, {len(data["manuscripts"])} manuscripts.')
+    print(f'Publications: {len(data["published"])} published, {len(data.get("outreach", []))} outreach items.')
 
 
 if __name__ == "__main__":

@@ -6,7 +6,7 @@ A Quarto website presenting research in organic geochemistry and paleoclimate.
 
 - `index.qmd`: biography and selected research
 - `research.qmd`: research themes and projects
-- `data/publications.json`: published papers and manuscripts
+- `data/publications.json`: published papers and outreach
 - `cv.qmd`: readable CV; `assets/Ricardo_CV.pdf`: full downloadable CV
 - `photos.qmd`: photographs
 - `contact.qmd`: professional contact and research profiles

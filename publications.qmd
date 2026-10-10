@@ -1,10 +1,10 @@
 ---
-title: "Publications"
-description: "Peer-reviewed publications and manuscripts by Ricardo N. Santos."
+title: "Publications & outreach"
+description: "Research papers, outreach, and science communication by Ricardo N. Santos."
 ---
 
 ::: {.page-intro}
-Research on lipid biomarkers, paleohydroclimate, vegetation, and lake-sediment archives. [My Google Scholar profile](https://scholar.google.com/citations?user=VAgWEa4AAAAJ&hl=en) provides an additional overview.
+Research papers and outreach on lipid biomarkers, paleohydroclimate, vegetation, and lake-sediment archives. [My Google Scholar profile](https://scholar.google.com/citations?user=VAgWEa4AAAAJ&hl=en) provides an additional overview.
 :::
 
 ## Peer-reviewed publications
@@ -64,29 +64,13 @@ Research on lipid biomarkers, paleohydroclimate, vegetation, and lake-sediment a
 </article>
 ```
 
-## Manuscripts in review and preparation {.manuscripts}
-
-Status as listed in my October 2026 CV. These manuscripts have not yet been published.
+## Outreach {.outreach}
 
 ```{=html}
 <article class="publication">
-<p class="pub-status">In review · PNAS</p>
-<h3>Proxy evidence challenges a humid Younger Dryas in Northeast China</h3>
-<p class="authors">Li, N., Li, D., Liu, B., <strong>Santos, R. N.</strong>, Ladd, S. N., Nelson, D. B., Sack, D., Lloren, R. B., Brunner, I., Orme, L. C., Gao, G., Zuo, X., Jie, D., &amp; Dubois, N.</p>
-</article>
-<article class="publication">
-<p class="pub-status">In review · Organic Geochemistry</p>
-<h3>Lipid biomarker signatures of charophytes and submerged vascular macrophytes: Implications for past reconstructions</h3>
-<p class="authors"><strong>Santos, R. N.</strong>, Aichner, B., Nelson, D. B., Hilt, S., &amp; Ladd, S. N.</p>
-</article>
-<article class="publication">
-<p class="pub-status">Submitted · Quaternary Science Reviews</p>
-<h3>Natural and human-driven changes of phytoplankton community composition in Rotsee (Switzerland) since the Younger Dryas</h3>
-<p class="authors">Klatt, A., Ajallooeian, F., Zahajská, P., <strong>Santos, R. N.</strong>, Nelson, D. B., Naeher, S., Schubert, C. J., Dubois, N., de Jonge, C., &amp; Ladd, S. N.</p>
-</article>
-<article class="publication">
-<p class="pub-status">In preparation</p>
-<h3>Vegetation-corrected plant wax δ²H values from Owasco Lake record early Holocene hydroclimatic impacts of the residual Laurentide Ice Sheet</h3>
-<p class="authors"><strong>Santos, R. N.</strong>, Wietelmann, T., Nelson, D. B., Thomas, E. K., Scholz, C. A., Scheuer, N., Naughton, F., Rey, F., Dubois, N., Szidat, S., &amp; Ladd, S. N.</p>
+<h3><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">O tempo preso na lagoa do Peixão, na Serra da Estrela</a></h3>
+<p class="journal"><em>National Geographic Portugal · Portuguese</em></p>
+<p class="authors">Outreach on our research at Lagoa do Peixão in Serra da Estrela, Portugal.</p>
+<p class="doi"><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">Read feature ↗</a></p>
 </article>
 ```
