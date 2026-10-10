@@ -3,6 +3,7 @@ project:
   output-dir: dist
   pre-render:
     - python3 scripts/render_publications.py
+    - python3 scripts/render_projects.py
   render:
     - index.qmd
     - research.qmd
@@ -11,6 +12,11 @@ project:
     - photos.qmd
     - contact.qmd
     - 404.qmd
+    - projects/rotsee.qmd
+    - projects/owasco.qmd
+    - projects/aquatic-plants.qmd
+    - projects/younger-dryas.qmd
+    - projects/peixao.qmd
   resources:
     - assets/**
 
@@ -29,8 +35,14 @@ website:
     left:
       - href: index.qmd
         text: About
-      - href: research.qmd
-        text: Research
+      - text: Research
+        menu:
+          - href: research.qmd
+            text: Overview
+          - href: research.qmd#ongoing-projects
+            text: Ongoing projects
+          - href: research.qmd#past-projects
+            text: Past projects
       - href: publications.qmd
         text: "Publications & outreach"
       - href: cv.qmd

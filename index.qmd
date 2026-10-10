@@ -56,5 +56,17 @@ body-classes: home-page
     <a class="doi-link" href="https://doi.org/10.1016/j.quascirev.2024.108796">Read paper ↗</a>
   </article>
 </section>
+<section class="away-from-lab" aria-labelledby="away-title">
+  <figure>
+    <a href="photos.html" aria-label="See more photos"><img src="assets/mountain-portrait.jpg" alt="Ricardo in a yellow hat with snow-covered mountains behind him" width="1200" height="1600" loading="lazy" decoding="async"></a>
+    <figcaption>A winter view · In the mountains</figcaption>
+  </figure>
+  <div>
+    <p class="eyebrow">BEYOND THE RESEARCH</p>
+    <h2 id="away-title">Outside the lab</h2>
+    <p>A few moments away from the lab, among the landscapes that make being a geologist so rewarding.</p>
+    <a href="photos.html">More photos <span aria-hidden="true">→</span></a>
+  </div>
+</section>
 <aside class="contact-strip"><p>Interested in lipid biomarkers, paleoclimate, or lake sediments?</p><a href="contact.html">Let’s get in touch →</a></aside>
 ```

@@ -1,0 +1,33 @@
+---
+title: "Younger Dryas Working Group"
+description: "Bringing together researchers and different climate archives to synthesize European evidence for the Younger Dryas."
+body-classes: project-page
+---
+
+```{=html}
+<section class="project-overview" aria-label="Project overview">
+<div class="project-overview-copy">
+<p class="eyebrow">Collaboration · European climate archives</p>
+<p class="project-group">Ongoing project</p>
+<p class="project-lead">Bringing together researchers and different climate archives to synthesize European evidence for the Younger Dryas.</p>
+<dl class="project-facts"><div><dt>Focus</dt><dd>Scientific collaboration</dd></div><div><dt>Period</dt><dd>2025–present</dd></div><div><dt>My role</dt><dd>Co-initiator</dd></div></dl>
+</div>
+<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Younger Dryas Working Group"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+</section>
+```
+
+## Research question
+
+How can evidence from different European climate archives improve our understanding of the Younger Dryas?
+
+## About the project
+
+I am a co-initiator of the Younger Dryas Working Group, which brings together researchers working on lake records, speleothems, glaciers, chironomids, lipid biomarkers, and climate modelling to synthesize European evidence for this abrupt climate event.
+
+## Approach
+
+Scientific exchange and synthesis across lake records, speleothems, glaciers, chironomids, lipid biomarkers, and climate modelling.
+
+::: {.project-page-links}
+[← Ongoing projects](../research.qmd#ongoing-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)
+:::

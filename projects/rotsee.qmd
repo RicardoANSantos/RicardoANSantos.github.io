@@ -1,0 +1,37 @@
+---
+title: "Hydroclimate at Lake Rotsee"
+description: "Separating vegetation effects from the hydroclimatic signals recorded by plant waxes in a Swiss lake."
+body-classes: project-page
+---
+
+```{=html}
+<section class="project-overview" aria-label="Project overview">
+<div class="project-overview-copy">
+<p class="eyebrow">Central Europe · Switzerland</p>
+<p class="project-group">Ongoing project</p>
+<p class="project-lead">Separating vegetation effects from the hydroclimatic signals recorded by plant waxes in a Swiss lake.</p>
+<dl class="project-facts"><div><dt>Focus</dt><dd>Doctoral research</dd></div></dl>
+</div>
+<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Hydroclimate at Lake Rotsee"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+</section>
+```
+
+## Research question
+
+How can we distinguish changes in vegetation from changes in hydroclimate in sedimentary plant-wax isotope records?
+
+## About the project
+
+My work on Lake Rotsee examines how vegetation changes affect the hydrogen-isotope composition of sedimentary plant waxes. Vegetation-corrected reconstructions help assess the hydroclimatic information preserved across the transition from the Younger Dryas into the Holocene and through later environmental change.
+
+## Approach
+
+Plant-wax δ²H and δ¹³C, lipid distributions, vegetation correction, and multi-proxy lake records.
+
+## Related work
+
+- [Vegetation-corrected hydroclimate reconstruction · 2026 ↗](https://doi.org/10.1029/2025PA005401)
+
+::: {.project-page-links}
+[← Ongoing projects](../research.qmd#ongoing-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)
+:::

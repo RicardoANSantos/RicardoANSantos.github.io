@@ -1,0 +1,39 @@
+---
+title: "Atlantic climate at Lake Peixão"
+description: "Reconstructing western Iberian hydroclimate over the last 2,000 years from the sediments of a mountain lake."
+body-classes: project-page
+---
+
+```{=html}
+<section class="project-overview" aria-label="Project overview">
+<div class="project-overview-copy">
+<p class="eyebrow">Western Iberia · Portugal</p>
+<p class="project-group">Past project</p>
+<p class="project-lead">Reconstructing western Iberian hydroclimate over the last 2,000 years from the sediments of a mountain lake.</p>
+<dl class="project-facts"><div><dt>Focus</dt><dd>MSc research</dd></div><div><dt>Period</dt><dd>2019–2021</dd></div><div><dt>My role</dt><dd>MSc researcher</dd></div></dl>
+</div>
+<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Atlantic climate at Lake Peixão"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+</section>
+```
+
+## Research question
+
+How have Atlantic climate variability, vegetation, and human activity shaped the environment around Lake Peixão?
+
+## About the project
+
+My MSc research used leaf-wax biomarkers from Lake Peixão in Serra da Estrela to investigate western Iberian hydroclimate over the last 2,000 years. This work examines connections between North Atlantic atmospheric circulation, local hydroclimate, vegetation, and human activity. The lake archive also supports collaborative studies of longer Holocene records.
+
+## Approach
+
+Leaf-wax biomarkers, stable isotopes, pollen, and complementary sedimentary proxies.
+
+## Related work
+
+- [Climate and vegetation over the last 2,000 years · 2024 ↗](https://doi.org/10.1016/j.quascirev.2024.108796)
+- [Modern leaf-wax calibration · 2022 ↗](https://doi.org/10.3389/fenvs.2022.994377)
+- [National Geographic Portugal feature ↗](https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781)
+
+::: {.project-page-links}
+[← Past projects](../research.qmd#past-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)
+:::
