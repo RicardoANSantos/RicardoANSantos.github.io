@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Ricardo N. Santos — RNS</title>
+  <rect width="64" height="64" rx="12" fill="#266454"/>
+  <g fill="none" stroke="#fdfcf9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 44V20h6c10 0 10 12 0 12H9m6 0 8 12"/>
+    <path d="M28 44V20l11 24V20"/>
+    <path d="M55 22c-4-4-11-2-11 4 0 7 12 3 12 11 0 8-8 9-12 5"/>
+  </g>
+</svg>
