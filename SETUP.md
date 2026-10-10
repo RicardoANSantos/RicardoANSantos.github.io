@@ -9,10 +9,13 @@ Public website address after deployment: https://ricardoansantos.github.io/
 1. Open the repository's **Settings → Pages**:
    https://github.com/RicardoANSantos/RicardoANSantos.github.io/settings/pages
 2. Under **Build and deployment**, select **GitHub Actions** as the source.
+   The branch-based publisher runs Jekyll on the source repository and can replace
+   the real website with the README. GitHub Actions must be the sole publishing source.
 3. Open **Actions → Build and publish website** and use **Run workflow** if the
    initial run happened before Pages was enabled. Alternatively, ask the assistant
    to retry the publication after confirming that setting.
-4. Wait for both the build and deployment jobs to succeed, then open the website.
+4. Wait for the build, deployment, and public-site verification jobs to succeed,
+   then open the website.
 
 The GitHub connection used for preparation can edit repository files but does not
 expose Pages administration. The initial Pages setting must be selected by the owner.

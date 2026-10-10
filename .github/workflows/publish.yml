@@ -45,8 +45,40 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Check publishing source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          build_type=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.build_type')
+          if [ "$build_type" != "workflow" ]; then
+            echo "::error::Set Settings > Pages > Build and deployment > Source to GitHub Actions: https://github.com/$GITHUB_REPOSITORY/settings/pages"
+            exit 1
+          fi
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
+
+  verify-live:
+    if: always() && needs.build.result == 'success' && (github.event_name == 'pull_request' || needs.deploy.result == 'success')
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout verification script
+        uses: actions/checkout@v6
+      - name: Checkout currently published source for pull requests
+        if: github.event_name == 'pull_request'
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.base_ref }}
+          path: deployed-source
+      - name: Verify public pages and assets
+        env:
+          SITE_URL: https://ricardoansantos.github.io/
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            python3 scripts/check_live_site.py "$SITE_URL" deployed-source
+          else
+            python3 scripts/check_live_site.py "$SITE_URL"
+          fi
