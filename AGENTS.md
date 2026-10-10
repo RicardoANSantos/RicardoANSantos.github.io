@@ -42,8 +42,11 @@ Read this file before editing. It is a set of project instructions, not a runnin
 7. Follow the current user's publication instruction. A request to publish an update
    authorizes pushing it after checks. If they requested a draft, keep it on a branch
    or preview. Do not infer standing automatic-publication consent from these instructions.
-8. After a push to `main`, GitHub Actions builds and deploys the site. Verify the
-   workflow or deployment result before saying the public website has been updated.
+8. Pages must use **GitHub Actions** as its publishing source. A branch-based
+   Jekyll publisher can overwrite the Quarto site with the repository README.
+   After a push to `main`, verify the build, deployment, and actual public-site
+   checks before saying the public website has been updated. A deployment success
+   alone does not establish that the correct website is being served.
 
 ## Commands
 

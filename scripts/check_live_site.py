@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+"""Verify the public Quarto site, its content links, and its unchanged assets."""
+from html.parser import HTMLParser
+from pathlib import Path
+from urllib.parse import urljoin, urlsplit
+from urllib.request import Request, urlopen
+import json
+import re
+import sys
+import time
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+class Page(HTMLParser):
+    def __init__(self, text):
+        super().__init__(convert_charrefs=True)
+        self.generator = ""
+        self.links = set()
+        self.images = set()
+        self.classes = set()
+        self.feed(text)
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        self.classes.update(attrs.get("class", "").split())
+        if tag == "meta" and attrs.get("name") == "generator":
+            self.generator = attrs.get("content", "")
+        for key in ("href", "src"):
+            if attrs.get(key):
+                self.links.add(attrs[key])
+        if tag == "img" and attrs.get("src"):
+            self.images.add(attrs["src"])
+
+
+def fetch(base, path):
+    url = urljoin(base.rstrip("/") + "/", path)
+    request = Request(
+        url + "?deployment-check=" + str(time.time_ns()),
+        headers={"User-Agent": "Ricardo-Santos-Website-Check", "Cache-Control": "no-cache"},
+    )
+    with urlopen(request, timeout=20) as response:
+        return response.read()
+
+
+def require(condition, message):
+    if not condition:
+        raise ValueError(message)
+
+
+def check(base, source):
+    names = ("index.html", "research.html", "publications.html", "cv.html", "photos.html", "contact.html")
+    pages = {}
+    for name in names:
+        page = Page(fetch(base, name).decode("utf-8"))
+        require(page.generator.lower().startswith("quarto"), f"{name}: public page is not the Quarto website")
+        require(any(urlsplit(link).path.endswith("styles.css") for link in page.links), f"{name}: website stylesheet is missing")
+        pages[name] = page
+
+    home = pages["index.html"]
+    require("intro" in home.classes, "The public homepage is missing the research introduction")
+    index = (source / "index.qmd").read_text(encoding="utf-8")
+    profiles = re.search(r'<div class="profile-links"[^>]*>(.*?)</div>', index, flags=re.S)
+    require(profiles is not None, "Professional profiles are missing from the source homepage")
+    for link in Page(profiles.group(1)).links:
+        require(link in home.links, f"Homepage profile link is missing: {link}")
+
+    data = json.loads((source / "data/publications.json").read_text(encoding="utf-8"))
+    expected = {"https://doi.org/" + item["doi"] for item in data["published"]}
+    expected.update(item["url"] for item in data.get("outreach", []))
+    for link in expected:
+        require(link in pages["publications.html"].links, f"Publication or outreach link is missing: {link}")
+
+    assets = {"styles.css", "assets/Ricardo_CV.pdf"}
+    assets.update(path for path in Page(index).images if path.startswith("assets/"))
+    for path in sorted(assets):
+        require(fetch(base, path) == (source / path).read_bytes(), f"Public asset differs from the source: {path}")
+
+    print(f"Verified the public Quarto website: {len(pages)} pages, professional profiles, {len(expected)} publication/outreach links, and {len(assets)} matching assets.")
+
+
+def main():
+    base = sys.argv[1] if len(sys.argv) > 1 else "https://ricardoansantos.github.io/"
+    source = Path(sys.argv[2]).resolve() if len(sys.argv) > 2 else ROOT
+    for attempt in range(6):
+        try:
+            check(base, source)
+            return
+        except Exception as error:
+            if attempt == 5:
+                raise
+            print(f"Public site not ready ({error}); retrying in 10 seconds.", flush=True)
+            time.sleep(10)
+
+
+if __name__ == "__main__":
+    main()
