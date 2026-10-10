@@ -1,0 +1,56 @@
+---
+title: "Ricardo N. Santos"
+description: "Organic geochemistry, lipid biomarkers, and molecular paleoclimatology. PhD candidate at the University of Basel."
+title-block-banner: false
+body-classes: home-page
+---
+
+```{=html}
+<section class="intro" aria-labelledby="intro-title">
+  <div class="intro-copy">
+    <p class="eyebrow">ORGANIC GEOCHEMISTRY · PALEOCLIMATE</p>
+    <h1 id="intro-title">Ricardo N. Santos</h1>
+    <p class="position">PhD candidate · University of Basel, Switzerland</p>
+    <p class="intro-lead">Reading the past through the molecules preserved in lake sediments.</p>
+    <p>I’m an organic geochemist and geologist working on lipid biomarkers, compound-specific stable isotopes, and lake-sediment archives. I study how hydroclimate, vegetation, and human activity have shaped environments from the last deglaciation to the present.</p>
+    <p>A central question in my research is how to distinguish climatic signals from changes in the organisms that produce the molecules we measure.</p>
+    <div class="profile-links" aria-label="Professional profiles">
+      <a href="https://orcid.org/0000-0002-8252-3619">ORCID ↗</a>
+      <a href="https://scholar.google.com/citations?user=VAgWEa4AAAAJ&amp;hl=en">Google Scholar ↗</a>
+      <a href="https://github.com/RicardoANSantos">GitHub ↗</a>
+    </div>
+    <div class="intro-actions">
+      <a class="primary-link" href="research.html">Explore my research <span aria-hidden="true">→</span></a>
+      <a class="text-link" href="assets/Ricardo_CV.pdf">Download CV <span class="file-tag">PDF</span></a>
+    </div>
+  </div>
+  <figure class="portrait">
+    <img src="assets/summer-2025.jpg" alt="Ricardo smiling beside a turquoise mountain lake, summer 2025" width="1152" height="2048" fetchpriority="high">
+    <figcaption>Summer 2025 · Away from the lab</figcaption>
+  </figure>
+</section>
+<section class="research-intro" aria-labelledby="research-title">
+  <div class="section-heading"><p class="eyebrow">RESEARCH FOCUS</p><h2 id="research-title">Molecular clues to environmental change</h2></div>
+  <div class="focus-grid">
+    <div><span class="focus-number">01</span><h3>Past hydroclimate</h3><p>Using plant-wax hydrogen isotopes to investigate precipitation and hydroclimate in European and North American lake records.</p></div>
+    <div><span class="focus-number">02</span><h3>Vegetation &amp; aquatic sources</h3><p>Understanding how terrestrial plants and submerged macrophytes shape lipid distributions and isotope signals.</p></div>
+    <div><span class="focus-number">03</span><h3>People &amp; landscapes</h3><p>Tracing interactions between climate, vegetation, and human land use through Holocene sedimentary archives.</p></div>
+  </div>
+</section>
+<section class="selected-work" aria-labelledby="selected-title">
+  <div class="section-heading split-heading"><div><p class="eyebrow">SELECTED PUBLICATIONS</p><h2 id="selected-title">Recent work</h2></div><a href="publications.html">All publications →</a></div>
+  <article class="featured-paper">
+    <div class="paper-meta">2026 <span>Paleoceanography and Paleoclimatology</span></div>
+    <h3><a href="https://doi.org/10.1029/2025PA005401">Central European Hydroclimate Since the Younger Dryas Inferred From Vegetation-Corrected Sedimentary Plant Wax δ²H Values</a></h3>
+    <p>Separating vegetation effects from hydroclimatic information in a Swiss lake-sediment record.</p>
+    <a class="doi-link" href="https://doi.org/10.1029/2025PA005401">Read paper ↗</a>
+  </article>
+  <article class="featured-paper">
+    <div class="paper-meta">2024 <span>Quaternary Science Reviews</span></div>
+    <h3><a href="https://doi.org/10.1016/j.quascirev.2024.108796">Understanding the Atlantic influence on climate and vegetation dynamics in western Iberia over the last 2000 years</a></h3>
+    <p>A multi-proxy reconstruction of climate and vegetation change in western Iberia.</p>
+    <a class="doi-link" href="https://doi.org/10.1016/j.quascirev.2024.108796">Read paper ↗</a>
+  </article>
+</section>
+<aside class="contact-strip"><p>Interested in lipid biomarkers, paleoclimate, or lake sediments?</p><a href="contact.html">Let’s get in touch →</a></aside>
+```

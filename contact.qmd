@@ -1,0 +1,37 @@
+---
+title: "Get in touch"
+description: "Contact Ricardo N. Santos at the University of Basel and find his research profiles."
+---
+
+::: {.page-intro}
+I welcome conversations about organic geochemistry, lipid biomarkers, paleoclimate, and lake-sediment archives.
+:::
+
+::: {.contact-layout}
+
+::: {.contact-main}
+### Email
+
+[r.n.santos@unibas.ch](mailto:r.n.santos@unibas.ch){.contact-email}
+
+### Affiliation
+
+Organic Geochemistry Group  
+Department of Environmental Sciences  
+University of Basel  
+Basel, Switzerland
+:::
+
+::: {.contact-profiles}
+### Research profiles
+
+- [ORCID · 0000-0002-8252-3619 ↗](https://orcid.org/0000-0002-8252-3619)
+- [Google Scholar ↗](https://scholar.google.com/citations?user=VAgWEa4AAAAJ&hl=en)
+- [GitHub · RicardoANSantos ↗](https://github.com/RicardoANSantos)
+
+### For collaborations
+
+Please include a short description of the project or question, the archive or dataset involved, and any relevant timeline.
+:::
+
+:::

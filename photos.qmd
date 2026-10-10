@@ -1,0 +1,21 @@
+---
+title: "Photos"
+description: "A few moments away from the lab, shared by Ricardo N. Santos."
+---
+
+::: {.page-intro}
+A few moments away from the lab, among the landscapes that make being a geologist so rewarding.
+:::
+
+```{=html}
+<div class="photo-grid">
+  <figure>
+    <a href="assets/summer-2025.jpg" aria-label="Open full summer 2025 lake portrait"><img src="assets/summer-2025.jpg" alt="Ricardo beside a turquoise lake beneath steep mountain cliffs" width="1152" height="2048" loading="lazy"></a>
+    <figcaption><strong>By the lake</strong><span>Summer 2025</span></figcaption>
+  </figure>
+  <figure>
+    <a href="assets/mountain-portrait.jpg" aria-label="Open full snowy mountain portrait"><img src="assets/mountain-portrait.jpg" alt="Ricardo in a yellow hat with snow-covered mountains behind him" width="1200" height="1600" loading="lazy"></a>
+    <figcaption><strong>In the mountains</strong><span>A winter view</span></figcaption>
+  </figure>
+</div>
+```

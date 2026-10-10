@@ -1,0 +1,6 @@
+/dist/
+/.quarto/
+__pycache__/
+*.pyc
+.DS_Store
+/site-deployment.tar.gz

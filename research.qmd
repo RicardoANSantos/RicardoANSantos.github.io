@@ -1,0 +1,82 @@
+---
+title: "Research"
+description: "Research on lipid biomarkers, plant-wax isotopes, vegetation effects, and lake-sediment archives."
+---
+
+::: {.page-intro}
+I use the chemical signatures of organic molecules to investigate past climate and environmental change. My work combines lipid biomarkers and compound-specific δ²H and δ¹³C measurements with other evidence preserved in lake sediments.
+:::
+
+## Distinguishing climate from biological sources
+
+Plant-wax isotope records can tell us about the water used by plants, but their interpretation also depends on which plants produced the waxes. Changes in vegetation and aquatic producers can alter sedimentary lipid signals. I investigate these source effects through modern calibration studies and sedimentary records, with the aim of making environmental reconstructions more robust.
+
+::: {.project-list}
+
+::: {.research-project}
+::: {.eyebrow}
+CENTRAL EUROPE · SWITZERLAND
+:::
+
+### Hydroclimate since the Younger Dryas
+
+My work on Lake Rotsee examines how vegetation changes affect the hydrogen-isotope composition of sedimentary plant waxes. Vegetation-corrected reconstructions help assess the hydroclimatic information preserved across the transition from the Younger Dryas into the Holocene and through later environmental change.
+
+**Approach:** plant-wax δ²H and δ¹³C, lipid distributions, vegetation correction, and multi-proxy lake records.
+
+[Related paper · 2026 ↗](https://doi.org/10.1029/2025PA005401)
+:::
+
+::: {.research-project}
+::: {.eyebrow}
+WESTERN IBERIA · PORTUGAL
+:::
+
+### Atlantic climate and mountain-lake ecosystems
+
+At Lake Peixão in Serra da Estrela, I investigate connections between North Atlantic atmospheric circulation, local hydroclimate, vegetation, and human activity. This work combines modern leaf-wax calibration with sedimentary reconstructions spanning the last 2,000 years and collaborative studies of longer Holocene records.
+
+**Approach:** leaf-wax biomarkers, stable isotopes, pollen, and complementary sedimentary proxies.
+
+[Last 2,000 years · 2024 ↗](https://doi.org/10.1016/j.quascirev.2024.108796) · [Modern calibration · 2022 ↗](https://doi.org/10.3389/fenvs.2022.994377)
+:::
+
+::: {.research-project}
+::: {.eyebrow}
+PROXY DEVELOPMENT · AQUATIC PLANTS
+:::
+
+### Charophytes and submerged vascular macrophytes
+
+I compare the lipid signatures and hydrogen-isotope compositions of charophytes and submerged vascular plants. Understanding differences between these groups helps evaluate how changing aquatic communities influence the biomarker signals preserved in lake sediments.
+
+**Approach:** modern aquatic-plant lipids, compound-specific isotope analysis, and proxy calibration.
+
+::: {.status-note}
+Manuscript in review at *Organic Geochemistry*, as listed in my October 2026 CV.
+:::
+:::
+
+::: {.research-project}
+::: {.eyebrow}
+NORTH AMERICA · NEW YORK STATE
+:::
+
+### Postglacial hydroclimate at Owasco Lake
+
+My ongoing work on Owasco Lake uses vegetation-corrected plant-wax isotope records to investigate postglacial hydroclimate in the northeastern United States, including early Holocene influences of the residual Laurentide Ice Sheet.
+
+**Approach:** plant-wax δ²H, vegetation correction, and sedimentary archives.
+
+::: {.status-note}
+Manuscript in preparation, as listed in my October 2026 CV.
+:::
+:::
+
+:::
+
+## Collaboration and scientific exchange
+
+I am a co-initiator of the Younger Dryas Working Group, which brings together researchers working on lake records, speleothems, glaciers, chironomids, lipid biomarkers, and climate modelling to synthesize European evidence for this abrupt climate event.
+
+I welcome conversations about biomarker proxy development, vegetation correction, multi-proxy reconstructions, and human–environment interactions. [Get in touch →](contact.qmd)

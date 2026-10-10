@@ -1,0 +1,88 @@
+{
+  "updated": "2026-10-10",
+  "source": "Ricardo_CV.pdf, October 2026, pages 2–3",
+  "published": [
+    {
+      "year": 2026,
+      "authors": "Fernández-Pérez, U., Santos, R. N., Rodrigues, T., Schefuß, E., Bao, R., Raposeiro, P., et al.",
+      "title": "North Atlantic ocean–atmosphere dynamics controlled the hydroclimate in western Iberia during the Holocene",
+      "journal": "Paleoceanography and Paleoclimatology",
+      "doi": "10.1029/2026PA005517"
+    },
+    {
+      "year": 2026,
+      "authors": "Wangritthikraikul, K., Ladd, S. N., Santos, R. N., Haghipour, N., Dubois, N., & Chawchai, S.",
+      "title": "Multi-proxy reconstruction of Holocene paleoenvironmental changes in eastern Thailand: Sea-level and monsoon as key drivers",
+      "journal": "Quaternary Science Reviews",
+      "details": "392, 110248",
+      "doi": "10.1016/j.quascirev.2026.110248"
+    },
+    {
+      "year": 2026,
+      "authors": "Santos, R. N., Nelson, D. B., Klatt, A., Schubert, C. J., Dubois, N., de Jonge, C., & Ladd, S. N.",
+      "title": "Central European Hydroclimate Since the Younger Dryas Inferred From Vegetation-Corrected Sedimentary Plant Wax δ²H Values",
+      "journal": "Paleoceanography and Paleoclimatology",
+      "doi": "10.1029/2025PA005401"
+    },
+    {
+      "year": 2024,
+      "authors": "Santos, R. N., Rodrigues, T., Naughton, F., Schefuß, E., Oliveira, D., Moreno, J., Raposeiro, P. M., Gil-Romera, G., Morgan, A., Leira, M., Gomes, S. D., Ladd, S. N., Trigo, R. M., Ramos, A. M., & Hernández, A.",
+      "title": "Understanding the Atlantic influence on climate and vegetation dynamics in western Iberia over the last 2000 years",
+      "journal": "Quaternary Science Reviews",
+      "doi": "10.1016/j.quascirev.2024.108796"
+    },
+    {
+      "year": 2024,
+      "authors": "Costa, A. M., Freitas, M. D. C., Teixeira, A., Costa, P. J., Santos, R. N., Cachão, M., Fatela, F., Pereira, R., Tereso, J. P., Lopes, V. P., Bao, R., & El-Boudjay, A.",
+      "title": "Environmental changes and historical occupation at Oued Laksar (Ksar Seghir), Morocco",
+      "journal": "Quaternary International",
+      "doi": "10.1016/j.quaint.2024.10.010"
+    },
+    {
+      "year": 2023,
+      "authors": "Moreno, J., Ramos, A., Raposeiro, P. M., Santos, R. N., Rodrigues, T., Naughton, F., Moreno, F., Trigo, R. M., Ibañez-Insa, J., Ludwig, P., Shi, X., & Hernández, A.",
+      "title": "Identifying imprints of externally derived dust and halogens in the sedimentary record of an Iberian alpine lake for the past ∼13,500 years – Lake Peixão, Serra da Estrela (Central Portugal)",
+      "journal": "Science of The Total Environment",
+      "doi": "10.1016/j.scitotenv.2023.166179"
+    },
+    {
+      "year": 2023,
+      "authors": "Hernández, A., Sáez, A., Santos, R. N., Rodrigues, T., Martin-Puertas, C., Gil-Romera, G., Abbott, M., Carballeira, R., Costa, P., Giralt, S., Gomes, S. D., Griffore, M., Ibañez-Insa, J., Leira, M., Moreno, J., Naughton, F., Oliveira, D., Raposeiro, P. M., Trigo, R. M., Vieira, G., & Ramos, A. M.",
+      "title": "The timing of the deglaciation in the Atlantic Iberian mountains: Insights from the stratigraphic analysis of a lake sequence in Serra da Estrela (Portugal)",
+      "journal": "Earth Surface Processes and Landforms",
+      "doi": "10.1002/esp.5536"
+    },
+    {
+      "year": 2022,
+      "authors": "Santos, R. N., Schefuß, E., Cordeiro, L. G., Oliveira, D., Hernández, A., Ramos, A. M., & Rodrigues, T.",
+      "title": "Leaf wax biomarkers of a high-mountain lake area in western Iberia—Implications for environmental reconstructions",
+      "journal": "Frontiers in Environmental Science",
+      "doi": "10.3389/fenvs.2022.994377"
+    }
+  ],
+  "manuscripts": [
+    {
+      "authors": "Li, N., Li, D., Liu, B., Santos, R. N., Ladd, S. N., Nelson, D. B., Sack, D., Lloren, R. B., Brunner, I., Orme, L. C., Gao, G., Zuo, X., Jie, D., & Dubois, N.",
+      "title": "Proxy evidence challenges a humid Younger Dryas in Northeast China",
+      "status": "In review",
+      "journal": "PNAS"
+    },
+    {
+      "authors": "Santos, R. N., Aichner, B., Nelson, D. B., Hilt, S., & Ladd, S. N.",
+      "title": "Lipid biomarker signatures of charophytes and submerged vascular macrophytes: Implications for past reconstructions",
+      "status": "In review",
+      "journal": "Organic Geochemistry"
+    },
+    {
+      "authors": "Klatt, A., Ajallooeian, F., Zahajská, P., Santos, R. N., Nelson, D. B., Naeher, S., Schubert, C. J., Dubois, N., de Jonge, C., & Ladd, S. N.",
+      "title": "Natural and human-driven changes of phytoplankton community composition in Rotsee (Switzerland) since the Younger Dryas",
+      "status": "Submitted",
+      "journal": "Quaternary Science Reviews"
+    },
+    {
+      "authors": "Santos, R. N., Wietelmann, T., Nelson, D. B., Thomas, E. K., Scholz, C. A., Scheuer, N., Naughton, F., Rey, F., Dubois, N., Szidat, S., & Ladd, S. N.",
+      "title": "Vegetation-corrected plant wax δ²H values from Owasco Lake record early Holocene hydroclimatic impacts of the residual Laurentide Ice Sheet",
+      "status": "In preparation"
+    }
+  ]
+}

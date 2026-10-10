@@ -1,0 +1,6 @@
+---
+title: "Page not found"
+search: false
+---
+
+This page may have moved. You can return to [the homepage](index.qmd), explore [my research](research.qmd), or use the search in the navigation bar.

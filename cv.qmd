@@ -1,0 +1,98 @@
+---
+title: "Curriculum vitae"
+description: "Education, research experience, analytical expertise, and scientific service of Ricardo N. Santos."
+---
+
+::: {.page-intro}
+Organic geochemist and geologist specializing in lipid biomarkers, compound-specific stable isotopes, and multi-proxy lake-sediment archives.
+:::
+
+::: {.download-banner}
+[Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [October 2026]{.small-note}
+:::
+
+## Education
+
+::: {.timeline}
+
+::: {.timeline-item}
+**2022–2026 · University of Basel, Switzerland**
+
+### PhD in Organic Geochemistry
+
+Thesis: *Disentangling vegetation and hydroclimate signals from lipid biomarkers records.*
+
+Supervisors: N. Ladd and Dominik Fleitmann. Defense anticipated in October 2026.
+:::
+
+::: {.timeline-item}
+**2019–2021 · University of Lisbon, Portugal**
+
+### MSc in Geology
+
+Stratigraphy, Sedimentology, and Paleontology. Thesis on western Iberian hydroclimate over the last 2,000 years using leaf-wax *n*-alkanes from Lake Peixão.
+:::
+
+::: {.timeline-item}
+**2018–2019 · University of Lisbon**
+
+### Postgraduate studies in Petroleum Geoscience
+:::
+
+::: {.timeline-item}
+**2017–2018 · University of Lisbon**
+
+### Postgraduate studies in Applied Geology
+:::
+
+::: {.timeline-item}
+**2013–2017 · University of Lisbon**
+
+### BSc in Geology
+
+Geology and Natural Resources.
+:::
+
+:::
+
+## Research experience
+
+| Period | Role and institution |
+|:--|:--|
+| 2022–2026 | Doctoral Candidate & Project Assistant, Organic Geochemistry Group, University of Basel |
+| 2021–2022 | Research Fellow, IPMA, Lisbon |
+| June–September 2021 | ERASMUS+ Research Intern, Biología Costera Group, University of A Coruña |
+| 2019–2021 | Research Fellow, FCiências.ID / Instituto Dom Luiz, Lisbon |
+| 2017–2018 | Exploration & Production Intern, Galp Energia, Lisbon |
+
+## Analytical and technical expertise
+
+**Organic geochemistry:** lipid extraction, saponification, derivatization, silica-gel and AgNO₃-silica chromatography, urea adduction; GC-FID, GC-MS, and GC-IRMS for compound-specific δ¹³C and δ²H measurements.
+
+**Paleolimnology and fieldwork:** lake-sediment coring, core description and sub-sampling, vegetation and soil sampling, bulk organic matter analysis, macrofossil picking, radiocarbon and ²¹⁰Pb/¹³⁷Cs geochronology, Bayesian age–depth modelling, diatom preparation, and XRF core scanning.
+
+**Software:** R, Grapher, QGIS/ArcGIS, Adobe Illustrator, PAST, and Fiji/ImageJ.
+
+**Languages:** Portuguese (native), English and Spanish (fluent), Italian and German (basic, in progress).
+
+## Selected service and outreach
+
+- **2025–present:** Co-initiator, Younger Dryas Working Group.
+- **2025:** EGU short-course convener, *Radiocarbon Dating Concepts and Practical Guide*.
+- **2021–2025:** Blog Editor & Outreach Team, EGU Climate: Past, Present and Future.
+- **2022:** EGU Best Blog Post Award, public vote, for [*A glimpse into the INTIMATE Summer School 2022*](https://blogs.egu.eu/divisions/cl/2022/11/21/a-glimpse-into-the-intimates-summer-school-of-2022/).
+- Research featured in [*O Tempo Preso na Lagoa*, National Geographic Portugal (2023)](https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781).
+- Peer reviewer for *Quaternary Science Reviews* and *Palaeogeography, Palaeoclimatology, Palaeoecology*.
+
+## Selected conference contributions
+
+| Year | Meeting | Contribution |
+|:--|:--|:--|
+| 2025 | IMOG, Porto | Oral presentation on vegetation-corrected precipitation δ²H reconstructions |
+| 2025 | Urbino Summer School in Paleoclimatology | Oral presentation and poster on plant-wax vegetation biases |
+| 2025 | EGU General Assembly, Vienna | Oral presentation on vegetation and hydroclimate effects on plant-wax isotopes |
+| 2024 | EGU General Assembly, Vienna | Poster on charophyte and submerged vascular macrophyte biomarkers |
+| 2024 | Swiss Geoscience Meeting, Basel | Poster on plant-wax isotope dynamics in central Switzerland |
+| 2023 | Goldschmidt, Lyon | Poster on vegetation effects on leaf-wax isotopes |
+
+The full PDF contains the complete record of conference contributions, scholarships, and service. [View publications →](publications.qmd)

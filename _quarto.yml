@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: dist
+  pre-render:
+    - python3 scripts/render_publications.py
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - cv.qmd
+    - photos.qmd
+    - contact.qmd
+    - 404.qmd
+  resources:
+    - assets/**
+
+website:
+  title: "Ricardo N. Santos"
+  description: "Organic geochemist studying past climate, vegetation, and human–environment interactions through lipid biomarkers in lake sediments."
+  site-url: https://ricardoansantos.github.io
+  image: assets/summer-2025.jpg
+  favicon: assets/favicon.svg
+  search: true
+  open-graph: true
+  navbar:
+    background: "#fdfcf9"
+    foreground: "#24352f"
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: photos.qmd
+        text: Photos
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    left: "© 2026 Ricardo N. Santos"
+    center: "Organic geochemistry · Paleoclimate"
+    right: "Built with [Quarto](https://quarto.org)."
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    css: styles.css
+    lang: en
+    toc: false
+    page-layout: full
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <meta name="color-scheme" content="light">
+
+execute:
+  enabled: false
