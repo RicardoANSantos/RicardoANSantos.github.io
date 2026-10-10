@@ -1,6 +1,6 @@
 ---
 title: "Ricardo N. Santos"
-description: "Molecular paleoclimatologist studying climate, vegetation, lake ecology, and human impact through sedimentary lipid biomarkers."
+description: "Molecular paleoclimatologist at the University of Basel, using lipid biomarkers and stable isotope analyses to reconstruct past environments from sediment archives."
 title-block-banner: false
 body-classes: home-page
 ---
@@ -11,9 +11,10 @@ body-classes: home-page
     <p class="eyebrow">ORGANIC GEOCHEMISTRY · PALEOCLIMATE</p>
     <h1 id="intro-title">Ricardo N. Santos</h1>
     <p class="position">Molecular paleoclimatologist</p>
-    <p class="intro-lead">Reading the past through the molecules preserved in lake sediments.</p>
-    <p>I’m an organic geochemist and geologist working on lipid biomarkers, compound-specific stable isotopes, and lake-sediment archives. I study how hydroclimate, vegetation, and human activity have shaped environments from the last deglaciation to the present.</p>
-    <p>A central question in my research is how to interpret the signals preserved in sedimentary lipid biomarkers. What fascinates me is that a single lipid record can reflect the intertwined histories of climate, vegetation, lake ecology, and human impact.</p>
+    <p class="affiliation">University of Basel, Switzerland</p>
+    <p class="intro-lead"><em>Reading the past through molecules preserved in sediments.</em></p>
+    <p>I’m a geologist and organic geochemist using lipid biomarkers and compound-specific stable isotope analyses to reconstruct past environments from sediment archives. I study how hydroclimate, vegetation, and human activity have shaped landscapes and lake ecosystems from the last deglaciation to the present.</p>
+    <p>What fascinates me is that a single sedimentary lipid record can reflect the intertwined histories of climate, terrestrial vegetation, aquatic ecosystems, and human activity. My research explores how to disentangle these influences, understand the processes that shape biomarker signals, and establish what lipid biomarkers can tell us about past environmental change.</p>
     <div class="profile-links" aria-label="Professional profiles">
       <a href="https://orcid.org/0000-0002-8252-3619">ORCID ↗</a>
       <a href="https://scholar.google.com/citations?user=VAgWEa4AAAAJ&amp;hl=en">Google Scholar ↗</a>
