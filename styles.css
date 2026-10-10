@@ -150,14 +150,7 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .project-facts dd {margin:0;color:var(--muted);}
 .project-page .content>p,.project-page .content>ul,.project-page main.content>.level2 {max-width:900px;}
 .project-page-links {border-top:1px solid var(--line);padding-top:24px;margin-top:42px;font-size:.84rem;}
-.away-from-lab {display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);gap:54px;align-items:center;border-top:1px solid var(--line);padding:40px 0;margin:12px 0;}
-.away-from-lab figure {margin:0;max-width:360px;}
-.away-from-lab img {width:100%;height:auto;object-fit:cover;display:block;border-radius:3px;}
-.away-from-lab figcaption {font-size:.72rem;color:var(--muted);padding-top:10px;}
-.away-from-lab h2 {margin:0 0 18px;}
-.away-from-lab>div>p:not(.eyebrow) {font-size:.95rem;color:var(--muted);}
-.away-from-lab>div>a {font-size:.82rem;}
-@media(max-width:991px) {.project-overview {gap:30px;}.project-card-copy {padding:22px;}.away-from-lab {gap:32px;}}
+@media(max-width:991px) {.project-overview {gap:30px;}.project-card-copy {padding:22px;}}
 @media(max-width:720px) {
   .projects-grid {grid-template-columns:1fr;gap:26px;margin-bottom:40px;}
   .project-card h3 {font-size:1.65rem;}
@@ -166,5 +159,4 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
   .project-overview {grid-template-columns:1fr;gap:26px;margin-bottom:30px;}
   .project-lead {font-size:1.3rem;}
   .project-jumps {margin:24px 0 30px;}
-  .away-from-lab {grid-template-columns:1fr;gap:24px;padding:30px 0;}
 }

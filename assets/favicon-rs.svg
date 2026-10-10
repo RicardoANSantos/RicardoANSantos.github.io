@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Ricardo N. Santos</title>
+  <rect width="64" height="64" rx="12" fill="#266454"/>
+  <g fill="none" stroke="#fdfcf9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 47V17h10c14 0 14 15 0 15H12m10 0 11 15"/>
+    <path d="M51 20c-5-6-15-4-15 5s16 5 16 14-11 11-16 5"/>
+  </g>
+</svg>
