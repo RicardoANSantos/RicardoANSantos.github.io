@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-10",
-  "source": "Ricardo_CV.pdf, October 2026, pages 2–3",
+  "source": "Peer-reviewed publications: Ricardo_CV.pdf, October 2026, pages 2–3. Outreach: links supplied by Ricardo.",
   "published": [
     {
       "year": 2026,
@@ -60,29 +60,14 @@
       "doi": "10.3389/fenvs.2022.994377"
     }
   ],
-  "manuscripts": [
+  "outreach": [
     {
-      "authors": "Li, N., Li, D., Liu, B., Santos, R. N., Ladd, S. N., Nelson, D. B., Sack, D., Lloren, R. B., Brunner, I., Orme, L. C., Gao, G., Zuo, X., Jie, D., & Dubois, N.",
-      "title": "Proxy evidence challenges a humid Younger Dryas in Northeast China",
-      "status": "In review",
-      "journal": "PNAS"
-    },
-    {
-      "authors": "Santos, R. N., Aichner, B., Nelson, D. B., Hilt, S., & Ladd, S. N.",
-      "title": "Lipid biomarker signatures of charophytes and submerged vascular macrophytes: Implications for past reconstructions",
-      "status": "In review",
-      "journal": "Organic Geochemistry"
-    },
-    {
-      "authors": "Klatt, A., Ajallooeian, F., Zahajská, P., Santos, R. N., Nelson, D. B., Naeher, S., Schubert, C. J., Dubois, N., de Jonge, C., & Ladd, S. N.",
-      "title": "Natural and human-driven changes of phytoplankton community composition in Rotsee (Switzerland) since the Younger Dryas",
-      "status": "Submitted",
-      "journal": "Quaternary Science Reviews"
-    },
-    {
-      "authors": "Santos, R. N., Wietelmann, T., Nelson, D. B., Thomas, E. K., Scholz, C. A., Scheuer, N., Naughton, F., Rey, F., Dubois, N., Szidat, S., & Ladd, S. N.",
-      "title": "Vegetation-corrected plant wax δ²H values from Owasco Lake record early Holocene hydroclimatic impacts of the residual Laurentide Ice Sheet",
-      "status": "In preparation"
+      "title": "O tempo preso na lagoa do Peixão, na Serra da Estrela",
+      "outlet": "National Geographic Portugal",
+      "language": "Portuguese",
+      "url": "https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781",
+      "description": "Outreach on our research at Lagoa do Peixão in Serra da Estrela, Portugal.",
+      "link_label": "Read feature"
     }
   ]
 }

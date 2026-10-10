@@ -18,6 +18,10 @@ body-classes: home-page
       <a href="https://orcid.org/0000-0002-8252-3619">ORCID ↗</a>
       <a href="https://scholar.google.com/citations?user=VAgWEa4AAAAJ&amp;hl=en">Google Scholar ↗</a>
       <a href="https://github.com/RicardoANSantos">GitHub ↗</a>
+      <a href="https://www.researchgate.net/profile/Ricardo-N-Santos">ResearchGate ↗</a>
+      <a href="https://bsky.app/profile/ricardoansantos.bsky.social">Bluesky ↗</a>
+      <a href="https://x.com/RicardoANSantos">X ↗</a>
+      <a href="https://www.linkedin.com/in/ricardo-neves-dos-santos/">LinkedIn ↗</a>
     </div>
     <div class="intro-actions">
       <a class="primary-link" href="research.html">Explore my research <span aria-hidden="true">→</span></a>
@@ -38,7 +42,7 @@ body-classes: home-page
   </div>
 </section>
 <section class="selected-work" aria-labelledby="selected-title">
-  <div class="section-heading split-heading"><div><p class="eyebrow">SELECTED PUBLICATIONS</p><h2 id="selected-title">Recent work</h2></div><a href="publications.html">All publications →</a></div>
+  <div class="section-heading split-heading"><div><p class="eyebrow">SELECTED PUBLICATIONS</p><h2 id="selected-title">Recent work</h2></div><a href="publications.html">Publications &amp; outreach →</a></div>
   <article class="featured-paper">
     <div class="paper-meta">2026 <span>Paleoceanography and Paleoclimatology</span></div>
     <h3><a href="https://doi.org/10.1029/2025PA005401">Central European Hydroclimate Since the Younger Dryas Inferred From Vegetation-Corrected Sedimentary Plant Wax δ²H Values</a></h3>

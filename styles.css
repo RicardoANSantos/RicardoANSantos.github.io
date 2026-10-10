@@ -84,9 +84,8 @@ main.content {display:block!important;max-width:none;margin:0;padding-top:52px;p
 .publication h3 a:hover {color:var(--accent);text-decoration:underline;}
 .publication .authors {font-size:.82rem;color:var(--muted);margin-bottom:5px;}
 .publication .journal {font-size:.83rem;margin-bottom:5px;}
-.publication .pub-status {font-size:.74rem;color:var(--accent);margin-bottom:4px;}
 .publication .doi {font-size:.73rem;overflow-wrap:anywhere;margin-bottom:0;}
-.manuscripts {margin-top:50px;}
+.outreach {margin-top:50px;}
 .download-banner {display:flex;flex-wrap:wrap;align-items:center;gap:22px;margin:0 0 38px;}
 .small-note {font-size:.79rem;color:var(--muted);}
 .timeline {border-left:1px solid var(--line);padding-left:24px;margin-top:24px;}

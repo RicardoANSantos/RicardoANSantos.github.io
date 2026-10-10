@@ -32,7 +32,7 @@ website:
       - href: research.qmd
         text: Research
       - href: publications.qmd
-        text: Publications
+        text: "Publications & outreach"
       - href: cv.qmd
         text: CV
       - href: photos.qmd
