@@ -77,7 +77,7 @@ def main():
             errors.append(f"Publication DOI missing from output: {paper['doi']}")
     if not (DIST / "assets/Ricardo_CV.pdf").exists():
         errors.append("Downloadable CV is missing")
-    prohibited = {"AGENTS.md", "README.md", "SETUP.md", "UPDATE_WORKFLOW.md", "publications.json", "hosting.json"}
+    prohibited = {"AGENTS.md", "README.md", "SETUP.md", "UPDATE_WORKFLOW.md", "publications.json", "projects.json", "PROJECT_CONTENT.md", "hosting.json"}
     errors.extend(f"Source-only file leaked into site: {p.name}" for p in DIST.rglob("*") if p.name in prohibited)
     if errors:
         print("\n".join(errors), file=sys.stderr)

@@ -1,0 +1,33 @@
+---
+title: "Postglacial hydroclimate at Owasco Lake"
+description: "Investigating postglacial hydroclimate in the northeastern United States using vegetation-corrected plant-wax isotopes."
+body-classes: project-page
+---
+
+```{=html}
+<section class="project-overview" aria-label="Project overview">
+<div class="project-overview-copy">
+<p class="eyebrow">North America · New York State</p>
+<p class="project-group">Ongoing project</p>
+<p class="project-lead">Investigating postglacial hydroclimate in the northeastern United States using vegetation-corrected plant-wax isotopes.</p>
+<dl class="project-facts"><div><dt>Focus</dt><dd>Lake-sediment research</dd></div></dl>
+</div>
+<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Postglacial hydroclimate at Owasco Lake"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+</section>
+```
+
+## Research question
+
+How did the residual Laurentide Ice Sheet influence early Holocene hydroclimate in the northeastern United States?
+
+## About the project
+
+My ongoing work on Owasco Lake uses vegetation-corrected plant-wax isotope records to investigate postglacial hydroclimate in the northeastern United States, including early Holocene influences of the residual Laurentide Ice Sheet.
+
+## Approach
+
+Plant-wax δ²H, vegetation correction, and sedimentary archives.
+
+::: {.project-page-links}
+[← Ongoing projects](../research.qmd#ongoing-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)
+:::

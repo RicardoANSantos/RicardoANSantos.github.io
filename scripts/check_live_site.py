@@ -49,13 +49,20 @@ def require(condition, message):
 
 
 def check(base, source):
-    names = ("index.html", "research.html", "publications.html", "cv.html", "photos.html", "contact.html")
+    names = sorted(str(path.relative_to(source).with_suffix(".html")) for path in source.rglob("*.qmd") if path.name != "404.qmd")
     pages = {}
     for name in names:
         page = Page(fetch(base, name).decode("utf-8"))
         require(page.generator.lower().startswith("quarto"), f"{name}: public page is not the Quarto website")
         require(any(urlsplit(link).path.endswith("styles.css") for link in page.links), f"{name}: website stylesheet is missing")
         pages[name] = page
+
+    project_file = source / "data/projects.json"
+    if project_file.exists():
+        projects = json.loads(project_file.read_text(encoding="utf-8"))["projects"]
+        for project in projects:
+            link = "projects/" + project["slug"] + ".html"
+            require(link in pages["research.html"].links, f"Project is missing from the research overview: {link}")
 
     home = pages["index.html"]
     require("intro" in home.classes, "The public homepage is missing the research introduction")

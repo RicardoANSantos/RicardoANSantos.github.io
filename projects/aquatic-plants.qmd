@@ -1,0 +1,33 @@
+---
+title: "Aquatic-plant lipid biomarkers"
+description: "Understanding how charophytes and submerged vascular plants influence the lipid signals preserved in lake sediments."
+body-classes: project-page
+---
+
+```{=html}
+<section class="project-overview" aria-label="Project overview">
+<div class="project-overview-copy">
+<p class="eyebrow">Proxy development · Aquatic plants</p>
+<p class="project-group">Ongoing project</p>
+<p class="project-lead">Understanding how charophytes and submerged vascular plants influence the lipid signals preserved in lake sediments.</p>
+<dl class="project-facts"><div><dt>Focus</dt><dd>Modern calibration studies</dd></div></dl>
+</div>
+<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Aquatic-plant lipid biomarkers"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+</section>
+```
+
+## Research question
+
+How do different aquatic plants contribute to the lipid and isotope signals used to reconstruct past environments?
+
+## About the project
+
+I compare the lipid signatures and hydrogen-isotope compositions of charophytes and submerged vascular plants. Understanding differences between these groups helps evaluate how changing aquatic communities influence the biomarker signals preserved in lake sediments.
+
+## Approach
+
+Modern aquatic-plant lipids, compound-specific isotope analysis, and proxy calibration.
+
+::: {.project-page-links}
+[← Ongoing projects](../research.qmd#ongoing-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)
+:::
