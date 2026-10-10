@@ -25,7 +25,7 @@ website:
   description: "Organic geochemist studying past climate, vegetation, and human–environment interactions through lipid biomarkers in lake sediments."
   site-url: https://ricardoansantos.github.io
   image: assets/summer-2025.jpg
-  favicon: assets/favicon-rs.svg
+  favicon: assets/favicon-rns.svg
   search: true
   open-graph: true
   navbar:
