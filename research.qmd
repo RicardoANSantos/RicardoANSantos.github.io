@@ -53,13 +53,14 @@ A central challenge is separating climatic signals from changes in the plants an
 <div class="projects-grid projects-grid--past">
 <article class="project-card">
 <a class="project-photo-link" href="projects/holmodrive.html" aria-label="Explore HOLMODRIVE · Lake Peixão">
-<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for HOLMODRIVE · Lake Peixão"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+<figure class="project-photo"><img src="assets/projects/holmodrive-peixao-coring.png" alt="Researchers collecting sediment cores from a floating platform on Lake Peixão, Serra da Estrela, Portugal." style="object-position:50% 70%" loading="lazy" decoding="async"></figure>
 </a>
 <div class="project-card-copy">
 <p class="eyebrow">Serra da Estrela · Portugal</p>
 <h3><a href="projects/holmodrive.html">HOLMODRIVE · Lake Peixão</a></h3>
 <p>Reading the Lake Peixão sediment archive to understand climate, vegetation, and environmental change in western Iberia.</p>
 <p class="project-phase">North Atlantic climate · Western Iberia</p>
+<p class="project-photo-credit">Photograph: <a href="https://www.facebook.com/filipepatrocinio">Filipe Patrocínio</a></p>
 <a class="project-more" href="projects/holmodrive.html">Explore project <span aria-hidden="true">→</span></a>
 </div>
 </article>
