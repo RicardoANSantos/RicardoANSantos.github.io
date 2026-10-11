@@ -71,7 +71,8 @@ Listed from oldest to newest.
 ## Outreach {.outreach}
 
 ```{=html}
-<article class="publication outreach-item">
+<article class="publication outreach-item outreach-item--with-image">
+<figure class="outreach-image"><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781"><img src="../assets/outreach/national-geographic-peixao-cover.jpg" alt="National Geographic Portugal cover for “O tempo preso na lagoa”, showing Lake Peixão and its surrounding mountains." loading="lazy" decoding="async"></a></figure>
 <div class="outreach-copy">
 <h3><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">O tempo preso na lagoa do Peixão, na Serra da Estrela</a></h3>
 <p class="journal"><em>National Geographic Portugal · Portuguese</em></p>
