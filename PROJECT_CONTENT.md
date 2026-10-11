@@ -7,8 +7,8 @@ by `scripts/render_projects.py`. Ricardo confirmed the following groupings on
 Ongoing projects are shown newest first: MEMELAND before ADAPT. Keep this order
 in `data/projects.json`; the generator uses the project array order for the cards.
 Each main project has a highlighted “My contribution” section. HOLMODRIVE uses
-the existing account of Ricardo’s modern leaf-wax calibration, climate and
-vegetation reconstructions, and collaborative lake-sediment studies.
+Ricardo’s account of his modern leaf-wax calibration, climate and vegetation
+reconstructions, and collaborative lake-sediment studies.
 
 ## Photo slots
 
@@ -153,3 +153,19 @@ under descriptive names in `assets/projects/holmodrive-peixao-*` and shown in
 that sequence on the project page. The original upload filenames remain available.
 Dates and photographer credits for these four photographs were not supplied;
 do not assign the existing main-photo credit to the gallery.
+
+## HOLMODRIVE introduction and contribution
+
+Ricardo supplied a fuller personal account on 11 October 2026. His time at IPMA
+and the University of Lisbon, the lake setting at approximately 1,700 m, and his
+leadership of organic geochemistry on PEX19-01 appear beside the main photo.
+The optional `overview_text` field supplies these short paragraphs beneath the
+project website link. The detailed `contribution` field covers modern calibration,
+the last 2,000 years of vegetation and hydroclimate, and collaborative core studies.
+
+Keep the C₂₉ δ²H finding specific to Lake Peixão sediments, rather than a universal
+claim about leaf waxes. The calibration paper (10.3389/fenvs.2022.994377) supports
+that interpretation. The reconstruction paper (10.1016/j.quascirev.2024.108796)
+describes changing Atlantic and Mediterranean influences through the Medieval
+Climate Anomaly and Little Ice Age. Preserve the displayed isotope notation,
+the full main photograph, and the project gallery.

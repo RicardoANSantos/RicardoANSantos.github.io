@@ -210,3 +210,6 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .project-gallery-link img {display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;}
 .project-gallery-photo figcaption {font-size:.75rem;color:var(--muted);line-height:1.6;padding-top:10px;}
 @media(max-width:600px) {.project-gallery {grid-template-columns:1fr;gap:24px;}}
+
+.project-overview-notes {font-size:.9rem;line-height:1.75;margin-top:22px;}
+.project-overview-notes p:last-child {margin-bottom:0;}
