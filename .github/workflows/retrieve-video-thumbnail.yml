@@ -1,0 +1,32 @@
+name: Retrieve outreach video thumbnail
+on:
+  push:
+    branches: [video-outreach-thumbnail-20261011]
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install image inspection dependency
+        run: python3 -m pip install Pillow
+      - name: Retrieve thumbnail from YouTube
+        run: |
+          python3 - <<'PY'
+          from urllib.request import Request, urlopen
+          from io import BytesIO
+          from PIL import Image
+          import base64
+          import json
+          source = "https://i.ytimg.com/vi/WWDSYIWuOYk/mqdefault.jpg"
+          with urlopen(Request(source, headers={"User-Agent": "Mozilla/5.0"}), timeout=20) as response:
+              data = response.read(1000001)
+          if len(data) > 1000000:
+              raise ValueError("Unexpected thumbnail size")
+          image = Image.open(BytesIO(data))
+          image.load()
+          if image.format != "JPEG" or image.size != (320, 180):
+              raise ValueError("Expected the video thumbnail, not a placeholder")
+          print("THUMBNAIL_METADATA " + json.dumps({"source": source, "size": list(image.size), "bytes": len(data), "format": image.format}), flush=True)
+          print("THUMBNAIL_ORIGINAL " + base64.b64encode(data).decode("ascii"), flush=True)
+          PY
