@@ -123,6 +123,12 @@ def check(base, source):
         )
         if project.get("project_url"):
             project_links.add(project["project_url"])
+        project_links.update(item["url"] for item in project.get("overview_links", []))
+        if project.get("overview_text"):
+            visible_text = re.sub(r"\s+", " ", "".join(page.text)).strip()
+            for paragraph in project["overview_text"].split("\n\n"):
+                expected_text = re.sub(r"\s+", " ", paragraph).strip()
+                require(expected_text in visible_text, f"{name}: public project overview text is missing or outdated")
         if project.get("photo"):
             require(any(urlsplit(src).path.endswith(project["photo"]) for src in page.images), f"{name}: project photograph is missing")
             require(any(urlsplit(src).path.endswith(project["photo"]) for src in pages["research.html"].images), f"{name}: overview photograph is missing")

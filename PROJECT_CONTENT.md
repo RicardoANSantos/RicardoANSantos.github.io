@@ -211,3 +211,20 @@ https://cordis.europa.eu/project/id/101166850.
 The MEMELAND date is the project's start date, not Ricardo's appointment date.
 Do not extend a project's funding acknowledgment to unrelated work or add
 funders, recipient roles, amounts, or grant dates without confirmation.
+
+## ADAPT PhD research overview
+
+Ricardo supplied an expanded account of his PhD work on 11 October 2026.
+ADAPT's `overview_text` presents this account in four paragraphs beside the
+Rotsee photo: supervision at Basel, the source-effects problem, modern German
+calibration work, and vegetation-corrected records from Rotsee and Owasco.
+The text uses “accounts for” vegetation effects and describes reduced isotope
+shifts, avoiding a claim that all vegetation effects or uncertainty are eliminated.
+This account does not establish a completed PhD or a new publication status.
+
+The optional `overview_links` array provides exact text labels and HTTPS URLs.
+The renderer inserts links while escaping the surrounding prose, preserves
+paragraph breaks, and validates that every label occurs in `overview_text`.
+Prof. Nemiah Ladd links to the user-supplied University of Basel profile:
+https://duw.unibas.ch/en/research-groups/organic-geochemistry/team/ladd/.
+The existing plain-text HOLMODRIVE overview renders identically.
