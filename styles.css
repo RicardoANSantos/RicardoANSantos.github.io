@@ -170,6 +170,19 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .project-photo-credit,.publication .outreach-credit {font-size:.75rem;color:var(--muted);}
 .project-card .project-card-copy p.project-photo-credit {font-size:.75rem;margin:0 0 18px;}
 
-.publication .outreach-image {max-width:680px;margin:0 0 22px;}
+.publication.outreach-item--with-image {display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:26px;align-items:start;}
+.publication .outreach-image {max-width:none;margin:0;}
 .publication .outreach-image a {display:block;}
 .publication .outreach-image img {display:block;width:100%;height:auto;border-radius:3px;}
+
+.project-overview--with-photo {grid-template-columns:minmax(0,1fr) minmax(0,300px);gap:32px;}
+.project-overview--with-photo .project-photo {width:100%;max-width:280px;justify-self:end;}
+.outreach-copy {min-width:0;}
+@media(max-width:720px) {
+  .project-overview--with-photo {grid-template-columns:1fr;gap:24px;}
+  .project-overview--with-photo .project-photo {justify-self:start;}
+}
+@media(max-width:620px) {
+  .publication.outreach-item--with-image {grid-template-columns:1fr;gap:20px;}
+  .publication.outreach-item--with-image .outreach-image {max-width:420px;}
+}
