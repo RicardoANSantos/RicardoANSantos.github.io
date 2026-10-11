@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "source": "Peer-reviewed publications: Ricardo_CV.pdf, October 2026, pages 2–3. Outreach: links supplied by Ricardo.",
   "published": [
     {
@@ -68,6 +68,14 @@
       "url": "https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781",
       "description": "Outreach on our research at Lagoa do Peixão in Serra da Estrela, Portugal.",
       "link_label": "Read feature"
+    },
+    {
+      "title": "Lake Peixão project video",
+      "outlet": "YouTube",
+      "url": "https://youtu.be/WWDSYIWuOYk",
+      "description": "A video I made while working on the HOLMODRIVE project at Lake Peixão.",
+      "link_label": "Watch on YouTube",
+      "youtube_id": "WWDSYIWuOYk"
     }
   ]
 }

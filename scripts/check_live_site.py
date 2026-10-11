@@ -93,6 +93,11 @@ def check(base, source):
         require(page.publication_dois == ordered_dois, f"{name}: public project publications are missing or out of chronological order")
         project_links = {"https://doi.org/" + doi for doi in ordered_dois}
         project_links.update(project.get("outreach_urls", []))
+        outreach = {item["url"]: item for item in data.get("outreach", [])}
+        project_links.update(
+            "https://www.youtube-nocookie.com/embed/" + outreach[url]["youtube_id"]
+            for url in project.get("outreach_urls", []) if outreach[url].get("youtube_id")
+        )
         if project.get("project_url"):
             project_links.add(project["project_url"])
         for link in project_links:

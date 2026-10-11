@@ -73,4 +73,10 @@ Research papers and outreach on lipid biomarkers, paleohydroclimate, vegetation,
 <p class="authors">Outreach on our research at Lagoa do Peixão in Serra da Estrela, Portugal.</p>
 <p class="doi"><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">Read feature ↗</a></p>
 </article>
+<article class="publication">
+<h3><a href="https://youtu.be/WWDSYIWuOYk">Lake Peixão project video</a></h3>
+<p class="journal"><em>YouTube</em></p>
+<p class="authors">A video I made while working on the HOLMODRIVE project at Lake Peixão.</p>
+<p class="doi"><a href="https://youtu.be/WWDSYIWuOYk">Watch on YouTube ↗</a></p>
+</article>
 ```

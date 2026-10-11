@@ -96,6 +96,11 @@ def main():
             errors.append(f"{path}: project publications are missing or out of chronological order")
         expected_links = {"https://doi.org/" + doi for doi in ordered_dois}
         expected_links.update(project.get("outreach_urls", []))
+        outreach = {item["url"]: item for item in data.get("outreach", [])}
+        expected_links.update(
+            "https://www.youtube-nocookie.com/embed/" + outreach[url]["youtube_id"]
+            for url in project.get("outreach_urls", []) if outreach[url].get("youtube_id")
+        )
         if project.get("project_url"):
             expected_links.add(project["project_url"])
         for link in expected_links:
