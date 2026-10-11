@@ -4,12 +4,18 @@ The three main projects and their pages are generated from `data/projects.json`
 by `scripts/render_projects.py`. Ricardo confirmed the following groupings on
 11 October 2026.
 
+Ongoing projects are shown newest first: MEMELAND before ADAPT. Keep this order
+in `data/projects.json`; the generator uses the project array order for the cards.
+Each main project has a highlighted “My contribution” section. HOLMODRIVE uses
+the existing account of Ricardo’s modern leaf-wax calibration, climate and
+vegetation reconstructions, and collaborative lake-sediment studies.
+
 ## Photo slots
 
 | Project | Suggested image | Current grouping |
 | --- | --- | --- |
-| ADAPT | Supplied Lake Rotsee shoreline photo | Ongoing |
 | MEMELAND | Supplied project logo, displayed in full | Ongoing |
+| ADAPT | Supplied Lake Rotsee shoreline photo | Ongoing |
 | HOLMODRIVE · Lake Peixão | Lake Peixão, fieldwork, or sediment coring | Past |
 
 ## What Ricardo can send

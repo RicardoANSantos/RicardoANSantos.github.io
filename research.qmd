@@ -20,18 +20,6 @@ A central challenge is separating climatic signals from changes in the plants an
 ```{=html}
 <div class="projects-grid projects-grid--ongoing">
 <article class="project-card">
-<a class="project-photo-link" href="projects/adapt.html" aria-label="Explore ADAPT">
-<figure class="project-photo"><img src="assets/projects/adapt-rotsee.jpg" alt="Lake Rotsee in Switzerland at sunset, with trees overhead and a Rotsee nature-reserve sign beside the shore." style="object-position:50% 50%" loading="lazy" decoding="async"></figure>
-</a>
-<div class="project-card-copy">
-<p class="eyebrow">Switzerland · USA</p>
-<h3><a href="projects/adapt.html">ADAPT</a></h3>
-<p>Using lipid biomarkers and sedimentary DNA to understand how lake algal communities respond to natural change and human activity.</p>
-<p class="project-phase">Lake ecology · Hydroclimate</p>
-<a class="project-more" href="projects/adapt.html">Explore project <span aria-hidden="true">→</span></a>
-</div>
-</article>
-<article class="project-card">
 <a class="project-photo-link" href="projects/memeland.html" aria-label="Explore MEMELAND">
 <figure class="project-photo project-logo"><img src="assets/projects/memeland-logo.png" alt="MEMELAND logo: Molecular Ecology of Medieval Landscapes, with a DNA helix, molecular structure, lake, castle, and an ox-drawn plough." style="object-position:50% 50%" loading="lazy" decoding="async"></figure>
 </a>
@@ -41,6 +29,18 @@ A central challenge is separating climatic signals from changes in the plants an
 <p>Reconstructing medieval land use from lake sediments, using fecal and plant biomarkers to trace farming practices and environmental impacts.</p>
 <p class="project-phase">Medieval land use · Molecular biomarkers</p>
 <a class="project-more" href="projects/memeland.html">Explore project <span aria-hidden="true">→</span></a>
+</div>
+</article>
+<article class="project-card">
+<a class="project-photo-link" href="projects/adapt.html" aria-label="Explore ADAPT">
+<figure class="project-photo"><img src="assets/projects/adapt-rotsee.jpg" alt="Lake Rotsee in Switzerland at sunset, with trees overhead and a Rotsee nature-reserve sign beside the shore." style="object-position:50% 50%" loading="lazy" decoding="async"></figure>
+</a>
+<div class="project-card-copy">
+<p class="eyebrow">Switzerland · USA</p>
+<h3><a href="projects/adapt.html">ADAPT</a></h3>
+<p>Using lipid biomarkers and sedimentary DNA to understand how lake algal communities respond to natural change and human activity.</p>
+<p class="project-phase">Lake ecology · Hydroclimate</p>
+<a class="project-more" href="projects/adapt.html">Explore project <span aria-hidden="true">→</span></a>
 </div>
 </article>
 </div>
