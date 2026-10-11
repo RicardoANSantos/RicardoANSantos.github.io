@@ -12,6 +12,9 @@ project:
     - photos.qmd
     - contact.qmd
     - 404.qmd
+    - projects/adapt.qmd
+    - projects/memeland.qmd
+    - projects/holmodrive.qmd
     - projects/rotsee.qmd
     - projects/owasco.qmd
     - projects/aquatic-plants.qmd

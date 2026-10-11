@@ -1,0 +1,78 @@
+---
+title: "HOLMODRIVE · Lake Peixão"
+description: "Reading the Lake Peixão sediment archive to understand climate, vegetation, and environmental change in western Iberia."
+body-classes: project-page
+---
+
+```{=html}
+<section class="project-overview" aria-label="Project overview">
+<div class="project-overview-copy">
+<p class="eyebrow">Serra da Estrela · Portugal</p>
+<p class="project-group">Past project</p>
+<p class="project-lead">Reading the Lake Peixão sediment archive to understand climate, vegetation, and environmental change in western Iberia.</p>
+<dl class="project-facts"><div><dt>Focus</dt><dd>North Atlantic climate · Western Iberia</dd></div></dl>
+<p><a class="project-more" href="https://holmodrive.rd.ciencias.ulisboa.pt/index.html">Project website <span aria-hidden="true">↗</span></a></p>
+</div>
+<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for HOLMODRIVE · Lake Peixão"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+</section>
+```
+
+## Research question
+
+How have North Atlantic climate variability, vegetation, and human activity shaped the environment around Lake Peixão?
+
+## About the project
+
+HOLMODRIVE investigated how North Atlantic atmospheric patterns have influenced western Iberian climate from the Late Glacial to the present. At Lake Peixão in Portugal’s Serra da Estrela, the sediment archive records changes in climate, vegetation, and the surrounding landscape.
+
+My contributions include modern leaf-wax calibration, reconstructions of climate and vegetation over the last 2,000 years, and collaborative studies of deglaciation, dust inputs, and lake-sediment geochemistry.
+
+## Approach
+
+Lipid biomarkers and compound-specific stable isotopes alongside pollen, sedimentology, and inorganic geochemistry.
+
+## Publications
+
+Listed from oldest to newest.
+
+```{=html}
+<article class="publication" data-doi="10.3389/fenvs.2022.994377">
+<h3><a href="https://doi.org/10.3389/fenvs.2022.994377">Leaf wax biomarkers of a high-mountain lake area in western Iberia—Implications for environmental reconstructions</a></h3>
+<p class="authors"><strong>Santos, R. N.</strong>, Schefuß, E., Cordeiro, L. G., Oliveira, D., Hernández, A., Ramos, A. M., &amp; Rodrigues, T.</p>
+<p class="journal"><em>Frontiers in Environmental Science</em> · 2022</p>
+<p class="doi"><a href="https://doi.org/10.3389/fenvs.2022.994377">DOI: 10.3389/fenvs.2022.994377 ↗</a></p>
+</article>
+<article class="publication" data-doi="10.1002/esp.5536">
+<h3><a href="https://doi.org/10.1002/esp.5536">The timing of the deglaciation in the Atlantic Iberian mountains: Insights from the stratigraphic analysis of a lake sequence in Serra da Estrela (Portugal)</a></h3>
+<p class="authors">Hernández, A., Sáez, A., <strong>Santos, R. N.</strong>, Rodrigues, T., Martin-Puertas, C., Gil-Romera, G., Abbott, M., Carballeira, R., Costa, P., Giralt, S., Gomes, S. D., Griffore, M., Ibañez-Insa, J., Leira, M., Moreno, J., Naughton, F., Oliveira, D., Raposeiro, P. M., Trigo, R. M., Vieira, G., &amp; Ramos, A. M.</p>
+<p class="journal"><em>Earth Surface Processes and Landforms</em> · 2023</p>
+<p class="doi"><a href="https://doi.org/10.1002/esp.5536">DOI: 10.1002/esp.5536 ↗</a></p>
+</article>
+<article class="publication" data-doi="10.1016/j.scitotenv.2023.166179">
+<h3><a href="https://doi.org/10.1016/j.scitotenv.2023.166179">Identifying imprints of externally derived dust and halogens in the sedimentary record of an Iberian alpine lake for the past ∼13,500 years – Lake Peixão, Serra da Estrela (Central Portugal)</a></h3>
+<p class="authors">Moreno, J., Ramos, A., Raposeiro, P. M., <strong>Santos, R. N.</strong>, Rodrigues, T., Naughton, F., Moreno, F., Trigo, R. M., Ibañez-Insa, J., Ludwig, P., Shi, X., &amp; Hernández, A.</p>
+<p class="journal"><em>Science of The Total Environment</em> · 2023</p>
+<p class="doi"><a href="https://doi.org/10.1016/j.scitotenv.2023.166179">DOI: 10.1016/j.scitotenv.2023.166179 ↗</a></p>
+</article>
+<article class="publication" data-doi="10.1016/j.quascirev.2024.108796">
+<h3><a href="https://doi.org/10.1016/j.quascirev.2024.108796">Understanding the Atlantic influence on climate and vegetation dynamics in western Iberia over the last 2000 years</a></h3>
+<p class="authors"><strong>Santos, R. N.</strong>, Rodrigues, T., Naughton, F., Schefuß, E., Oliveira, D., Moreno, J., Raposeiro, P. M., Gil-Romera, G., Morgan, A., Leira, M., Gomes, S. D., Ladd, S. N., Trigo, R. M., Ramos, A. M., &amp; Hernández, A.</p>
+<p class="journal"><em>Quaternary Science Reviews</em> · 2024</p>
+<p class="doi"><a href="https://doi.org/10.1016/j.quascirev.2024.108796">DOI: 10.1016/j.quascirev.2024.108796 ↗</a></p>
+</article>
+```
+
+## Outreach {.outreach}
+
+```{=html}
+<article class="publication">
+<h3><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">O tempo preso na lagoa do Peixão, na Serra da Estrela</a></h3>
+<p class="journal"><em>National Geographic Portugal · Portuguese</em></p>
+<p class="authors">Outreach on our research at Lagoa do Peixão in Serra da Estrela, Portugal.</p>
+<p class="doi"><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">Read feature ↗</a></p>
+</article>
+```
+
+::: {.project-page-links}
+[← Past projects](../research.qmd#past-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)
+:::

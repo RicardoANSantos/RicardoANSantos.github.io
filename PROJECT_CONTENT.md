@@ -1,39 +1,44 @@
 # Research project photos and details
 
-The research overview and individual project pages are generated from
-`data/projects.json` by `scripts/render_projects.py`.
+The three main projects and their pages are generated from `data/projects.json`
+by `scripts/render_projects.py`. Ricardo confirmed the following groupings on
+11 October 2026.
 
 ## Photo slots
 
 | Project | Suggested image | Current grouping |
 | --- | --- | --- |
-| Lake Rotsee | The lake, sediment coring, or sediment cores | Ongoing |
-| Owasco Lake | The lake, field site, or sediment work | Ongoing |
-| Aquatic-plant biomarkers | Charophytes, macrophytes, sampling, or laboratory work | Ongoing |
-| Younger Dryas Working Group | A meeting, group photo, or related fieldwork | Ongoing |
-| Lake Peixão | The lake, fieldwork, or sediment coring | Past MSc research, 2019–2021 |
-
-The groupings are provisional. Lake Peixão refers to the completed MSc phase;
-its later collaborative research is not being declared finished. Confirm other
-groupings rather than inferring completion from a publication date.
+| ADAPT | Lake Rotsee, sediment coring, aquatic plants, or laboratory work | Ongoing |
+| MEMELAND | A relevant lake, sampling site, landscape, or project fieldwork | Ongoing |
+| HOLMODRIVE · Lake Peixão | Lake Peixão, fieldwork, or sediment coring | Past |
 
 ## What Ricardo can send
 
-For each project, supply:
-- One landscape photograph for the overview card and project page; extra photos
-  or a figure can be added later.
+- One landscape photograph for each project card and detailed page.
 - A short caption with known location and date, plus photographer credit.
-- Confirmation of ongoing/past status, project dates, and Ricardo's role.
-- Any corrections or notes for the current short description.
-- Optional collaborator names, project/funding links, or a related publication.
+- His specific role or research contribution within MEMELAND.
+- Optional project participation dates, further papers, or corrections to descriptions.
 
 Notes and files are enough; Ricardo does not need to write polished website text.
+Leave unknown roles, locations, and dates unstated.
 
 ## Replacing a placeholder
 
 Save the supplied image under `assets/projects/` with a descriptive filename.
-In its project record, set `photo` to the path relative to the website root,
-such as `assets/projects/rotsee-fieldwork.jpg`, and supply `photo_alt` and
-`photo_caption`. Generate both the overview and the detailed page by running
-`quarto render`, then check the build and public deployment. Do not use an
-unrelated landscape image as a photograph of a named study site.
+Set `photo` in the project record to its path relative to the website root,
+such as `assets/projects/holmodrive-peixao-fieldwork.jpg`, and supply
+`photo_alt` and `photo_caption`. Run `quarto render`, commit the regenerated
+pages, then check the build and public deployment. Use Ricardo's supplied or
+explicitly authorized photographs of the project.
+
+## Related publications and outreach
+
+Maintain citation metadata in `data/publications.json`. Project
+`publication_dois` and `outreach_urls` reference those records. Project papers
+are displayed oldest first; order DOI references chronologically within a year.
+HOLMODRIVE currently includes the four papers and National Geographic Portugal
+feature supplied by Ricardo; ADAPT includes DOI `10.1029/2025PA005401`.
+Do not add papers to MEMELAND without a supplied or verified project association.
+
+The earlier standalone research-topic pages remain available for existing links.
+They are not additional main-project cards.

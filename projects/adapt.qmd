@@ -1,0 +1,47 @@
+---
+title: "ADAPT"
+description: "Tracing how climate and human activity shape lake ecosystems, and improving the biomarker tools used to reconstruct their histories."
+body-classes: project-page
+---
+
+```{=html}
+<section class="project-overview" aria-label="Project overview">
+<div class="project-overview-copy">
+<p class="eyebrow">Swiss lakes · Switzerland</p>
+<p class="project-group">Ongoing project</p>
+<p class="project-lead">Tracing how climate and human activity shape lake ecosystems, and improving the biomarker tools used to reconstruct their histories.</p>
+<dl class="project-facts"><div><dt>Focus</dt><dd>Lake ecology · Hydroclimate</dd></div></dl>
+<p><a class="project-more" href="https://duw.unibas.ch/en/forschungsgruppen/organic-geochemistry/adapt/">Project website <span aria-hidden="true">↗</span></a></p>
+</div>
+<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for ADAPT"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+</section>
+```
+
+## Research question
+
+How can sedimentary biomarkers distinguish changes in lake ecology from changes in climate?
+
+## About the project
+
+ADAPT explores how lake algal communities have responded to natural variability and human activity. Modern measurements of lipid biomarkers and sedimentary DNA help connect sediment signals to the organisms that produce them, before applying these tools to lake archives.
+
+My work within the project focuses on the climatic context and biomarker source effects, including vegetation-corrected plant-wax δ²H records from Lake Rotsee.
+
+## Approach
+
+Modern biomarker calibration, lipid distributions, compound-specific hydrogen and carbon isotopes, and lake-sediment reconstructions. The wider project also uses sedimentary DNA to investigate past algal communities.
+
+## Publications
+
+```{=html}
+<article class="publication" data-doi="10.1029/2025PA005401">
+<h3><a href="https://doi.org/10.1029/2025PA005401">Central European Hydroclimate Since the Younger Dryas Inferred From Vegetation-Corrected Sedimentary Plant Wax δ²H Values</a></h3>
+<p class="authors"><strong>Santos, R. N.</strong>, Nelson, D. B., Klatt, A., Schubert, C. J., Dubois, N., de Jonge, C., &amp; Ladd, S. N.</p>
+<p class="journal"><em>Paleoceanography and Paleoclimatology</em> · 2026</p>
+<p class="doi"><a href="https://doi.org/10.1029/2025PA005401">DOI: 10.1029/2025PA005401 ↗</a></p>
+</article>
+```
+
+::: {.project-page-links}
+[← Ongoing projects](../research.qmd#ongoing-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)
+:::
