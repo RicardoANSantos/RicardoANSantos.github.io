@@ -12,7 +12,7 @@ body-classes: home-page
     <p class="eyebrow">ORGANIC GEOCHEMISTRY · PAST CLIMATES &amp; ENVIRONMENTS</p>
     <h1 id="intro-title">Ricardo N. Santos</h1>
     <p class="position">Organic geochemist</p>
-    <p class="affiliation">University of Basel, Switzerland</p>
+    <p class="affiliation"><a href="https://duw.unibas.ch/en/research-groups/organic-geochemistry/">Organic Geochemistry Group · University of Basel, Switzerland</a></p>
     </div>
     <div class="intro-biography">
     <p class="intro-lead"><em>Reading the past through sedimentary lipid biomarkers</em></p>
