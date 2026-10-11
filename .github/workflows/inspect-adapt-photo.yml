@@ -1,0 +1,35 @@
+name: Inspect ADAPT public photograph
+on:
+  push:
+    branches: [adapt-content-photo-20261011]
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install image reader
+        run: python3 -m pip install Pillow
+      - name: Inspect existing ADAPT lake photograph
+        run: |
+          python3 - <<'PY'
+          import base64
+          import io
+          import json
+          from urllib.request import Request, urlopen
+          from PIL import Image
+          source = "https://duw.unibas.ch/fileadmin/_processed_/b/0/csm_See_41e5448012.png"
+          with urlopen(Request(source, headers={"User-Agent": "Mozilla/5.0"}), timeout=20) as response:
+              data = response.read(5000001)
+          if len(data) > 5000000:
+              raise ValueError("Image exceeds size limit")
+          picture = Image.open(io.BytesIO(data))
+          picture.load()
+          print("IMAGE_METADATA " + json.dumps({"source": source, "size": picture.size, "format": picture.format, "bytes": len(data)}))
+          preview = picture.copy()
+          preview.thumbnail((480, 480))
+          output = io.BytesIO()
+          preview.convert("RGB").save(output, format="JPEG", quality=85)
+          print("IMAGE_PREVIEW " + base64.b64encode(output.getvalue()).decode())
+          print("IMAGE_ORIGINAL " + base64.b64encode(data).decode())
+          PY
