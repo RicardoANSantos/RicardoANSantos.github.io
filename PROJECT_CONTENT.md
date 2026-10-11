@@ -70,3 +70,24 @@ The original YouTube thumbnail for `WWDSYIWuOYk` is stored at
 The video entry uses the existing `image` and `image_alt` fields.
 Its thumbnail and “Watch on YouTube” link open the video, and the play icon
 identifies it as a video. Keep the compact layout instead of a large embedded player.
+
+## INTIMATE Summer School outreach
+
+The INTIMATE Summer School 2022 blog post and related highlights video appear
+in Publications & outreach. Ricardo supplied the links and group photograph;
+they are not associated with a research-project page.
+The blog entry includes the EGU Best Blog Post Award, public vote, already
+recorded in his CV. Keep the recognition visible beneath the blog title.
+
+The original 1024 × 750 WebP group photograph is stored at
+`assets/outreach/intimate-summer-school-2022-group.webp`. The same image is
+published at
+`https://blogs.egu.eu/divisions/cl/files/2022/11/Ricardo-N.-Sanotos_00-1024x750.webp`.
+The article identifies the location as Kokkila and credits Francesco Muschitiello;
+keep his photograph credit with this entry.
+
+The video thumbnail is stored at
+`assets/outreach/intimate-summer-school-2022-video-thumbnail.jpg`, sourced from
+`https://i.ytimg.com/vi/2F66bkFZ7iA/mqdefault.jpg`.
+Both entries use the existing compact thumbnail layout, with a play icon and
+YouTube link for the video.

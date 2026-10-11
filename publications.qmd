@@ -86,4 +86,24 @@ Research papers and outreach on lipid biomarkers, paleohydroclimate, vegetation,
 <p class="doi"><a href="https://youtu.be/WWDSYIWuOYk">Watch on YouTube ↗</a></p>
 </div>
 </article>
+<article class="publication outreach-item outreach-item--with-image">
+<figure class="outreach-image"><a href="https://blogs.egu.eu/divisions/cl/2022/11/21/a-glimpse-into-the-intimates-summer-school-of-2022/"><img src="assets/outreach/intimate-summer-school-2022-group.webp" alt="INTIMATE Summer School 2022 participants holding the INTIMATE banner beside the water at Kokkila, Finland." loading="lazy" decoding="async"></a></figure>
+<div class="outreach-copy">
+<h3><a href="https://blogs.egu.eu/divisions/cl/2022/11/21/a-glimpse-into-the-intimates-summer-school-of-2022/">A glimpse into the INTIMATE Summer School 2022</a></h3>
+<p class="journal"><em>EGU Climate blog · 2022</em></p>
+<p class="outreach-award"><strong>EGU Best Blog Post Award · Public vote</strong></p>
+<p class="authors">Reflections on paleoclimate research, sediment fieldwork, and collaboration at the INTIMATE Summer School in Finland.</p>
+<p class="outreach-credit">Photograph: Francesco Muschitiello</p>
+<p class="doi"><a href="https://blogs.egu.eu/divisions/cl/2022/11/21/a-glimpse-into-the-intimates-summer-school-of-2022/">Read blog post ↗</a></p>
+</div>
+</article>
+<article class="publication outreach-item outreach-item--with-image">
+<figure class="outreach-image"><a href="https://www.youtube.com/watch?v=2F66bkFZ7iA" class="outreach-video-link" aria-label="Watch INTIMATE Summer School 2022 highlights on YouTube"><img src="assets/outreach/intimate-summer-school-2022-video-thumbnail.jpg" alt="Preview of the INTIMATE Summer School 2022 highlights video, showing participants examining a sediment core." loading="lazy" decoding="async"><span class="outreach-play" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M7 4v16l14-8z"/></svg></span></a></figure>
+<div class="outreach-copy">
+<h3><a href="https://www.youtube.com/watch?v=2F66bkFZ7iA">INTIMATE Summer School 2022 highlights</a></h3>
+<p class="journal"><em>YouTube</em></p>
+<p class="authors">Highlights from the INTIMATE Summer School 2022 in Finland.</p>
+<p class="doi"><a href="https://www.youtube.com/watch?v=2F66bkFZ7iA">Watch on YouTube ↗</a></p>
+</div>
+</article>
 ```
