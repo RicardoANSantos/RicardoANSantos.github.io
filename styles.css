@@ -186,3 +186,8 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
   .publication.outreach-item--with-image {grid-template-columns:1fr;gap:20px;}
   .publication.outreach-item--with-image .outreach-image {max-width:420px;}
 }
+
+.outreach-video-link {position:relative;}
+.outreach-play {position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:44px;height:44px;background:var(--accent);color:#fff;border:2px solid #fff;border-radius:50%;box-shadow:0 2px 12px rgba(0,0,0,.25);}
+.outreach-play svg {margin-left:3px;}
+.outreach-video-link:hover .outreach-play,.outreach-video-link:focus-visible .outreach-play {background:var(--ink);}

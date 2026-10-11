@@ -37,8 +37,8 @@ Maintain citation metadata in `data/publications.json`. Project
 `publication_dois` and `outreach_urls` reference those records. Project papers
 are displayed oldest first; order DOI references chronologically within a year.
 HOLMODRIVE currently includes five papers, the National Geographic Portugal
-feature, and Ricardo’s project video. The video is embedded in the project’s
-Outreach section and linked from Publications & outreach. ADAPT includes DOI `10.1029/2025PA005401`.
+feature, and Ricardo’s project video. The video has a small linked thumbnail with a play icon beside its title in both
+the project’s Outreach section and Publications & outreach. ADAPT includes DOI `10.1029/2025PA005401`.
 Do not add papers to MEMELAND without a supplied or verified project association.
 
 The earlier standalone research-topic pages remain available for existing links.
@@ -63,3 +63,10 @@ Keep the “Text and photography” credit linking to https://filipepatrocinio.c
 
 Project pages with real photos use a compact 280 px photograph, keeping the full
 portrait visible and avoiding the tall empty column beside the introduction.
+
+The original YouTube thumbnail for `WWDSYIWuOYk` is stored at
+`assets/outreach/lake-peixao-video-thumbnail.jpg`, sourced from
+`https://i.ytimg.com/vi/WWDSYIWuOYk/mqdefault.jpg`.
+The video entry uses the existing `image` and `image_alt` fields.
+Its thumbnail and “Watch on YouTube” link open the video, and the play icon
+identifies it as a video. Keep the compact layout instead of a large embedded player.

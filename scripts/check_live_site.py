@@ -96,7 +96,7 @@ def check(base, source):
         outreach = {item["url"]: item for item in data.get("outreach", [])}
         project_links.update(
             "https://www.youtube-nocookie.com/embed/" + outreach[url]["youtube_id"]
-            for url in project.get("outreach_urls", []) if outreach[url].get("youtube_id")
+            for url in project.get("outreach_urls", []) if outreach[url].get("youtube_id") and not outreach[url].get("image")
         )
         if project.get("project_url"):
             project_links.add(project["project_url"])

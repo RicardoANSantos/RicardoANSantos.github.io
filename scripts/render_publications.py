@@ -30,9 +30,19 @@ def outreach_image_html(item, prefix=""):
     src = escape(prefix + item["image"], quote=True)
     alt = escape(item["image_alt"], quote=True)
     url = escape(item["url"], quote=True)
+    link_attrs = ""
+    play = ""
+    if item.get("youtube_id"):
+        label = escape("Watch " + item["title"] + " on YouTube", quote=True)
+        link_attrs = f' class="outreach-video-link" aria-label="{label}"'
+        play = (
+            '<span class="outreach-play" aria-hidden="true">'
+            '<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">'
+            '<path d="M7 4v16l14-8z"/></svg></span>'
+        )
     return (
         '<figure class="outreach-image">'
-        f'<a href="{url}"><img src="{src}" alt="{alt}" loading="lazy" decoding="async"></a>'
+        f'<a href="{url}"{link_attrs}><img src="{src}" alt="{alt}" loading="lazy" decoding="async">{play}</a>'
         '</figure>'
     )
 
