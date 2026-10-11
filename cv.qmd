@@ -1,6 +1,6 @@
 ---
 title: "Curriculum vitae"
-description: "Education, research experience, analytical expertise, and scientific service of Ricardo N. Santos."
+image: assets/mountain-portrait.jpg
 ---
 
 ::: {.page-intro}
@@ -8,7 +8,7 @@ Organic geochemist and geologist specializing in lipid biomarkers, compound-spec
 :::
 
 ::: {.download-banner}
-[Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [October 2026]{.small-note}
+[Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [Last updated: 11 October 2026 (web CV) · PDF edition: October 2026]{.small-note}
 :::
 
 ## Education
@@ -20,9 +20,9 @@ Organic geochemist and geologist specializing in lipid biomarkers, compound-spec
 
 ### PhD in Organic Geochemistry
 
-Thesis: *Disentangling vegetation and hydroclimate signals from lipid biomarkers records.*
+Research focus: disentangling vegetation and hydroclimate signals from lipid biomarker records.
 
-Supervisors: N. Ladd and Dominik Fleitmann. Defense anticipated in October 2026.
+Supervisors: [S. Nemiah Ladd](https://duw.unibas.ch/en/research-groups/organic-geochemistry/team/ladd/) and Dominik Fleitmann. Defense anticipated in October 2026.
 :::
 
 ::: {.timeline-item}
@@ -57,32 +57,63 @@ Geology and Natural Resources.
 
 ## Research experience
 
-| Period | Role and institution |
+| Period | Role, institution, and research contribution |
 |:--|:--|
-| 2022–2026 | Doctoral Candidate & Project Assistant, Organic Geochemistry Group, University of Basel |
-| 2021–2022 | Research Fellow, IPMA, Lisbon |
-| June–September 2021 | ERASMUS+ Research Intern, Biología Costera Group, University of A Coruña |
-| 2019–2021 | Research Fellow, FCiências.ID / Instituto Dom Luiz, Lisbon |
-| 2017–2018 | Exploration & Production Intern, Galp Energia, Lisbon |
+| 2022–2026 | **Doctoral Candidate & Project Assistant**, Organic Geochemistry Group, University of Basel <span class="cv-role-summary">Lipid biomarkers and compound-specific isotopes to reconstruct climate, vegetation, and human impacts in European and North American lake sediments.</span> |
+| 2021–2022 | **Research Fellow**, IPMA, Lisbon <span class="cv-role-summary">Compound-specific δ²H and δ¹³C measurements of modern plant leaf waxes and lake sediments to investigate North Atlantic climate variability.</span> |
+| June–September 2021 | **ERASMUS+ Research Intern**, Biología Costera Group, University of A Coruña, Spain <span class="cv-role-summary">Sedimentary diatom analysis.</span> |
+| 2019–2021 | **Research Fellow**, FCiências.ID / Instituto Dom Luiz, Lisbon <span class="cv-role-summary">Organic and inorganic lake-sediment proxies to reconstruct atmospheric-circulation influences on western Iberian hydroclimate.</span> |
+| 2017–2018 | **Exploration & Production Intern**, Galp Energia, Lisbon <span class="cv-role-summary">Petroleum-potential assessment through seismic interpretation, basin modelling, and organic geochemistry data analysis.</span> |
+
+## Selected awards and competitive support
+
+- **2025 · University of Basel travel grant:** Participation in the Urbino Summer School in Paleoclimatology, Italy.
+- **2022 · FCT doctoral scholarship awarded:** Ranked 2nd of 43 applicants in the Earth Sciences panel (2022.11839.BD); declined to pursue the PhD position at the University of Basel.
+- **2022 · EGU Best Blog Post Award, public vote:** [*A glimpse into the INTIMATE Summer School 2022*](https://blogs.egu.eu/divisions/cl/2022/11/21/a-glimpse-into-the-intimates-summer-school-of-2022/).
 
 ## Analytical and technical expertise
 
-**Organic geochemistry:** lipid extraction, saponification, derivatization, silica-gel and AgNO₃-silica chromatography, urea adduction; GC-FID, GC-MS, and GC-IRMS for compound-specific δ¹³C and δ²H measurements.
+### Laboratory analysis
 
-**Paleolimnology and fieldwork:** lake-sediment coring, core description and sub-sampling, vegetation and soil sampling, bulk organic matter analysis, macrofossil picking, radiocarbon and ²¹⁰Pb/¹³⁷Cs geochronology, Bayesian age–depth modelling, diatom preparation, and XRF core scanning.
+- **Lipid extraction and preparation:** Accelerated solvent extraction (ASE), ultrasonication, saponification, and derivatization.
+- **Compound purification:** Silica-gel and AgNO₃-silica chromatography, and urea adduction.
+- **Instrumentation:** GC-FID, GC-MS, and GC-IRMS for compound-specific δ¹³C and δ²H measurements.
 
-**Software:** R, Grapher, QGIS/ArcGIS, Adobe Illustrator, PAST, and Fiji/ImageJ.
+### Fieldwork and chronology
+
+- **Sampling:** Lake-sediment coring, core description and sub-sampling, and vegetation and soil sampling.
+- **Sediment analysis:** Bulk organic matter, macrofossil picking, diatom preparation, and XRF core scanning.
+- **Geochronology:** Radiocarbon dating and ²¹⁰Pb/¹³⁷Cs methods.
+
+### Data analysis and modelling
+
+- **Quantitative methods:** Bayesian age–depth modelling, generalized additive models (GAMs), Monte Carlo uncertainty propagation, and vegetation corrections for plant-wax isotope records.
+- **Analysis and visualisation:** R, Grapher, PAST, and Fiji/ImageJ.
+- **Mapping and figure preparation:** QGIS/ArcGIS and Adobe Illustrator.
+
+### Open code and data
+
+- **Code:** [Vegetation-correction and isotope-analysis workflows on GitHub](https://github.com/RicardoANSantos/Rotsee_d2Hprc), with the [published version archived on Zenodo](https://doi.org/10.5281/zenodo.18694984).
+- **Modern calibration data:** [European plant leaf-wax *n*-alkane δ²H and δ¹³C dataset on Dryad](https://doi.org/10.5061/dryad.cvdncjtj4).
+- **Sedimentary data:** [Rotsee plant-wax composition and isotope dataset on PANGAEA](https://doi.org/10.1594/PANGAEA.987812).
 
 **Languages:** Portuguese (native), English and Spanish (fluent), Italian and German (basic, in progress).
 
-## Selected service and outreach
+## Scientific service and outreach
 
-- **2025–present:** Co-initiator, Younger Dryas Working Group.
-- **2025:** EGU short-course convener, *Radiocarbon Dating Concepts and Practical Guide*.
+::: {.cv-peer-review}
+**Peer reviewer**
+
+*Quaternary Science Reviews* and *Palaeogeography, Palaeoclimatology, Palaeoecology*.
+:::
+
+- **2025–present:** Co-initiator, Younger Dryas Working Group, bringing together researchers across disciplines to synthesise European proxy evidence.
 - **2021–2025:** Blog Editor & Outreach Team, EGU Climate: Past, Present and Future.
-- **2022:** EGU Best Blog Post Award, public vote, for [*A glimpse into the INTIMATE Summer School 2022*](https://blogs.egu.eu/divisions/cl/2022/11/21/a-glimpse-into-the-intimates-summer-school-of-2022/).
 - Research featured in [*O Tempo Preso na Lagoa*, National Geographic Portugal (2023)](https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781).
-- Peer reviewer for *Quaternary Science Reviews* and *Palaeogeography, Palaeoclimatology, Palaeoecology*.
+
+## Training and scientific exchange
+
+- **2025 · EGU General Assembly:** Co-convener of [*Radiocarbon Dating Concepts and Practical Guide*](https://meetingorganizer.copernicus.org/EGU25/session/53629), a short course covering dating principles, sampling, calibration, reservoir corrections, and environmental applications.
 
 ## Selected conference contributions
 
@@ -95,4 +126,4 @@ Geology and Natural Resources.
 | 2024 | Swiss Geoscience Meeting, Basel | Poster on plant-wax isotope dynamics in central Switzerland |
 | 2023 | Goldschmidt, Lyon | Poster on vegetation effects on leaf-wax isotopes |
 
-The full PDF contains the complete record of conference contributions, scholarships, and service. [View publications →](publications.qmd)
+The October 2026 PDF contains the full record of publications, conference contributions, scholarships, and service. [View publications →](publications.qmd)
