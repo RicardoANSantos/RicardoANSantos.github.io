@@ -1,0 +1,64 @@
+name: Retrieve INTIMATE outreach images
+on:
+  push:
+    branches: [intimate-outreach-20261011]
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        item: [group, video]
+    steps:
+      - name: Install image inspection dependency
+        run: python3 -m pip install Pillow
+      - name: Retrieve published image
+        env:
+          IMAGE_ITEM: ${{ matrix.item }}
+        run: |
+          python3 - <<'PY'
+          from urllib.request import Request, urlopen
+          from io import BytesIO
+          from PIL import Image
+          import base64
+          import json
+          import os
+          name = os.environ["IMAGE_ITEM"]
+          if name == "group":
+              base = "https://blogs.egu.eu/divisions/cl/files/2022/11/"
+              sources = [
+                  base + "Ricardo-N.-Sanotos_00-1024x750.webp",
+                  base + "Ricardo-N.-Sanotos_00-1024x750.jpg",
+                  base + "Ricardo-N.-Sanotos_00.webp",
+                  base + "Ricardo-N.-Sanotos_00.jpg",
+              ]
+          elif name == "video":
+              sources = ["https://i.ytimg.com/vi/2F66bkFZ7iA/mqdefault.jpg"]
+          else:
+              raise ValueError("Unexpected item")
+          for source in sources:
+              try:
+                  with urlopen(Request(source, headers={"User-Agent": "Mozilla/5.0"}), timeout=20) as response:
+                      data = response.read(5000001)
+                  if len(data) > 5000000:
+                      raise ValueError("Unexpected image size")
+                  im = Image.open(BytesIO(data))
+                  im.load()
+                  if name == "video" and (im.format != "JPEG" or im.size != (320, 180)):
+                      raise ValueError("Expected video thumbnail")
+                  if name == "group" and (im.width < 600 or im.height < 300):
+                      raise ValueError("Expected full group photograph")
+                  print("IMAGE_METADATA " + json.dumps({"name":name,"source":source,"size":list(im.size),"format":im.format,"bytes":len(data)}), flush=True)
+                  preview = im.copy()
+                  preview.thumbnail((640, 640))
+                  out = BytesIO()
+                  preview.convert("RGB").save(out, format="JPEG", quality=85)
+                  print("IMAGE_PREVIEW " + base64.b64encode(out.getvalue()).decode("ascii"), flush=True)
+                  print("IMAGE_ORIGINAL " + base64.b64encode(data).decode("ascii"), flush=True)
+                  break
+              except Exception as error:
+                  print("IMAGE_SOURCE_ERROR " + source + " " + str(error), flush=True)
+          else:
+              raise ValueError("Could not retrieve original image")
+          PY
