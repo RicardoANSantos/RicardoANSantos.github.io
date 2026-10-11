@@ -11,6 +11,15 @@ Organic geochemist and geologist specializing in lipid biomarkers, compound-spec
 [Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [Last updated: 11 October 2026 (web CV) · PDF edition: October 2026]{.small-note}
 :::
 
+## Research expertise
+
+**Lipid biomarker and compound-specific isotope (δ²H, δ¹³C) geochemistry**
+
+- Paleohydroclimate and vegetation reconstruction from lake sediments
+- Development and calibration of aquatic and terrestrial biomarker proxies
+- Multi-proxy paleolimnology, age–depth modelling and quantitative uncertainty analysis
+- Human–environment interactions in Holocene sedimentary records
+
 ## Education
 
 ::: {.timeline}
