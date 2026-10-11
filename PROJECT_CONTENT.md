@@ -51,6 +51,9 @@ in the National Geographic Portugal article. Its original pixels are stored in
 `assets/projects/holmodrive-peixao-coring.png`. Credit Filipe Patrocínio on the
 Research card and project page, with his website link, https://filipepatrocinio.com/. The project-page
 image preserves the full portrait; the overview card uses a crop centered at 70%.
+Past-project overview cards take their height from the text, with a smaller
+cropped photograph beside it. The portrait image must not expand the whole card.
+On mobile, the image stacks above the text.
 The National Geographic entry credits Filipe for text and photography.
 Ricardo uploaded the separate branded National Geographic cover in commit
 `aa66d219a3982a66a694d1ff3a3d7bbbcd69da42` on 11 October 2026.
