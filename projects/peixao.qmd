@@ -16,7 +16,7 @@ See [HOLMODRIVE](holmodrive.qmd) for the project overview and related publicatio
 <p class="project-lead">Reconstructing western Iberian hydroclimate over the last 2,000 years from the sediments of a mountain lake.</p>
 <dl class="project-facts"><div><dt>Focus</dt><dd>MSc research</dd></div><div><dt>Period</dt><dd>2019–2021</dd></div><div><dt>My role</dt><dd>MSc researcher</dd></div></dl>
 </div>
-<figure class="project-photo"><img src="../assets/projects/holmodrive-peixao-coring.png" alt="Researchers collecting sediment cores from a floating platform on Lake Peixão, Serra da Estrela, Portugal." style="object-position:50% 70%" loading="lazy" decoding="async"><figcaption>Sediment coring at Lake Peixão, Serra da Estrela, Portugal. Photograph: <a href="https://www.facebook.com/filipepatrocinio">Filipe Patrocínio</a></figcaption></figure>
+<figure class="project-photo"><img src="../assets/projects/holmodrive-peixao-coring.png" alt="Researchers collecting sediment cores from a floating platform on Lake Peixão, Serra da Estrela, Portugal." style="object-position:50% 70%" loading="lazy" decoding="async"><figcaption>Sediment coring at Lake Peixão, Serra da Estrela, Portugal. Photograph: <a href="https://filipepatrocinio.com/">Filipe Patrocínio</a></figcaption></figure>
 </section>
 ```
 

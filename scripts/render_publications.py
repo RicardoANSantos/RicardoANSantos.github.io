@@ -19,6 +19,24 @@ def outreach_credit_html(item):
     return f'<p class="outreach-credit">{escape(item.get("credit_label", "Credit"))}: {name}</p>'
 
 
+def outreach_image_html(item, prefix=""):
+    if not item.get("image"):
+        return ""
+    path = Path(item["image"])
+    if not item["image"].startswith("assets/") or ".." in path.parts:
+        raise ValueError("Outreach images must be inside assets/")
+    if not (ROOT / path).is_file() or not item.get("image_alt"):
+        raise ValueError("Outreach image is missing or has no alt text")
+    src = escape(prefix + item["image"], quote=True)
+    alt = escape(item["image_alt"], quote=True)
+    url = escape(item["url"], quote=True)
+    return (
+        '<figure class="outreach-image">'
+        f'<a href="{url}"><img src="{src}" alt="{alt}" loading="lazy" decoding="async"></a>'
+        '</figure>'
+    )
+
+
 def main():
     data = json.loads((ROOT / "data/publications.json").read_text(encoding="utf-8"))
     seen = set()
@@ -60,6 +78,7 @@ def main():
                 outlet += " · " + escape(item["language"])
             lines.extend([
                 '<article class="publication">',
+                *([outreach_image_html(item)] if item.get("image") else []),
                 f'<h3><a href="{url}">{escape(item["title"])}</a></h3>',
                 f'<p class="journal"><em>{outlet}</em></p>',
                 f'<p class="authors">{escape(item["description"])}</p>',

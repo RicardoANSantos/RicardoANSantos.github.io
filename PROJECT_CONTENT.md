@@ -49,7 +49,17 @@ They are not additional main-project cards.
 The sediment-coring photograph supplied by Ricardo is also published as `l1.png`
 in the National Geographic Portugal article. Its original pixels are stored in
 `assets/projects/holmodrive-peixao-coring.png`. Credit Filipe Patrocínio on the
-Research card and project page, with the supplied profile link. The project-page
+Research card and project page, with his website link, https://filipepatrocinio.com/. The project-page
 image preserves the full portrait; the overview card uses a crop centered at 70%.
 The National Geographic entry credits Filipe for text and photography.
 The separate branded article-cover image is awaiting an accessible original.
+On 11 October Ricardo requested it above the National Geographic title in Outreach
+and changed all Filipe credits to https://filipepatrocinio.com/.
+The outreach renderer supports `image` and `image_alt` in the bibliography.
+It shows the full uncropped image above the title on Publications & outreach
+and the HOLMODRIVE page, linking to the article.
+Once the original is available, upload it as
+`assets/outreach/national-geographic-peixao-cover.jpg` (or `.png` for a PNG),
+then set this outreach record's `image` to that path and rerender.
+The image is deliberately null until the actual original is committed.
+Do not substitute a different photograph or synthesize a replica.
