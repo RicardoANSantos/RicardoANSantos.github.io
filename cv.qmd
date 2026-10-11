@@ -11,6 +11,15 @@ Organic geochemist and geologist specializing in lipid biomarkers, compound-spec
 [Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [Last updated: 11 October 2026 (web CV) · PDF edition: October 2026]{.small-note}
 :::
 
+## Research expertise
+
+**Lipid biomarker and compound-specific isotope (δ²H, δ¹³C) geochemistry**
+
+- Paleohydroclimate and vegetation reconstruction from lake sediments
+- Development and calibration of aquatic and terrestrial biomarker proxies
+- Multi-proxy paleolimnology, age–depth modelling and quantitative uncertainty analysis
+- Human–environment interactions in Holocene sedimentary records
+
 ## Education
 
 ::: {.timeline}
@@ -138,11 +147,6 @@ Geology and Natural Resources.
 <article class="publication cv-conference">
 <p class="cv-conference-meta"><span>IMOG · Porto · 2025</span><span class="cv-conference-type">Oral presentation</span></p>
 <h3>Reconstructing Past Precipitation δ²H Values in a Small Swiss Lake: A Vegetation-Corrected Approach using Plant Wax Isotopes</h3>
-<p class="authors"><strong>Ricardo N. Santos</strong>, Antonia Klatt, Daniel B. Nelson, Carsten J. Schubert, Nathalie Dubois, Cindy De Jonge, S. Nemiah Ladd</p>
-</article>
-<article class="publication cv-conference">
-<p class="cv-conference-meta"><span>Urbino Summer School in Paleoclimatology · Urbino · 2025</span><span class="cv-conference-type">Oral presentation &amp; poster</span></p>
-<h3>Reconstructing precipitation δ²H values since the Younger Dryas in Central Switzerland: Correcting vegetation biases in plant-wax records</h3>
 <p class="authors"><strong>Ricardo N. Santos</strong>, Antonia Klatt, Daniel B. Nelson, Carsten J. Schubert, Nathalie Dubois, Cindy De Jonge, S. Nemiah Ladd</p>
 </article>
 <article class="publication cv-conference">
