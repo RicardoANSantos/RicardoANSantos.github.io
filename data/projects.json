@@ -79,7 +79,29 @@
       "photo_credit_url": "https://filipepatrocinio.com/",
       "photo_source_url": "https://content.nationalgeographic.pt/medio/import/attachment/revistas/265/GrandeAngular/l1.png",
       "photo_position": "50% 70%",
-      "contribution": "My contributions include modern leaf-wax calibration, reconstructions of climate and vegetation over the last 2,000 years, and collaborative studies of deglaciation, dust inputs, and lake-sediment geochemistry."
+      "contribution": "My contributions include modern leaf-wax calibration, reconstructions of climate and vegetation over the last 2,000 years, and collaborative studies of deglaciation, dust inputs, and lake-sediment geochemistry.",
+      "gallery": [
+        {
+          "image": "assets/projects/holmodrive-peixao-landscape.jpg",
+          "alt": "Lake Peixão surrounded by rocky slopes in Serra da Estrela, Portugal.",
+          "caption": "Lake Peixão and the Serra da Estrela landscape"
+        },
+        {
+          "image": "assets/projects/holmodrive-peixao-coring-equipment.png",
+          "alt": "Sediment-coring platform with a tall tripod beside a helicopter.",
+          "caption": "Sediment-coring equipment"
+        },
+        {
+          "image": "assets/projects/holmodrive-peixao-field-team.png",
+          "alt": "Five researchers holding sediment-core tubes beside Lake Peixão.",
+          "caption": "The field team with sediment cores at Lake Peixão"
+        },
+        {
+          "image": "assets/projects/holmodrive-peixao-laboratory.png",
+          "alt": "Researchers in laboratory coats examining sediment samples beside an opened sediment core.",
+          "caption": "Working with the sediment archive in the laboratory"
+        }
+      ]
     }
   ]
 }

@@ -16,11 +16,11 @@ vegetation reconstructions, and collaborative lake-sediment studies.
 | --- | --- | --- |
 | MEMELAND | Supplied project logo, displayed in full | Ongoing |
 | ADAPT | Supplied Lake Rotsee shoreline photo | Ongoing |
-| HOLMODRIVE · Lake Peixão | Lake Peixão, fieldwork, or sediment coring | Past |
+| HOLMODRIVE · Lake Peixão | Supplied coring photograph and four-photo project gallery | Past |
 
 ## What Ricardo can send
 
-- One landscape photograph for each project card and detailed page.
+- One photograph for each project card and detailed page, plus 2–4 gallery photos.
 - A short caption with known location and date, plus photographer credit.
 - Optional project participation dates, further papers, or corrections to descriptions.
 
@@ -136,3 +136,20 @@ at sunset, and a nature-reserve sign. Its original bytes are stored at
 page, with a compact crop on the card and the full portrait on the project page.
 Alt text and the caption “Lake Rotsee, Switzerland.” are supplied in the project
 data. Leave photographer credit unstated unless Ricardo confirms it.
+
+## Project galleries
+
+A project's optional `gallery` array in `data/projects.json` supplies photos
+beneath its description and approach, before its papers. Each record contains
+`image`, `alt`, and an optional `caption`, `credit_name`, and `credit_url`.
+The generator displays two columns on desktop and one on small screens.
+Previews show the whole image; select one to open the original file.
+Keep the Research overview card compact, using its existing main photograph.
+
+Ricardo uploaded four HOLMODRIVE photographs in the “Peixao fotos” commit on
+11 October 2026: the Lake Peixão landscape, coring equipment, the field team
+with sediment-core tubes, and laboratory work. Their original bytes are stored
+under descriptive names in `assets/projects/holmodrive-peixao-*` and shown in
+that sequence on the project page. The original upload filenames remain available.
+Dates and photographer credits for these four photographs were not supplied;
+do not assign the existing main-photo credit to the gallery.
