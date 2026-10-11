@@ -93,8 +93,9 @@ def outreach_html(item):
     if item.get("language"):
         outlet += " · " + escape(item["language"])
     lines = [
-        '<article class="publication">',
+        '<article class="publication outreach-item' + (' outreach-item--with-image' if item.get("image") else '') + '">',
         *([outreach_image_html(item, "../")] if item.get("image") else []),
+        '<div class="outreach-copy">',
         f'<h3><a href="{url}">{escape(item["title"])}</a></h3>',
         f'<p class="journal"><em>{outlet}</em></p>',
         f'<p class="authors">{escape(item["description"])}</p>',
@@ -113,7 +114,7 @@ def outreach_html(item):
             'allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>'
             '</div>'
         )
-    lines.append('</article>')
+    lines.extend(['</div>', '</article>'])
     return "\n".join(lines)
 
 
@@ -126,13 +127,16 @@ def page_text(project, bibliography):
     if project.get("role"):
         facts.append(('My role', project["role"]))
     facts_html = "".join(f'<div><dt>{escape(label)}</dt><dd>{escape(value)}</dd></div>' for label, value in facts)
+    overview_class = "project-overview"
+    if project.get("photo"):
+        overview_class += " project-overview--with-photo"
     lines = [
         '---',
         'title: ' + json.dumps(project["title"], ensure_ascii=False),
         'description: ' + json.dumps(project["summary"], ensure_ascii=False),
         'body-classes: project-page',
         '---', '', '```{=html}',
-        '<section class="project-overview" aria-label="Project overview">',
+        f'<section class="{overview_class}" aria-label="Project overview">',
         '<div class="project-overview-copy">',
         f'<p class="eyebrow">{escape(project["location"])}</p>',
         f'<p class="project-group">{group}</p>',

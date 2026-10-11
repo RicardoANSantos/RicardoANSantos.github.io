@@ -53,13 +53,16 @@ Research card and project page, with his website link, https://filipepatrocinio.
 image preserves the full portrait; the overview card uses a crop centered at 70%.
 The National Geographic entry credits Filipe for text and photography.
 The separate branded article-cover image is awaiting an accessible original.
-On 11 October Ricardo requested it above the National Geographic title in Outreach
+On 11 October Ricardo requested it beside the National Geographic title and text in Outreach
 and changed all Filipe credits to https://filipepatrocinio.com/.
 The outreach renderer supports `image` and `image_alt` in the bibliography.
-It shows the full uncropped image above the title on Publications & outreach
-and the HOLMODRIVE page, linking to the article.
+It shows the full uncropped image beside the title and text on Publications & outreach
+and the HOLMODRIVE page, linking to the article. It stacks above the text on mobile.
 Once the original is available, upload it as
 `assets/outreach/national-geographic-peixao-cover.jpg` (or `.png` for a PNG),
 then set this outreach record's `image` to that path and rerender.
 The image is deliberately null until the actual original is committed.
 Do not substitute a different photograph or synthesize a replica.
+
+Project pages with real photos use a compact 280 px photograph, keeping the full
+portrait visible and avoiding the tall empty column beside the introduction.

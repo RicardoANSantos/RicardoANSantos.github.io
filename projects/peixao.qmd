@@ -9,7 +9,7 @@ See [HOLMODRIVE](holmodrive.qmd) for the project overview and related publicatio
 :::
 
 ```{=html}
-<section class="project-overview" aria-label="Project overview">
+<section class="project-overview project-overview--with-photo" aria-label="Project overview">
 <div class="project-overview-copy">
 <p class="eyebrow">Western Iberia · Portugal</p>
 <p class="project-group">Past project</p>

@@ -77,13 +77,15 @@ def main():
             if item.get("language"):
                 outlet += " · " + escape(item["language"])
             lines.extend([
-                '<article class="publication">',
+                '<article class="publication outreach-item' + (' outreach-item--with-image' if item.get("image") else '') + '">',
                 *([outreach_image_html(item)] if item.get("image") else []),
+                '<div class="outreach-copy">',
                 f'<h3><a href="{url}">{escape(item["title"])}</a></h3>',
                 f'<p class="journal"><em>{outlet}</em></p>',
                 f'<p class="authors">{escape(item["description"])}</p>',
                 *([outreach_credit_html(item)] if item.get("credit_name") else []),
                 f'<p class="doi"><a href="{url}">{escape(item.get("link_label", "Read more"))} ↗</a></p>',
+                '</div>',
                 '</article>'
             ])
         lines.extend(['```', ''])
