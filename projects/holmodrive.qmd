@@ -17,6 +17,13 @@ body-classes: project-page
 </section>
 ```
 
+::: {.project-contribution}
+## My contribution
+
+My contributions include modern leaf-wax calibration, reconstructions of climate and vegetation over the last 2,000 years, and collaborative studies of deglaciation, dust inputs, and lake-sediment geochemistry.
+
+:::
+
 ## Research question
 
 How have North Atlantic climate variability, vegetation, and human activity shaped the environment around Lake Peixão?
@@ -24,8 +31,6 @@ How have North Atlantic climate variability, vegetation, and human activity shap
 ## About the project
 
 HOLMODRIVE investigated how North Atlantic atmospheric patterns have influenced western Iberian climate from the Late Glacial to the present. At Lake Peixão in Portugal’s Serra da Estrela, the sediment archive records changes in climate, vegetation, and the surrounding landscape.
-
-My contributions include modern leaf-wax calibration, reconstructions of climate and vegetation over the last 2,000 years, and collaborative studies of deglaciation, dust inputs, and lake-sediment geochemistry.
 
 ## Approach
 

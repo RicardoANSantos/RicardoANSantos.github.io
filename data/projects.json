@@ -6,28 +6,6 @@
   "projects": [
     {
       "period": null,
-      "role": null,
-      "photo": "assets/projects/adapt-rotsee.jpg",
-      "photo_alt": "Lake Rotsee in Switzerland at sunset, with trees overhead and a Rotsee nature-reserve sign beside the shore.",
-      "photo_caption": "Lake Rotsee, Switzerland.",
-      "slug": "adapt",
-      "title": "ADAPT",
-      "group": "ongoing",
-      "location": "Switzerland · USA",
-      "phase": "Lake ecology · Hydroclimate",
-      "summary": "Using lipid biomarkers and sedimentary DNA to understand how lake algal communities respond to natural change and human activity.",
-      "question": "How have natural change and human activity shaped lake algal communities over time?",
-      "about": "ADAPT is a Swiss National Science Foundation project investigating the history of lake algae, whose communities affect water quality, food webs, and the carbon cycle. Lipid biomarkers and sedimentary DNA preserved in sediments provide complementary evidence of past algal occurrence and composition.\n\nOur lake studies span Switzerland and the USA.",
-      "approach": "- **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities.\n- **Past algal dynamics:** Use Swiss lake sediments to investigate 20th-century phosphorus changes, Roman-period effects on water quality, and natural algal variability over the last 10,000 years.\n- **Climate and aquatic vegetation:** Reconstruct local climate and relative macroalgal abundance using plant-wax distributions and compound-specific δ²H and δ¹³C measurements.",
-      "project_url": "https://duw.unibas.ch/en/forschungsgruppen/organic-geochemistry/adapt/",
-      "publication_dois": [
-        "10.1029/2025PA005401"
-      ],
-      "outreach_urls": [],
-      "contribution": "My work reconstructs the climatic context and investigates how terrestrial and aquatic plant sources influence biomarker signals, including vegetation-corrected plant-wax δ²H records from Lake Rotsee."
-    },
-    {
-      "period": null,
       "role": "Fecal and plant biomarker research · Eawag team",
       "photo": "assets/projects/memeland-logo.png",
       "photo_alt": "MEMELAND logo: Molecular Ecology of Medieval Landscapes, with a DNA helix, molecular structure, lake, castle, and an ox-drawn plough.",
@@ -51,6 +29,28 @@
     {
       "period": null,
       "role": null,
+      "photo": "assets/projects/adapt-rotsee.jpg",
+      "photo_alt": "Lake Rotsee in Switzerland at sunset, with trees overhead and a Rotsee nature-reserve sign beside the shore.",
+      "photo_caption": "Lake Rotsee, Switzerland.",
+      "slug": "adapt",
+      "title": "ADAPT",
+      "group": "ongoing",
+      "location": "Switzerland · USA",
+      "phase": "Lake ecology · Hydroclimate",
+      "summary": "Using lipid biomarkers and sedimentary DNA to understand how lake algal communities respond to natural change and human activity.",
+      "question": "How have natural change and human activity shaped lake algal communities over time?",
+      "about": "ADAPT is a Swiss National Science Foundation project investigating the history of lake algae, whose communities affect water quality, food webs, and the carbon cycle. Lipid biomarkers and sedimentary DNA preserved in sediments provide complementary evidence of past algal occurrence and composition.\n\nOur lake studies span Switzerland and the USA.",
+      "approach": "- **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities.\n- **Past algal dynamics:** Use Swiss lake sediments to investigate 20th-century phosphorus changes, Roman-period effects on water quality, and natural algal variability over the last 10,000 years.\n- **Climate and aquatic vegetation:** Reconstruct local climate and relative macroalgal abundance using plant-wax distributions and compound-specific δ²H and δ¹³C measurements.",
+      "project_url": "https://duw.unibas.ch/en/forschungsgruppen/organic-geochemistry/adapt/",
+      "publication_dois": [
+        "10.1029/2025PA005401"
+      ],
+      "outreach_urls": [],
+      "contribution": "My work reconstructs the climatic context and investigates how terrestrial and aquatic plant sources influence biomarker signals, including vegetation-corrected plant-wax δ²H records from Lake Rotsee."
+    },
+    {
+      "period": null,
+      "role": null,
       "photo": "assets/projects/holmodrive-peixao-coring.png",
       "photo_alt": "Researchers collecting sediment cores from a floating platform on Lake Peixão, Serra da Estrela, Portugal.",
       "photo_caption": "Sediment coring at Lake Peixão, Serra da Estrela, Portugal.",
@@ -61,7 +61,7 @@
       "phase": "North Atlantic climate · Western Iberia",
       "summary": "Reading the Lake Peixão sediment archive to understand climate, vegetation, and environmental change in western Iberia.",
       "question": "How have North Atlantic climate variability, vegetation, and human activity shaped the environment around Lake Peixão?",
-      "about": "HOLMODRIVE investigated how North Atlantic atmospheric patterns have influenced western Iberian climate from the Late Glacial to the present. At Lake Peixão in Portugal’s Serra da Estrela, the sediment archive records changes in climate, vegetation, and the surrounding landscape.\n\nMy contributions include modern leaf-wax calibration, reconstructions of climate and vegetation over the last 2,000 years, and collaborative studies of deglaciation, dust inputs, and lake-sediment geochemistry.",
+      "about": "HOLMODRIVE investigated how North Atlantic atmospheric patterns have influenced western Iberian climate from the Late Glacial to the present. At Lake Peixão in Portugal’s Serra da Estrela, the sediment archive records changes in climate, vegetation, and the surrounding landscape.",
       "approach": "Lipid biomarkers and compound-specific stable isotopes alongside pollen, sedimentology, and inorganic geochemistry.",
       "project_url": "https://holmodrive.rd.ciencias.ulisboa.pt/index.html",
       "publication_dois": [
@@ -78,7 +78,8 @@
       "photo_credit": "Filipe Patrocínio",
       "photo_credit_url": "https://filipepatrocinio.com/",
       "photo_source_url": "https://content.nationalgeographic.pt/medio/import/attachment/revistas/265/GrandeAngular/l1.png",
-      "photo_position": "50% 70%"
+      "photo_position": "50% 70%",
+      "contribution": "My contributions include modern leaf-wax calibration, reconstructions of climate and vegetation over the last 2,000 years, and collaborative studies of deglaciation, dust inputs, and lake-sediment geochemistry."
     }
   ]
 }
