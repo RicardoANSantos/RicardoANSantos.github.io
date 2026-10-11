@@ -1,10 +1,9 @@
 ---
 title: "Research"
-description: "ADAPT, MEMELAND, and HOLMODRIVE: ongoing and past research on biomarkers, climate, and environmental change."
 ---
 
 ::: {.page-intro}
-I use the chemical signatures of organic molecules to investigate past climate and environmental change. My work combines lipid biomarkers and compound-specific δ²H and δ¹³C measurements with other evidence preserved in lake sediments.
+I use organic molecules to investigate past climate and environmental change. My work combines lipid biomarkers and compound-specific δ²H and δ¹³C measurements with other evidence preserved in lake sediments.
 :::
 
 A central challenge is separating climatic signals from changes in the plants and aquatic organisms that produce the molecules we measure. I investigate these source effects through modern calibration studies and sedimentary records.

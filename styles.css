@@ -139,9 +139,11 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .project-phase {font-size:.73rem;color:var(--accent);margin:2px 0 20px;}
 .project-more {font-size:.8rem;text-decoration:none;margin-top:auto;display:flex;gap:16px;align-items:center;}
 .projects-grid--past {grid-template-columns:1fr;}
-.projects-grid--past .project-card {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);}
-.projects-grid--past .project-photo,.projects-grid--past .project-photo-link {height:100%;}
-.projects-grid--past .project-photo-placeholder,.projects-grid--past .project-photo img {height:100%;min-height:280px;aspect-ratio:auto;border-bottom:0;}
+.projects-grid--past .project-card {display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);}
+.projects-grid--past .project-photo-link {position:relative;min-height:280px;}
+.projects-grid--past .project-photo {position:absolute;inset:0;}
+.projects-grid--past .project-photo-placeholder,.projects-grid--past .project-photo img {height:100%;min-height:0;aspect-ratio:auto;border-bottom:0;}
+.projects-grid--past .project-more {margin-top:8px;}
 .project-overview {display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px;align-items:start;margin:15px 0 42px;}
 .project-overview .project-photo-placeholder {border:1px solid var(--line);border-radius:3px;}
 .project-group {font-size:.76rem;color:var(--muted);margin-bottom:12px;}
@@ -157,6 +159,8 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
   .projects-grid {grid-template-columns:1fr;gap:26px;margin-bottom:40px;}
   .project-card h3 {font-size:1.65rem;}
   .projects-grid--past .project-card {display:flex;}
+  .projects-grid--past .project-photo-link {min-height:0;}
+  .projects-grid--past .project-photo {position:static;}
   .projects-grid--past .project-photo-placeholder,.projects-grid--past .project-photo img {height:auto;min-height:0;aspect-ratio:16/10;border-bottom:1px solid var(--line);}
   .project-overview {grid-template-columns:1fr;gap:26px;margin-bottom:30px;}
   .project-lead {font-size:1.3rem;}

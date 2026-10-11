@@ -202,7 +202,6 @@ def main():
                 raise ValueError(f"Photo is missing or has no alt text: {slug}")
     lines = [
         '---', 'title: "Research"',
-        'description: "ADAPT, MEMELAND, and HOLMODRIVE: ongoing and past research on biomarkers, climate, and environmental change."',
         '---', '', '::: {.page-intro}', data["introduction"], ':::', '',
         data["context"], '', '```{=html}',
         '<nav class="project-jumps" aria-label="Research sections">',
