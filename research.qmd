@@ -33,13 +33,13 @@ A central challenge is separating climatic signals from changes in the plants an
 </article>
 <article class="project-card">
 <a class="project-photo-link" href="projects/memeland.html" aria-label="Explore MEMELAND">
-<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for MEMELAND"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+<figure class="project-photo project-logo"><img src="assets/projects/memeland-logo.png" alt="MEMELAND logo: Molecular Ecology of Medieval Landscapes, with a DNA helix, molecular structure, lake, castle, and an ox-drawn plough." style="object-position:50% 50%" loading="lazy" decoding="async"></figure>
 </a>
 <div class="project-card-copy">
 <p class="eyebrow">European landscapes</p>
 <h3><a href="projects/memeland.html">MEMELAND</a></h3>
-<p>Exploring how historical land use has shaped biodiversity and landscapes, using molecular evidence preserved in lake sediments.</p>
-<p class="project-phase">Historical land use · Biodiversity</p>
+<p>Reconstructing medieval land use from lake sediments, using fecal and plant biomarkers to trace farming practices and environmental impacts.</p>
+<p class="project-phase">Medieval land use · Molecular biomarkers</p>
 <a class="project-more" href="projects/memeland.html">Explore project <span aria-hidden="true">→</span></a>
 </div>
 </article>

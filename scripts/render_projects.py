@@ -36,7 +36,8 @@ def photo_html(project, prefix="", caption=False):
             + '<span>Project photo to come</span>'
             + '</div>'
         )
-    return '<figure class="project-photo">' + content + '</figure>'
+    figure_class = "project-photo" + (" project-logo" if project.get("photo_kind") == "logo" else "")
+    return f'<figure class="{figure_class}">' + content + '</figure>'
 
 
 def card_html(project):
@@ -147,10 +148,17 @@ def page_text(project, bibliography):
         photo_html(project, "../", caption=True),
         '</section>',
         '```', '',
+    ]
+    if project.get("contribution"):
+        lines.extend([
+            '::: {.project-contribution}', '## My contribution', '',
+            project["contribution"], '', ':::', '',
+        ])
+    lines.extend([
         '## Research question', '', project["question"], '',
         '## About the project', '', project["about"], '',
         '## Approach', '', project["approach"], '',
-    ]
+    ])
     papers = project_papers(project, bibliography)
     if papers:
         lines.extend(['## Publications', ''])
