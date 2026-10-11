@@ -22,10 +22,16 @@ class Page(HTMLParser):
         self.classes = set()
         self.ids = set()
         self.text = []
+        self.profile_icons = set()
+        self.active_link = None
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == "a":
+            self.active_link = attrs.get("href")
+        if tag == "svg" and "profile-icon" in attrs.get("class", "").split() and self.active_link:
+            self.profile_icons.add(self.active_link)
         if attrs.get("id"):
             self.ids.add(attrs["id"])
         if tag == "article" and attrs.get("data-doi"):
@@ -39,6 +45,10 @@ class Page(HTMLParser):
         if tag == "img" and attrs.get("src"):
             self.images.add(attrs["src"])
 
+
+    def handle_endtag(self, tag):
+        if tag == "a":
+            self.active_link = None
 
     def handle_data(self, text):
         self.text.append(text)
@@ -84,8 +94,13 @@ def check(base, source):
     index = (source / "index.qmd").read_text(encoding="utf-8")
     profiles = re.search(r'<div class="profile-links"[^>]*>(.*?)</div>', index, flags=re.S)
     require(profiles is not None, "Professional profiles are missing from the source homepage")
-    for link in Page(profiles.group(1)).links:
+    source_profiles = Page(profiles.group(1))
+    for link in source_profiles.links:
         require(link in home.links, f"Homepage profile link is missing: {link}")
+        if link in source_profiles.profile_icons:
+            require(link in home.profile_icons, f"Homepage profile icon is missing: {link}")
+    if "intro-biography" in Page(index).classes:
+        require("intro-biography" in home.classes, "The public homepage is missing the biography alignment structure")
 
     data = json.loads((source / "data/publications.json").read_text(encoding="utf-8"))
     expected = {"https://doi.org/" + item["doi"] for item in data["published"]}
