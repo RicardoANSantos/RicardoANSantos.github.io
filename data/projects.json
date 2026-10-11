@@ -79,7 +79,7 @@
       "photo_credit_url": "https://filipepatrocinio.com/",
       "photo_source_url": "https://content.nationalgeographic.pt/medio/import/attachment/revistas/265/GrandeAngular/l1.png",
       "photo_position": "50% 70%",
-      "contribution": "My contributions include modern leaf-wax calibration, reconstructions of climate and vegetation over the last 2,000 years, and collaborative studies of deglaciation, dust inputs, and lake-sediment geochemistry.",
+      "contribution": "I began by characterising the leaf-wax n-alkane distributions and isotopic signatures of dominant plants, soil, and surface sediment around the lake. This calibration identified the δ²H of the C₂₉ n-alkane as a robust indicator of terrestrial hydrology in Lake Peixão sediments and established a baseline for interpreting leaf-wax records in western Iberia.\n\nI then applied these proxies downcore to reconstruct vegetation and hydroclimate over the last 2,000 years. The record documents shifts in Atlantic and Mediterranean climate influences through the Medieval Climate Anomaly and the Little Ice Age, linking vegetation change to large-scale atmospheric dynamics.\n\nI also contributed to multi-proxy studies of the core’s chronology, deglaciation, and Saharan dust and sea-salt inputs since the Late Glacial.",
       "gallery": [
         {
           "image": "assets/projects/holmodrive-peixao-landscape.jpg",
@@ -101,7 +101,8 @@
           "alt": "Researchers in laboratory coats examining sediment samples beside an opened sediment core.",
           "caption": "Working with the sediment archive in the laboratory"
         }
-      ]
+      ],
+      "overview_text": "During my time at IPMA and the University of Lisbon, I worked on Lake Peixão, a small glacial lake at around 1,700 m in Serra da Estrela. Its position between Atlantic and Mediterranean climate influences makes its sediments a sensitive archive of environmental change in western Iberia.\n\nI led the organic geochemistry work on the PEX19-01 sediment core, analysing leaf-wax n-alkanes and their compound-specific δ²H and δ¹³C values."
     }
   ]
 }

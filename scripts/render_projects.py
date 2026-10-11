@@ -164,6 +164,9 @@ def page_text(project, bibliography):
         f'<p class="project-lead">{escape(project["summary"])}</p>',
         f'<dl class="project-facts">{facts_html}</dl>',
         f'<p><a class="project-more" href="{escape(project["project_url"], quote=True)}">Project website <span aria-hidden="true">↗</span></a></p>',
+        *(['<div class="project-overview-notes">'
+           + "".join(f'<p>{escape(paragraph)}</p>' for paragraph in project["overview_text"].split("\n\n"))
+           + '</div>'] if project.get("overview_text") else []),
         '</div>',
         photo_html(project, "../", caption=True),
         '</section>',
