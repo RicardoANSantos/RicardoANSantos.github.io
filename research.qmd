@@ -60,7 +60,7 @@ A central challenge is separating climatic signals from changes in the plants an
 <h3><a href="projects/holmodrive.html">HOLMODRIVE · Lake Peixão</a></h3>
 <p>Reading the Lake Peixão sediment archive to understand climate, vegetation, and environmental change in western Iberia.</p>
 <p class="project-phase">North Atlantic climate · Western Iberia</p>
-<p class="project-photo-credit">Photograph: <a href="https://www.facebook.com/filipepatrocinio">Filipe Patrocínio</a></p>
+<p class="project-photo-credit">Photograph: <a href="https://filipepatrocinio.com/">Filipe Patrocínio</a></p>
 <a class="project-more" href="projects/holmodrive.html">Explore project <span aria-hidden="true">→</span></a>
 </div>
 </article>

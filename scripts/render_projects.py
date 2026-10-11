@@ -5,7 +5,7 @@ from pathlib import Path
 import json
 import re
 
-from render_publications import authors_html, outreach_credit_html
+from render_publications import authors_html, outreach_credit_html, outreach_image_html
 
 ROOT = Path(__file__).resolve().parents[1]
 CAMERA = '<svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>'
@@ -94,6 +94,7 @@ def outreach_html(item):
         outlet += " · " + escape(item["language"])
     lines = [
         '<article class="publication">',
+        *([outreach_image_html(item, "../")] if item.get("image") else []),
         f'<h3><a href="{url}">{escape(item["title"])}</a></h3>',
         f'<p class="journal"><em>{outlet}</em></p>',
         f'<p class="authors">{escape(item["description"])}</p>',

@@ -109,13 +109,19 @@ def check(base, source):
             outreach[url]["credit_url"] for url in project.get("outreach_urls", [])
             if outreach[url].get("credit_url")
         )
+        for url in project.get("outreach_urls", []):
+            if outreach[url].get("image"):
+                require(any(urlsplit(src).path.endswith(outreach[url]["image"]) for src in page.images), f"{name}: outreach image is missing")
         for link in project_links:
             require(link in page.links, f"{name}: public project link is missing: {link}")
 
     for item in data.get("outreach", []):
+        if item.get("image"):
+            require(any(urlsplit(src).path.endswith(item["image"]) for src in pages["publications.html"].images), "Outreach image is missing")
         if item.get("credit_url"):
             require(item["credit_url"] in pages["publications.html"].links, "Outreach author credit is missing")
     assets = {"styles.css", "assets/Ricardo_CV.pdf"}
+    assets.update(item["image"] for item in data.get("outreach", []) if item.get("image"))
     assets.update(project["photo"] for project in projects if project.get("photo"))
     assets.update(path for path in Page(index).images if path.startswith("assets/"))
     for path in sorted(assets):
