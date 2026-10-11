@@ -77,7 +77,8 @@ Research papers and outreach on lipid biomarkers, paleohydroclimate, vegetation,
 <p class="doi"><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">Read feature ↗</a></p>
 </div>
 </article>
-<article class="publication outreach-item">
+<article class="publication outreach-item outreach-item--with-image">
+<figure class="outreach-image"><a href="https://youtu.be/WWDSYIWuOYk" class="outreach-video-link" aria-label="Watch Lake Peixão project video on YouTube"><img src="assets/outreach/lake-peixao-video-thumbnail.jpg" alt="Preview of the Lake Peixão project video: lipid biomarker extraction in the laboratory." loading="lazy" decoding="async"><span class="outreach-play" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M7 4v16l14-8z"/></svg></span></a></figure>
 <div class="outreach-copy">
 <h3><a href="https://youtu.be/WWDSYIWuOYk">Lake Peixão project video</a></h3>
 <p class="journal"><em>YouTube</em></p>

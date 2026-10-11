@@ -80,7 +80,9 @@
       "url": "https://youtu.be/WWDSYIWuOYk",
       "description": "A video I made while working on the HOLMODRIVE project at Lake Peixão.",
       "link_label": "Watch on YouTube",
-      "youtube_id": "WWDSYIWuOYk"
+      "youtube_id": "WWDSYIWuOYk",
+      "image": "assets/outreach/lake-peixao-video-thumbnail.jpg",
+      "image_alt": "Preview of the Lake Peixão project video: lipid biomarker extraction in the laboratory."
     }
   ]
 }

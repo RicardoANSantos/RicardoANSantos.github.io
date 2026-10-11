@@ -102,7 +102,7 @@ def outreach_html(item):
         *([outreach_credit_html(item)] if item.get("credit_name") else []),
         f'<p class="doi"><a href="{url}">{escape(item.get("link_label", "Read more"))} ↗</a></p>',
     ]
-    if item.get("youtube_id"):
+    if item.get("youtube_id") and not item.get("image"):
         video_id = item["youtube_id"]
         if not re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id):
             raise ValueError(f"Invalid YouTube video ID: {video_id}")
