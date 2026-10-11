@@ -42,6 +42,17 @@ Read more about [the Eawag team’s research](https://memeland.no/en/Team/eawag.
 
 Biomarker records will be integrated with hyperspectral imaging and geochemical and chronological data from the University of Salzburg team. Together with archaeobotany, sedimentary DNA, and socio-environmental modelling, these records will help compare medieval agricultural practices across Europe.
 
+## Funding {#funding}
+
+```{=html}
+<dl class="project-facts project-funding">
+<div><dt>Funder</dt><dd>European Research Council (ERC)</dd></div>
+<div><dt>Award</dt><dd>ERC Synergy Grant, Horizon Europe</dd></div>
+<div><dt>Grant</dt><dd><a href="https://cordis.europa.eu/project/id/101166850">101166850</a></dd></div>
+<div><dt>Start date</dt><dd>1 July 2025</dd></div>
+</dl>
+```
+
 ::: {.project-page-links}
 [← Ongoing projects](../research.qmd#ongoing-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)
 :::

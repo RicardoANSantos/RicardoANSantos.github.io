@@ -20,10 +20,14 @@ class Page(HTMLParser):
         self.publication_dois = []
         self.images = set()
         self.classes = set()
+        self.ids = set()
+        self.text = []
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if attrs.get("id"):
+            self.ids.add(attrs["id"])
         if tag == "article" and attrs.get("data-doi"):
             self.publication_dois.append(attrs["data-doi"])
         self.classes.update(attrs.get("class", "").split())
@@ -34,6 +38,10 @@ class Page(HTMLParser):
                 self.links.add(attrs[key])
         if tag == "img" and attrs.get("src"):
             self.images.add(attrs["src"])
+
+
+    def handle_data(self, text):
+        self.text.append(text)
 
 
 def fetch(base, path):
@@ -115,6 +123,11 @@ def check(base, source):
         for url in project.get("outreach_urls", []):
             if outreach[url].get("image"):
                 require(any(urlsplit(src).path.endswith(outreach[url]["image"]) for src in page.images), f"{name}: outreach image is missing")
+        if project.get("funding"):
+            funding = project["funding"]
+            require("funding" in page.ids, f"{name}: public funding section is missing")
+            require(funding["grant_number"] in " ".join(page.text), f"{name}: public funding grant number is missing")
+            project_links.add(funding["source_url"])
         for link in project_links:
             require(link in page.links, f"{name}: public project link is missing: {link}")
 
@@ -131,7 +144,7 @@ def check(base, source):
     for path in sorted(assets):
         require(fetch(base, path) == (source / path).read_bytes(), f"Public asset differs from the source: {path}")
 
-    print(f"Verified the public Quarto website: {len(pages)} pages, {len(projects)} main projects and their chronological paper lists, professional profiles, {len(expected)} publication/outreach links, and {len(assets)} matching assets.")
+    print(f"Verified the public Quarto website: {len(pages)} pages, {len(projects)} main projects and their chronological paper lists and funding acknowledgments, professional profiles, {len(expected)} publication/outreach links, and {len(assets)} matching assets.")
 
 
 def main():

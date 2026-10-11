@@ -16,6 +16,7 @@ class Page(HTMLParser):
         self.links, self.ids, self.images, self.titles = [], set(), [], []
         self.title_active = False
         self.publication_dois = []
+        self.text = []
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
@@ -37,6 +38,7 @@ class Page(HTMLParser):
             self.title_active = False
 
     def handle_data(self, text):
+        self.text.append(text)
         if self.title_active:
             self.titles.append(text)
 
@@ -103,6 +105,11 @@ def main():
         )
         if project.get("project_url"):
             expected_links.add(project["project_url"])
+        if project.get("funding"):
+            funding = project["funding"]
+            if "funding" not in page.ids or funding["grant_number"] not in " ".join(page.text):
+                errors.append(f"{path}: funding section or grant number is missing")
+            expected_links.add(funding["source_url"])
         for link in expected_links:
             if link not in page.links:
                 errors.append(f"{path}: missing project, publication, or outreach link: {link}")

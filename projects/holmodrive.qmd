@@ -131,6 +131,16 @@ Listed from oldest to newest.
 </article>
 ```
 
+## Funding {#funding}
+
+```{=html}
+<dl class="project-facts project-funding">
+<div><dt>Funder</dt><dd>Fundação para a Ciência e a Tecnologia (FCT), Portugal</dd></div>
+<div><dt>Award</dt><dd>HOLMODRIVE: North Atlantic Atmospheric Patterns Influence on Western Iberia Climate: From the Late Glacial to the Present</dd></div>
+<div><dt>Grant</dt><dd><a href="https://holmodrive.rd.ciencias.ulisboa.pt/index.html">PTDC/CTA-GEO/29029/2017</a></dd></div>
+</dl>
+```
+
 ::: {.project-page-links}
 [← Past projects](../research.qmd#past-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)
 :::

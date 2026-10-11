@@ -188,3 +188,26 @@ source, using the existing feature URL. The individual illustrator was not
 verified; do not assign the main photograph's Filipe Patrocínio credit to this
 illustration. The heading is “Project images”, with the existing
 `project-photos` anchor retained.
+
+## Project funding acknowledgments
+
+Each main project has a Funding section near the bottom of its detailed page.
+The structured `funding` record in `data/projects.json` supplies the same
+Funder, Award, and Grant fields in that order. `recipient` and `start_date`
+appear when relevant and confirmed. `source_url` links the grant number to
+the official project or funder record. The generator escapes these fields
+and uses the existing project-facts layout.
+
+Ricardo supplied the funding details on 11 October 2026. HOLMODRIVE was funded
+by Fundação para a Ciência e a Tecnologia (FCT), Portugal, under
+`PTDC/CTA-GEO/29029/2017`. ADAPT was funded by an SNSF Eccellenza Professorial
+Fellowship to S. Nemiah Ladd, `PCEFP2_194211`. The SNSF record confirms the
+project and recipient; the project-authored Dryad record uses this full grant
+identifier: https://datadryad.org/dataset/doi%3A10.5061/dryad.nvx0k6f0v.
+MEMELAND is funded by an ERC Synergy Grant under Horizon Europe,
+grant agreement `101166850`, and started on 1 July 2025, as recorded at
+https://cordis.europa.eu/project/id/101166850.
+
+The MEMELAND date is the project's start date, not Ricardo's appointment date.
+Do not extend a project's funding acknowledgment to unrelated work or add
+funders, recipient roles, amounts, or grant dates without confirmation.
