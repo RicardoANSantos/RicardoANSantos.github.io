@@ -165,3 +165,7 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 
 .project-video {margin-top:20px;}
 .project-video iframe {display:block;width:100%;height:auto;aspect-ratio:16/9;border:0;border-radius:3px;}
+
+.project-overview .project-photo img {aspect-ratio:auto;height:auto;}
+.project-photo-credit,.publication .outreach-credit {font-size:.75rem;color:var(--muted);}
+.project-card .project-card-copy p.project-photo-credit {font-size:.75rem;margin:0 0 18px;}

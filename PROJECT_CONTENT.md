@@ -43,3 +43,13 @@ Do not add papers to MEMELAND without a supplied or verified project association
 
 The earlier standalone research-topic pages remain available for existing links.
 They are not additional main-project cards.
+
+## Supplied HOLMODRIVE photograph
+
+The sediment-coring photograph supplied by Ricardo is also published as `l1.png`
+in the National Geographic Portugal article. Its original pixels are stored in
+`assets/projects/holmodrive-peixao-coring.png`. Credit Filipe Patrocínio on the
+Research card and project page, with the supplied profile link. The project-page
+image preserves the full portrait; the overview card uses a crop centered at 70%.
+The National Geographic entry credits Filipe for text and photography.
+The separate branded article-cover image is awaiting an accessible original.

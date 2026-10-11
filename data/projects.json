@@ -47,9 +47,9 @@
     {
       "period": null,
       "role": null,
-      "photo": null,
-      "photo_alt": null,
-      "photo_caption": null,
+      "photo": "assets/projects/holmodrive-peixao-coring.png",
+      "photo_alt": "Researchers collecting sediment cores from a floating platform on Lake Peixão, Serra da Estrela, Portugal.",
+      "photo_caption": "Sediment coring at Lake Peixão, Serra da Estrela, Portugal.",
       "slug": "holmodrive",
       "title": "HOLMODRIVE · Lake Peixão",
       "group": "past",
@@ -70,7 +70,11 @@
       "outreach_urls": [
         "https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781",
         "https://youtu.be/WWDSYIWuOYk"
-      ]
+      ],
+      "photo_credit": "Filipe Patrocínio",
+      "photo_credit_url": "https://www.facebook.com/filipepatrocinio",
+      "photo_source_url": "https://content.nationalgeographic.pt/medio/import/attachment/revistas/265/GrandeAngular/l1.png",
+      "photo_position": "50% 70%"
     }
   ]
 }

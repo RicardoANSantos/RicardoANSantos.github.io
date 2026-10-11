@@ -100,10 +100,23 @@ def check(base, source):
         )
         if project.get("project_url"):
             project_links.add(project["project_url"])
+        if project.get("photo"):
+            require(any(urlsplit(src).path.endswith(project["photo"]) for src in page.images), f"{name}: project photograph is missing")
+            require(any(urlsplit(src).path.endswith(project["photo"]) for src in pages["research.html"].images), f"{name}: overview photograph is missing")
+            if project.get("photo_credit_url"):
+                project_links.add(project["photo_credit_url"])
+        project_links.update(
+            outreach[url]["credit_url"] for url in project.get("outreach_urls", [])
+            if outreach[url].get("credit_url")
+        )
         for link in project_links:
             require(link in page.links, f"{name}: public project link is missing: {link}")
 
+    for item in data.get("outreach", []):
+        if item.get("credit_url"):
+            require(item["credit_url"] in pages["publications.html"].links, "Outreach author credit is missing")
     assets = {"styles.css", "assets/Ricardo_CV.pdf"}
+    assets.update(project["photo"] for project in projects if project.get("photo"))
     assets.update(path for path in Page(index).images if path.startswith("assets/"))
     for path in sorted(assets):
         require(fetch(base, path) == (source / path).read_bytes(), f"Public asset differs from the source: {path}")

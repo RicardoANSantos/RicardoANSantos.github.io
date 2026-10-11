@@ -5,7 +5,7 @@ from pathlib import Path
 import json
 import re
 
-from render_publications import authors_html
+from render_publications import authors_html, outreach_credit_html
 
 ROOT = Path(__file__).resolve().parents[1]
 CAMERA = '<svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>'
@@ -16,9 +16,19 @@ def photo_html(project, prefix="", caption=False):
     if project.get("photo"):
         path = escape(prefix + project["photo"], quote=True)
         alt = escape(project["photo_alt"], quote=True)
-        content = f'<img src="{path}" alt="{alt}" loading="lazy" decoding="async">'
-        if caption and project.get("photo_caption"):
-            content += "<figcaption>" + escape(project["photo_caption"]) + "</figcaption>"
+        position = escape(project.get("photo_position", "50% 50%"), quote=True)
+        content = f'<img src="{path}" alt="{alt}" style="object-position:{position}" loading="lazy" decoding="async">'
+        if caption:
+            parts = []
+            if project.get("photo_caption"):
+                parts.append(escape(project["photo_caption"]))
+            if project.get("photo_credit"):
+                credit = escape(project["photo_credit"])
+                if project.get("photo_credit_url"):
+                    credit = f'<a href="{escape(project["photo_credit_url"], quote=True)}">{credit}</a>'
+                parts.append("Photograph: " + credit)
+            if parts:
+                content += "<figcaption>" + " ".join(parts) + "</figcaption>"
     else:
         content = (
             f'<div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for {title}">'
@@ -45,6 +55,7 @@ def card_html(project):
         f'<h3><a href="{url}">{title}</a></h3>',
         f'<p>{escape(project["summary"])}</p>',
         f'<p class="project-phase">{phase}</p>',
+        *([f'<p class="project-photo-credit">Photograph: <a href="{escape(project["photo_credit_url"], quote=True)}">{escape(project["photo_credit"])}</a></p>'] if project.get("photo_credit") and project.get("photo_credit_url") else []),
         f'<a class="project-more" href="{url}">Explore project <span aria-hidden="true">→</span></a>',
         '</div>',
         '</article>',
@@ -86,6 +97,7 @@ def outreach_html(item):
         f'<h3><a href="{url}">{escape(item["title"])}</a></h3>',
         f'<p class="journal"><em>{outlet}</em></p>',
         f'<p class="authors">{escape(item["description"])}</p>',
+        *([outreach_credit_html(item)] if item.get("credit_name") else []),
         f'<p class="doi"><a href="{url}">{escape(item.get("link_label", "Read more"))} ↗</a></p>',
     ]
     if item.get("youtube_id"):

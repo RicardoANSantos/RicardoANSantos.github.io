@@ -13,7 +13,7 @@ body-classes: project-page
 <dl class="project-facts"><div><dt>Focus</dt><dd>North Atlantic climate · Western Iberia</dd></div></dl>
 <p><a class="project-more" href="https://holmodrive.rd.ciencias.ulisboa.pt/index.html">Project website <span aria-hidden="true">↗</span></a></p>
 </div>
-<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for HOLMODRIVE · Lake Peixão"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+<figure class="project-photo"><img src="../assets/projects/holmodrive-peixao-coring.png" alt="Researchers collecting sediment cores from a floating platform on Lake Peixão, Serra da Estrela, Portugal." style="object-position:50% 70%" loading="lazy" decoding="async"><figcaption>Sediment coring at Lake Peixão, Serra da Estrela, Portugal. Photograph: <a href="https://www.facebook.com/filipepatrocinio">Filipe Patrocínio</a></figcaption></figure>
 </section>
 ```
 
@@ -75,6 +75,7 @@ Listed from oldest to newest.
 <h3><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">O tempo preso na lagoa do Peixão, na Serra da Estrela</a></h3>
 <p class="journal"><em>National Geographic Portugal · Portuguese</em></p>
 <p class="authors">Outreach on our research at Lagoa do Peixão in Serra da Estrela, Portugal.</p>
+<p class="outreach-credit">Text and photography: <a href="https://www.facebook.com/filipepatrocinio">Filipe Patrocínio</a></p>
 <p class="doi"><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">Read feature ↗</a></p>
 </article>
 <article class="publication">
