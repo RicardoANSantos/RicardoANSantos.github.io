@@ -45,15 +45,25 @@ def gallery_html(project):
     for photo in project.get("gallery", []):
         path = escape("../" + photo["image"], quote=True)
         alt = escape(photo["alt"], quote=True)
+        is_illustration = photo.get("kind") == "illustration"
+        label = "illustration" if is_illustration else "photograph"
+        figure_class = "project-gallery-photo"
+        if photo.get("layout") == "wide":
+            figure_class += " project-gallery-photo--wide"
         caption = [escape(photo["caption"])] if photo.get("caption") else []
         if photo.get("credit_name"):
             credit = escape(photo["credit_name"])
             if photo.get("credit_url"):
                 credit = f'<a href="{escape(photo["credit_url"], quote=True)}">{credit}</a>'
-            caption.append("Photograph: " + credit)
+            caption.append(("Illustration: " if is_illustration else "Photograph: ") + credit)
+        if photo.get("source_name") and photo.get("source_url"):
+            caption.append(
+                f'Source: <a href="{escape(photo["source_url"], quote=True)}">'
+                + escape(photo["source_name"]) + '</a>'
+            )
         figures.append("\n".join([
-            '<figure class="project-gallery-photo">',
-            f'<a class="project-gallery-link" href="{path}" aria-label="Open full photograph: {alt}"><img src="{path}" alt="{alt}" loading="lazy" decoding="async"></a>',
+            f'<figure class="{figure_class}">',
+            f'<a class="project-gallery-link" href="{path}" aria-label="Open full {label}: {alt}"><img src="{path}" alt="{alt}" loading="lazy" decoding="async"></a>',
             *(['<figcaption>' + " ".join(caption) + '</figcaption>'] if caption else []),
             '</figure>',
         ]))
@@ -184,7 +194,7 @@ def page_text(project, bibliography):
     ])
     if project.get("gallery"):
         lines.extend([
-            '## Project photos', '', 'Select a photo to view it in full.', '',
+            '## Project images {#project-photos}', '', 'Select an image to view it in full.', '',
             '```{=html}', gallery_html(project), '```', '',
         ])
     papers = project_papers(project, bibliography)

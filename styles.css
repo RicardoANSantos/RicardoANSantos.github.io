@@ -213,3 +213,7 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 
 .project-overview-notes {font-size:.9rem;line-height:1.75;margin-top:22px;}
 .project-overview-notes p:last-child {margin-bottom:0;}
+
+.project-gallery-photo--wide {grid-column:1/-1;}
+.project-gallery-photo--wide .project-gallery-link {background:#fff;}
+.project-gallery-photo--wide img {aspect-ratio:auto;height:auto;}
