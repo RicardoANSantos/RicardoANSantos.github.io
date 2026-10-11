@@ -1,0 +1,47 @@
+name: Import source data for Peixao illustration
+on:
+  push:
+    branches: [peixao-national-geographic-figure-20261011]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Prepare image inspection
+        run: python3 -m pip install --quiet Pillow
+      - name: Read public illustration and article credit
+        run: |
+          python3 - <<'PY'
+          from urllib.request import Request, urlopen
+          from PIL import Image
+          from html import unescape
+          from io import BytesIO
+          import base64, hashlib, json, re
+          image_url = "https://content.nationalgeographic.pt/medio/import/attachment/revistas/265/GrandeAngular/l3.png"
+          request = Request(image_url, headers={"User-Agent": "Ricardo-Santos-Website-Asset-Import"})
+          with urlopen(request, timeout=30) as response:
+              data = response.read()
+          with Image.open(BytesIO(data)) as original:
+              original.verify()
+          with Image.open(BytesIO(data)) as original:
+              print("ILLUSTRATION_METADATA " + json.dumps({"format": original.format, "size": original.size, "bytes": len(data), "sha256": hashlib.sha256(data).hexdigest()}))
+              preview = original.convert("RGB")
+              preview.thumbnail((800, 400))
+              buffer = BytesIO()
+              preview.save(buffer, format="JPEG", quality=85)
+              print("ILLUSTRATION_PREVIEW " + base64.b64encode(buffer.getvalue()).decode("ascii"))
+          print("ILLUSTRATION_BASE64 " + base64.b64encode(data).decode("ascii"))
+          article_url = "https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781"
+          try:
+              request = Request(article_url, headers={"User-Agent": "Ricardo-Santos-Website-Asset-Import"})
+              with urlopen(request, timeout=30) as response:
+                  html = response.read().decode("utf-8")
+              for match in re.finditer(r"(?:l3\\.png|ilustra|infograf|desenho)", html, flags=re.I):
+                  snippet = html[max(0, match.start()-700):match.end()+1800]
+                  text = unescape(re.sub(r"<[^>]+>", " ", snippet))
+                  print("ARTICLE_CREDIT_CONTEXT " + json.dumps(" ".join(text.split())))
+          except Exception as error:
+              print("ARTICLE_CREDIT_UNAVAILABLE " + str(error))
+          PY
