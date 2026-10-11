@@ -123,9 +123,14 @@ def check(base, source):
         )
         if project.get("project_url"):
             project_links.add(project["project_url"])
+        visible_text = re.sub(r"\s+", " ", "".join(page.text)).strip()
+        expected_question = re.sub(r"\s+", " ", project["question"]).strip()
+        require(expected_question in visible_text, f"{name}: public research question is missing or outdated")
+        require(project["location"] in visible_text, f"{name}: public project location is missing or outdated")
+        overview_text = re.sub(r"\s+", " ", "".join(pages["research.html"].text)).strip()
+        require(project["location"] in overview_text, f"{name}: public Research card location is missing or outdated")
         project_links.update(item["url"] for item in project.get("overview_links", []))
         if project.get("overview_text"):
-            visible_text = re.sub(r"\s+", " ", "".join(page.text)).strip()
             for paragraph in project["overview_text"].split("\n\n"):
                 expected_text = re.sub(r"\s+", " ", paragraph).strip()
                 require(expected_text in visible_text, f"{name}: public project overview text is missing or outdated")

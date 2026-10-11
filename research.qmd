@@ -36,7 +36,7 @@ A central challenge is separating climatic signals from changes in the plants an
 <figure class="project-photo"><img src="assets/projects/adapt-rotsee.jpg" alt="Lake Rotsee in Switzerland at sunset, with trees overhead and a Rotsee nature-reserve sign beside the shore." style="object-position:50% 50%" loading="lazy" decoding="async"></figure>
 </a>
 <div class="project-card-copy">
-<p class="eyebrow">Switzerland · USA</p>
+<p class="eyebrow">Temperate lakes · Germany · Switzerland · USA</p>
 <h3><a href="projects/adapt.html">ADAPT</a></h3>
 <p>Using lipid biomarkers and sedimentary DNA to understand how lake algal communities respond to natural change and human activity.</p>
 <p class="project-phase">Lake ecology · Hydroclimate</p>
