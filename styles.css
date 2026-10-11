@@ -231,3 +231,8 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .cv-peer-review p:first-child {color:var(--accent);margin-bottom:8px;}
 .cv-peer-review p:last-child {margin-bottom:0;}
 @media(max-width:720px) {.cv-role-summary {font-size:.8rem;}.cv-peer-review {padding:18px 20px;}}
+
+/* Conference title, author list, and presentation type */
+.cv-conference-meta {display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 18px;color:var(--accent);font-size:.78rem;line-height:1.6;margin-bottom:10px;}
+.cv-conference-type {display:inline-block;flex:none;border:1px solid var(--line);border-radius:2px;background:var(--wash);padding:2px 8px;font-size:.7rem;font-weight:600;}
+.cv-conference .authors {margin-bottom:0;}

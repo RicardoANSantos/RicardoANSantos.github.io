@@ -117,13 +117,39 @@ Geology and Natural Resources.
 
 ## Selected conference contributions
 
-| Year | Meeting | Contribution |
-|:--|:--|:--|
-| 2025 | IMOG, Porto | Oral presentation on vegetation-corrected precipitation δ²H reconstructions |
-| 2025 | Urbino Summer School in Paleoclimatology | Oral presentation and poster on plant-wax vegetation biases |
-| 2025 | EGU General Assembly, Vienna | Oral presentation on vegetation and hydroclimate effects on plant-wax isotopes |
-| 2024 | EGU General Assembly, Vienna | Poster on charophyte and submerged vascular macrophyte biomarkers |
-| 2024 | Swiss Geoscience Meeting, Basel | Poster on plant-wax isotope dynamics in central Switzerland |
-| 2023 | Goldschmidt, Lyon | Poster on vegetation effects on leaf-wax isotopes |
+```{=html}
+<div class="cv-conferences">
+<article class="publication cv-conference">
+<p class="cv-conference-meta"><span>IMOG · Porto · 2025</span><span class="cv-conference-type">Oral presentation</span></p>
+<h3>Reconstructing Past Precipitation δ²H Values in a Small Swiss Lake: A Vegetation-Corrected Approach using Plant Wax Isotopes</h3>
+<p class="authors"><strong>Ricardo N. Santos</strong>, Antonia Klatt, Daniel B. Nelson, Carsten J. Schubert, Nathalie Dubois, Cindy De Jonge, S. Nemiah Ladd</p>
+</article>
+<article class="publication cv-conference">
+<p class="cv-conference-meta"><span>Urbino Summer School in Paleoclimatology · Urbino · 2025</span><span class="cv-conference-type">Oral presentation &amp; poster</span></p>
+<h3>Reconstructing precipitation δ²H values since the Younger Dryas in Central Switzerland: Correcting vegetation biases in plant-wax records</h3>
+<p class="authors"><strong>Ricardo N. Santos</strong>, Antonia Klatt, Daniel B. Nelson, Carsten J. Schubert, Nathalie Dubois, Cindy De Jonge, S. Nemiah Ladd</p>
+</article>
+<article class="publication cv-conference">
+<p class="cv-conference-meta"><span>EGU General Assembly · Vienna · 2025</span><span class="cv-conference-type">Oral presentation</span></p>
+<h3>Disentangling the impact of vegetation and hydroclimate dynamics on plant wax stable isotopes since the Younger Dryas in Central Switzerland</h3>
+<p class="authors"><strong>Ricardo N. Santos</strong>, Antonia Klatt, Daniel B. Nelson, Fatemeh Ajallooeian, Carsten J. Schubert, Nathalie Dubois, Cindy De Jonge, S. Nemiah Ladd</p>
+</article>
+<article class="publication cv-conference">
+<p class="cv-conference-meta"><span>EGU General Assembly · Vienna · 2024</span><span class="cv-conference-type">Poster</span></p>
+<h3>Comparison of lipid biomarkers and their hydrogen isotopic values in submerged vascular macrophytes and charophytes</h3>
+<p class="authors"><strong>R. N. Santos</strong>, B. Aichner, D. B. Nelson, S. Hilt, S. Nemiah Ladd</p>
+</article>
+<article class="publication cv-conference">
+<p class="cv-conference-meta"><span>22nd Swiss Geoscience Meeting · Basel · 2024</span><span class="cv-conference-type">Poster</span></p>
+<h3>Impact of vegetation and hydroclimate dynamics on plant wax stable isotopes since the Younger Dryas in Central Switzerland</h3>
+<p class="authors"><strong>Ricardo N. Santos</strong>, Antonia Klatt, Daniel B. Nelson, Fatemeh Ajallooeian, Carsten J. Schubert, Nathalie Dubois, Cindy De Jonge, S. Nemiah Ladd</p>
+</article>
+<article class="publication cv-conference">
+<p class="cv-conference-meta"><span>Goldschmidt · Lyon · 2023</span><span class="cv-conference-type">Poster</span></p>
+<h3>Impact of Vegetation Dynamics on Leaf Wax Stable Isotopes Since the Younger Dryas in Central Switzerland</h3>
+<p class="authors"><strong>Ricardo N. Santos</strong>, Antonia Klatt, Daniel B. Nelson, Fatemeh Ajallooeian, Carsten J. Schubert, Nathalie Dubois, Cindy De Jonge, S. Nemiah Ladd</p>
+</article>
+</div>
+```
 
 The October 2026 PDF contains the full record of publications, conference contributions, scholarships, and service. [View publications →](publications.qmd)
