@@ -83,6 +83,28 @@
       "youtube_id": "WWDSYIWuOYk",
       "image": "assets/outreach/lake-peixao-video-thumbnail.jpg",
       "image_alt": "Preview of the Lake Peixão project video: lipid biomarker extraction in the laboratory."
+    },
+    {
+      "title": "A glimpse into the INTIMATE Summer School 2022",
+      "outlet": "EGU Climate blog · 2022",
+      "url": "https://blogs.egu.eu/divisions/cl/2022/11/21/a-glimpse-into-the-intimates-summer-school-of-2022/",
+      "recognition": "EGU Best Blog Post Award · Public vote",
+      "description": "Reflections on paleoclimate research, sediment fieldwork, and collaboration at the INTIMATE Summer School in Finland.",
+      "link_label": "Read blog post",
+      "credit_label": "Photograph",
+      "credit_name": "Francesco Muschitiello",
+      "image": "assets/outreach/intimate-summer-school-2022-group.webp",
+      "image_alt": "INTIMATE Summer School 2022 participants holding the INTIMATE banner beside the water at Kokkila, Finland."
+    },
+    {
+      "title": "INTIMATE Summer School 2022 highlights",
+      "outlet": "YouTube",
+      "url": "https://www.youtube.com/watch?v=2F66bkFZ7iA",
+      "description": "Highlights from the INTIMATE Summer School 2022 in Finland.",
+      "link_label": "Watch on YouTube",
+      "youtube_id": "2F66bkFZ7iA",
+      "image": "assets/outreach/intimate-summer-school-2022-video-thumbnail.jpg",
+      "image_alt": "Preview of the INTIMATE Summer School 2022 highlights video, showing participants examining a sediment core."
     }
   ]
 }

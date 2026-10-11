@@ -171,6 +171,7 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .project-card .project-card-copy p.project-photo-credit {font-size:.75rem;margin:0 0 18px;}
 
 .publication.outreach-item--with-image {display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:26px;align-items:start;}
+.publication .outreach-award {font-size:.82rem;color:var(--accent);}
 .publication .outreach-image {max-width:none;margin:0;}
 .publication .outreach-image a {display:block;}
 .publication .outreach-image img {display:block;width:100%;height:auto;border-radius:3px;}

@@ -92,6 +92,7 @@ def main():
                 '<div class="outreach-copy">',
                 f'<h3><a href="{url}">{escape(item["title"])}</a></h3>',
                 f'<p class="journal"><em>{outlet}</em></p>',
+                *([f'<p class="outreach-award"><strong>{escape(item["recognition"])}</strong></p>'] if item.get("recognition") else []),
                 f'<p class="authors">{escape(item["description"])}</p>',
                 *([outreach_credit_html(item)] if item.get("credit_name") else []),
                 f'<p class="doi"><a href="{url}">{escape(item.get("link_label", "Read more"))} ↗</a></p>',
