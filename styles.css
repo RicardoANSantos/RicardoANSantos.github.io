@@ -52,7 +52,8 @@ main.content {display:block!important;max-width:none;margin:0;padding-top:52px;p
 .section-heading .eyebrow {margin-bottom:8px;}
 .focus-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;}
 .focus-grid>div {min-width:0;}
-.focus-number {font-family:Georgia,serif;font-size:.9rem;color:#8b9d90;}
+.focus-icon {display:block;width:32px;height:32px;color:var(--accent);}
+.focus-icon svg {display:block;}
 .focus-grid h3 {font-size:1.34rem;margin:9px 0 12px;}
 .focus-grid p {font-size:.86rem;color:var(--muted);line-height:1.75;}
 .selected-work {border-top:1px solid var(--line);padding:37px 0 20px;}
