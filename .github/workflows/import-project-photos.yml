@@ -1,0 +1,45 @@
+name: Inspect published project photographs
+on:
+  push:
+    branches: [photos-holmodrive-20261011]
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        photo: [l4, l1, l2]
+    steps:
+      - name: Install image inspection dependency
+        run: python3 -m pip install Pillow
+      - name: Retrieve public photograph for website preparation
+        env:
+          PHOTO_NAME: ${{ matrix.photo }}
+        run: |
+          python3 - <<'PY'
+          from io import BytesIO
+          from PIL import Image
+          from urllib.request import Request, urlopen
+          import base64
+          import json
+          import os
+
+          name = os.environ["PHOTO_NAME"]
+          if name not in {"l4", "l1", "l2"}:
+              raise ValueError("Unexpected source")
+          source = "https://content.nationalgeographic.pt/medio/import/attachment/revistas/265/GrandeAngular/" + name + ".png"
+          with urlopen(Request(source, headers={"User-Agent": "Mozilla/5.0"}), timeout=30) as response:
+              data = response.read(15000001)
+          if len(data) > 15000000:
+              raise ValueError("Unexpected oversized image")
+          image = Image.open(BytesIO(data))
+          if image.format != "PNG":
+              raise ValueError("Unexpected image format")
+          print("PHOTO_METADATA " + json.dumps({"name": name, "source": source, "size": list(image.size), "bytes": len(data)}), flush=True)
+          image.thumbnail((480, 480))
+          preview = BytesIO()
+          image.convert("RGB").save(preview, format="JPEG", quality=85)
+          print("PHOTO_PREVIEW " + base64.b64encode(preview.getvalue()).decode("ascii"), flush=True)
+          print("PHOTO_ORIGINAL " + base64.b64encode(data).decode("ascii"), flush=True)
+          PY
