@@ -51,6 +51,17 @@ Our lake studies span Switzerland and the USA.
 </article>
 ```
 
+## Funding {#funding}
+
+```{=html}
+<dl class="project-facts project-funding">
+<div><dt>Funder</dt><dd>Swiss National Science Foundation (SNSF)</dd></div>
+<div><dt>Award</dt><dd>Eccellenza Professorial Fellowship</dd></div>
+<div><dt>Grant</dt><dd><a href="https://data.snf.ch/grants/grant/194211">PCEFP2_194211</a></dd></div>
+<div><dt>Recipient</dt><dd>S. Nemiah Ladd</dd></div>
+</dl>
+```
+
 ::: {.project-page-links}
 [← Ongoing projects](../research.qmd#ongoing-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)
 :::

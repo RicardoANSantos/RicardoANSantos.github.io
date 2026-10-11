@@ -149,6 +149,21 @@ def outreach_html(item):
     return "\n".join(lines)
 
 
+def funding_html(funding):
+    rows = [
+        ("Funder", escape(funding["funder"])),
+        ("Award", escape(funding["award"])),
+        ("Grant", f'<a href="{escape(funding["source_url"], quote=True)}">{escape(funding["grant_number"])}</a>'),
+    ]
+    if funding.get("recipient"):
+        rows.append(("Recipient", escape(funding["recipient"])))
+    if funding.get("start_date"):
+        rows.append(("Start date", escape(funding["start_date"])))
+    return '<dl class="project-facts project-funding">\n' + "\n".join(
+        f'<div><dt>{label}</dt><dd>{value}</dd></div>' for label, value in rows
+    ) + '\n</dl>'
+
+
 def page_text(project, bibliography):
     group = "Ongoing project" if project["group"] == "ongoing" else "Past project"
     anchor = "ongoing-projects" if project["group"] == "ongoing" else "past-projects"
@@ -210,6 +225,11 @@ def page_text(project, bibliography):
         lines.extend(['## Outreach {.outreach}', '', '```{=html}'])
         lines.extend(outreach_html(outreach[url]) for url in project["outreach_urls"])
         lines.extend(['```', ''])
+    if project.get("funding"):
+        lines.extend([
+            '## Funding {#funding}', '', '```{=html}',
+            funding_html(project["funding"]), '```', '',
+        ])
     lines.extend([
         '::: {.project-page-links}',
         f'[← {group}s](../research.qmd#{anchor}) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)',
@@ -234,6 +254,12 @@ def main():
             raise ValueError(f"Invalid project group: {slug}")
         if not project.get("project_url", "").startswith("https://"):
             raise ValueError(f"Missing HTTPS project website: {slug}")
+        if project.get("funding"):
+            funding = project["funding"]
+            if not all(funding.get(key) for key in ("funder", "award", "grant_number", "source_url")):
+                raise ValueError(f"Incomplete funding acknowledgment: {slug}")
+            if not funding["source_url"].startswith("https://"):
+                raise ValueError(f"Funding source must use HTTPS: {slug}")
         dois = project.get("publication_dois", [])
         urls = project.get("outreach_urls", [])
         if len(dois) != len(set(dois)) or not set(dois) <= known_dois:
