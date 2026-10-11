@@ -52,17 +52,14 @@ in the National Geographic Portugal article. Its original pixels are stored in
 Research card and project page, with his website link, https://filipepatrocinio.com/. The project-page
 image preserves the full portrait; the overview card uses a crop centered at 70%.
 The National Geographic entry credits Filipe for text and photography.
-The separate branded article-cover image is awaiting an accessible original.
-On 11 October Ricardo requested it beside the National Geographic title and text in Outreach
-and changed all Filipe credits to https://filipepatrocinio.com/.
-The outreach renderer supports `image` and `image_alt` in the bibliography.
-It shows the full uncropped image beside the title and text on Publications & outreach
-and the HOLMODRIVE page, linking to the article. It stacks above the text on mobile.
-Once the original is available, upload it as
-`assets/outreach/national-geographic-peixao-cover.jpg` (or `.png` for a PNG),
-then set this outreach record's `image` to that path and rerender.
-The image is deliberately null until the actual original is committed.
-Do not substitute a different photograph or synthesize a replica.
+Ricardo uploaded the separate branded National Geographic cover in commit
+`aa66d219a3982a66a694d1ff3a3d7bbbcd69da42` on 11 October 2026.
+Its original JPEG is stored as `assets/outreach/national-geographic-peixao-cover.jpg`.
+The image retains the full cover, text, and logo and links to the feature.
+The outreach record's `image` and `image_alt` fields produce the same cover
+on Publications & outreach and the HOLMODRIVE page. It appears beside the title
+and text on desktop and above them on mobile.
+Keep the “Text and photography” credit linking to https://filipepatrocinio.com/.
 
 Project pages with real photos use a compact 280 px photograph, keeping the full
 portrait visible and avoiding the tall empty column beside the introduction.
