@@ -43,3 +43,30 @@ jobs:
           print("PHOTO_PREVIEW " + base64.b64encode(preview.getvalue()).decode("ascii"), flush=True)
           print("PHOTO_ORIGINAL " + base64.b64encode(data).decode("ascii"), flush=True)
           PY
+  cover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect article cover metadata
+        run: |
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from urllib.request import Request, urlopen
+          import json
+
+          class Images(HTMLParser):
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag == "meta" and attrs.get("property", attrs.get("name", "")) in {"og:image", "twitter:image", "og:image:secure_url"}:
+                      print("COVER_METADATA " + json.dumps(attrs), flush=True)
+                  if tag == "img":
+                      candidates = {k: v for k, v in attrs.items() if k in {"src", "srcset", "data-src", "data-srcset", "alt"}}
+                      if candidates:
+                          print("ARTICLE_IMAGE " + json.dumps(candidates), flush=True)
+
+          url = "https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781"
+          try:
+              with urlopen(Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=30) as response:
+                  Images().feed(response.read(5000000).decode("utf-8"))
+          except Exception as error:
+              print("COVER_UNAVAILABLE " + str(error), flush=True)
+          PY
