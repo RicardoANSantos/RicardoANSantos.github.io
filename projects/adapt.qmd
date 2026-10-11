@@ -7,7 +7,7 @@ body-classes: project-page
 ```{=html}
 <section class="project-overview project-overview--with-photo" aria-label="Project overview">
 <div class="project-overview-copy">
-<p class="eyebrow">Switzerland · USA</p>
+<p class="eyebrow">Temperate lakes · Germany · Switzerland · USA</p>
 <p class="project-group">Ongoing project</p>
 <p class="project-lead">Using lipid biomarkers and sedimentary DNA to understand how lake algal communities respond to natural change and human activity.</p>
 <dl class="project-facts"><div><dt>Focus</dt><dd>Lake ecology · Hydroclimate</dd></div></dl>
@@ -21,25 +21,28 @@ body-classes: project-page
 ::: {.project-contribution}
 ## My contribution
 
-My work reconstructs the climatic context and investigates how terrestrial and aquatic plant sources influence biomarker signals, including vegetation-corrected plant-wax δ²H records from Lake Rotsee.
+My contribution focuses on distinguishing hydroclimate signals from changes in the plants that supply lipids to lake sediments. I combine modern aquatic-plant calibration in northeastern Germany with vegetation-corrected plant-wax δ²H records from Lake Rotsee in Switzerland and Owasco Lake in New York.
+
+This work tests how source changes affect aquatic biomarker indices and reduces vegetation-related shifts in sedimentary isotope records, helping reconstruct past hydroclimate and provide context for changes in lake ecosystems.
 
 :::
 
 ## Research question
 
-How have natural change and human activity shaped lake algal communities over time?
+How can we distinguish hydroclimate signals from changes in terrestrial and aquatic plant sources in sedimentary lipid records?
 
 ## About the project
 
-ADAPT is a Swiss National Science Foundation project investigating the history of lake algae, whose communities affect water quality, food webs, and the carbon cycle. Lipid biomarkers and sedimentary DNA preserved in sediments provide complementary evidence of past algal occurrence and composition.
+ADAPT (Algal Dynamics and Productivity through Time) is a Swiss National Science Foundation project investigating how lake algal communities respond to natural environmental change and human activity. It combines lipid biomarkers and sedimentary DNA to reconstruct past algal communities and their links to water quality, food webs, and carbon cycling.
 
-Our lake studies span Switzerland and the USA.
+My PhD contribution connects modern calibration studies in northeastern Germany with lake-sediment archives from Switzerland and northeastern North America. It develops ways to account for lipid source changes and reconstruct the climatic context of past ecosystem change.
 
 ## Approach
 
-- **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities.
-- **Past algal dynamics:** Use Swiss lake sediments to investigate 20th-century phosphorus changes, Roman-period effects on water quality, and natural algal variability over the last 10,000 years.
-- **Climate and aquatic vegetation:** Reconstruct local climate and relative macroalgal abundance using plant-wax distributions and compound-specific δ²H and δ¹³C measurements.
+- **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities, and characterise lipid distributions and hydrogen-isotope fractionation in charophytes and submerged vascular plants.
+- **Vegetation-corrected hydroclimate:** Use the relative abundances of long-chain n-alkanes to account for vegetation effects in plant-wax δ²H records from Rotsee and Owasco, and interpret climate change since the last deglaciation alongside other sedimentary evidence.
+- **Past algal dynamics:** Within the wider ADAPT project, use Swiss lake sediments to investigate 20th-century phosphorus changes, Roman-period water-quality impacts, and natural algal variability over the last 10,000 years.
+- **Aquatic sources and vegetation:** Combine lipid distributions, compound-specific δ²H and δ¹³C measurements, and modern calibration data to interpret aquatic biomarker indices and reconstruct changes in macroalgal abundance.
 
 ## Publications
 

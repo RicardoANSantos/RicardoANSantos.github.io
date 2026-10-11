@@ -228,3 +228,21 @@ paragraph breaks, and validates that every label occurs in `overview_text`.
 Prof. Nemiah Ladd links to the user-supplied University of Basel profile:
 https://duw.unibas.ch/en/research-groups/organic-geochemistry/team/ladd/.
 The existing plain-text HOLMODRIVE overview renders identically.
+
+## ADAPT sections aligned with the PhD overview
+
+Ricardo requested alignment of the contribution, research question, project
+description, and approach with his expanded PhD account on 11 October 2026.
+The contribution and research question focus on separating hydroclimate from
+terrestrial and aquatic lipid source changes, naming modern German calibration
+and the vegetation-corrected Rotsee and Owasco records.
+
+The About and Approach sections retain the wider ADAPT project’s algal aims,
+including lipid biomarkers and sedimentary DNA, 20th-century phosphorus changes,
+Roman-period water quality, natural variability over 10,000 years, and macroalgae
+reconstructed using lipid distributions and H/C isotopes. The page distinguishes
+these project aims from Ricardo’s specific PhD contribution.
+
+Ricardo also requested the geographic label to reflect Germany or temperate
+settings. Both the Research card and ADAPT detail page use
+“Temperate lakes · Germany · Switzerland · USA”.

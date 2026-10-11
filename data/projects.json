@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-11",
-  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json. Funding supplied by Ricardo and checked against project, funder, and research sources on 11 October 2026. ADAPT overview expanded from Ricardo's account of his PhD research, supplied on 11 October 2026; the supervisor link was checked against the University of Basel page.",
+  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json. Funding supplied by Ricardo and checked against project, funder, and research sources on 11 October 2026. ADAPT overview expanded from Ricardo's account of his PhD research, supplied on 11 October 2026; the supervisor link was checked against the University of Basel page. ADAPT contribution, research question, project context, and approach aligned with Ricardo's expanded PhD overview on 11 October 2026 while retaining the official project's algal research aims.",
   "introduction": "I use organic molecules to investigate past climate and environmental change. My work combines lipid biomarkers and compound-specific δ²H and δ¹³C measurements with other evidence preserved in lake sediments.",
   "context": "A central challenge is separating climatic signals from changes in the plants and aquatic organisms that produce the molecules we measure. I investigate these source effects through modern calibration studies and sedimentary records.",
   "projects": [
@@ -42,18 +42,18 @@
       "slug": "adapt",
       "title": "ADAPT",
       "group": "ongoing",
-      "location": "Switzerland · USA",
+      "location": "Temperate lakes · Germany · Switzerland · USA",
       "phase": "Lake ecology · Hydroclimate",
       "summary": "Using lipid biomarkers and sedimentary DNA to understand how lake algal communities respond to natural change and human activity.",
-      "question": "How have natural change and human activity shaped lake algal communities over time?",
-      "about": "ADAPT is a Swiss National Science Foundation project investigating the history of lake algae, whose communities affect water quality, food webs, and the carbon cycle. Lipid biomarkers and sedimentary DNA preserved in sediments provide complementary evidence of past algal occurrence and composition.\n\nOur lake studies span Switzerland and the USA.",
-      "approach": "- **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities.\n- **Past algal dynamics:** Use Swiss lake sediments to investigate 20th-century phosphorus changes, Roman-period effects on water quality, and natural algal variability over the last 10,000 years.\n- **Climate and aquatic vegetation:** Reconstruct local climate and relative macroalgal abundance using plant-wax distributions and compound-specific δ²H and δ¹³C measurements.",
+      "question": "How can we distinguish hydroclimate signals from changes in terrestrial and aquatic plant sources in sedimentary lipid records?",
+      "about": "ADAPT (Algal Dynamics and Productivity through Time) is a Swiss National Science Foundation project investigating how lake algal communities respond to natural environmental change and human activity. It combines lipid biomarkers and sedimentary DNA to reconstruct past algal communities and their links to water quality, food webs, and carbon cycling.\n\nMy PhD contribution connects modern calibration studies in northeastern Germany with lake-sediment archives from Switzerland and northeastern North America. It develops ways to account for lipid source changes and reconstruct the climatic context of past ecosystem change.",
+      "approach": "- **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities, and characterise lipid distributions and hydrogen-isotope fractionation in charophytes and submerged vascular plants.\n- **Vegetation-corrected hydroclimate:** Use the relative abundances of long-chain n-alkanes to account for vegetation effects in plant-wax δ²H records from Rotsee and Owasco, and interpret climate change since the last deglaciation alongside other sedimentary evidence.\n- **Past algal dynamics:** Within the wider ADAPT project, use Swiss lake sediments to investigate 20th-century phosphorus changes, Roman-period water-quality impacts, and natural algal variability over the last 10,000 years.\n- **Aquatic sources and vegetation:** Combine lipid distributions, compound-specific δ²H and δ¹³C measurements, and modern calibration data to interpret aquatic biomarker indices and reconstruct changes in macroalgal abundance.",
       "project_url": "https://duw.unibas.ch/en/forschungsgruppen/organic-geochemistry/adapt/",
       "publication_dois": [
         "10.1029/2025PA005401"
       ],
       "outreach_urls": [],
-      "contribution": "My work reconstructs the climatic context and investigates how terrestrial and aquatic plant sources influence biomarker signals, including vegetation-corrected plant-wax δ²H records from Lake Rotsee.",
+      "contribution": "My contribution focuses on distinguishing hydroclimate signals from changes in the plants that supply lipids to lake sediments. I combine modern aquatic-plant calibration in northeastern Germany with vegetation-corrected plant-wax δ²H records from Lake Rotsee in Switzerland and Owasco Lake in New York.\n\nThis work tests how source changes affect aquatic biomarker indices and reduces vegetation-related shifts in sedimentary isotope records, helping reconstruct past hydroclimate and provide context for changes in lake ecosystems.",
       "funding": {
         "funder": "Swiss National Science Foundation (SNSF)",
         "award": "Eccellenza Professorial Fellowship",
