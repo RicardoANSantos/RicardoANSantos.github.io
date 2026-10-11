@@ -304,8 +304,8 @@ def main():
                 raise ValueError(f"Gallery photo is missing or has no alt text: {slug}")
     lines = [
         '---', 'title: "Research"',
-        '---', '', '::: {.page-intro}', data["introduction"], ':::', '',
-        data["context"], '', '```{=html}',
+        '---', '', '::: {.page-intro}', data["introduction"], '',
+        data["context"], ':::', '', '```{=html}',
         '<nav class="project-jumps" aria-label="Research sections">',
         '<a href="#ongoing-projects">Ongoing projects <span aria-hidden="true">↓</span></a>',
         '<a href="#past-projects">Past projects <span aria-hidden="true">↓</span></a>',
