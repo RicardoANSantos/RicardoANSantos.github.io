@@ -9,14 +9,13 @@ by `scripts/render_projects.py`. Ricardo confirmed the following groupings on
 | Project | Suggested image | Current grouping |
 | --- | --- | --- |
 | ADAPT | Lake Rotsee, sediment coring, aquatic plants, or laboratory work | Ongoing |
-| MEMELAND | A relevant lake, sampling site, landscape, or project fieldwork | Ongoing |
+| MEMELAND | Supplied project logo, displayed in full | Ongoing |
 | HOLMODRIVE · Lake Peixão | Lake Peixão, fieldwork, or sediment coring | Past |
 
 ## What Ricardo can send
 
 - One landscape photograph for each project card and detailed page.
 - A short caption with known location and date, plus photographer credit.
-- His specific role or research contribution within MEMELAND.
 - Optional project participation dates, further papers, or corrections to descriptions.
 
 Notes and files are enough; Ricardo does not need to write polished website text.
@@ -94,3 +93,21 @@ The video thumbnail is stored at
 `https://i.ytimg.com/vi/2F66bkFZ7iA/mqdefault.jpg`.
 Both entries use the existing compact thumbnail layout, with a play icon and
 YouTube link for the video.
+
+## MEMELAND contribution and logo
+
+Ricardo confirmed on 11 October 2026 that he will take over Tobias Schneider’s
+MEMELAND contribution. The page describes his upcoming biomarker research with
+Prof. Nathalie Dubois and the Eawag team without assigning an employment title,
+start date, or changing his homepage affiliation.
+The summary covers fecal sterols and bile acids for grazing and manuring,
+lake nutrient and oxygen conditions, leaf-wax radiocarbon and refractory organic
+carbon for soil erosion, and plant biomarkers for cultivation and hemp retting.
+The Eawag team description is at https://memeland.no/en/Team/eawag.html.
+
+The supplied logo matches the original PNG at
+`https://memeland.no/en/Materials/Logos/MEMELAND.png` and is stored at
+`assets/projects/memeland-logo.png`. Set `photo_kind` to `logo` so the Research
+card displays it in full with `object-fit: contain`; preserve the original pixels.
+`contribution` supplies the highlighted “My contribution” section on the project
+page. Do not describe the logo as a photograph or assign a photographer credit.
