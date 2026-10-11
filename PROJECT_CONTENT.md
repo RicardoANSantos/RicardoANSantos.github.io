@@ -16,7 +16,7 @@ reconstructions, and collaborative lake-sediment studies.
 | --- | --- | --- |
 | MEMELAND | Supplied project logo, displayed in full | Ongoing |
 | ADAPT | Supplied Lake Rotsee shoreline photo | Ongoing |
-| HOLMODRIVE · Lake Peixão | Supplied coring photograph and four-photo project gallery | Past |
+| HOLMODRIVE · Lake Peixão | Supplied coring photograph, four-photo gallery, and lake-formation illustration | Past |
 
 ## What Ricardo can send
 
@@ -143,6 +143,9 @@ A project's optional `gallery` array in `data/projects.json` supplies photos
 beneath its description and approach, before its papers. Each record contains
 `image`, `alt`, and an optional `caption`, `credit_name`, and `credit_url`.
 The generator displays two columns on desktop and one on small screens.
+Set `layout` to `wide` for an illustration that spans both columns at its natural
+aspect ratio; set `kind` to `illustration` for the correct link and credit labels.
+Optional `source_name` and `source_url` add a linked source beneath the image.
 Previews show the whole image; select one to open the original file.
 Keep the Research overview card compact, using its existing main photograph.
 
@@ -169,3 +172,19 @@ that interpretation. The reconstruction paper (10.1016/j.quascirev.2024.108796)
 describes changing Atlantic and Mediterranean influences through the Medieval
 Climate Anomaly and Little Ice Age. Preserve the displayed isotope notation,
 the full main photograph, and the project gallery.
+
+## National Geographic lake-formation illustration
+
+Ricardo supplied the three-stage illustration on 11 October 2026 and identified
+it as part of the National Geographic outreach feature. The matching original
+1024 × 406 PNG is published at
+https://content.nationalgeographic.pt/medio/import/attachment/revistas/265/GrandeAngular/l3.png
+and stored at `assets/outreach/peixao-glacial-lake-formation.png`.
+
+It appears first in the HOLMODRIVE gallery at full width, followed by the four
+uploaded photographs. Its natural aspect ratio preserves all three stages of
+glacier retreat and lake formation. Link National Geographic Portugal as the
+source, using the existing feature URL. The individual illustrator was not
+verified; do not assign the main photograph's Filipe Patrocínio credit to this
+illustration. The heading is “Project images”, with the existing
+`project-photos` anchor retained.
