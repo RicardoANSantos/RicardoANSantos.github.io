@@ -36,6 +36,31 @@ HOLMODRIVE investigated how North Atlantic atmospheric patterns have influenced 
 
 Lipid biomarkers and compound-specific stable isotopes alongside pollen, sedimentology, and inorganic geochemistry.
 
+## Project photos
+
+Select a photo to view it in full.
+
+```{=html}
+<div class="project-gallery">
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/holmodrive-peixao-landscape.jpg" aria-label="Open full photograph: Lake Peixão surrounded by rocky slopes in Serra da Estrela, Portugal."><img src="../assets/projects/holmodrive-peixao-landscape.jpg" alt="Lake Peixão surrounded by rocky slopes in Serra da Estrela, Portugal." loading="lazy" decoding="async"></a>
+<figcaption>Lake Peixão and the Serra da Estrela landscape</figcaption>
+</figure>
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/holmodrive-peixao-coring-equipment.png" aria-label="Open full photograph: Sediment-coring platform with a tall tripod beside a helicopter."><img src="../assets/projects/holmodrive-peixao-coring-equipment.png" alt="Sediment-coring platform with a tall tripod beside a helicopter." loading="lazy" decoding="async"></a>
+<figcaption>Sediment-coring equipment</figcaption>
+</figure>
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/holmodrive-peixao-field-team.png" aria-label="Open full photograph: Five researchers holding sediment-core tubes beside Lake Peixão."><img src="../assets/projects/holmodrive-peixao-field-team.png" alt="Five researchers holding sediment-core tubes beside Lake Peixão." loading="lazy" decoding="async"></a>
+<figcaption>The field team with sediment cores at Lake Peixão</figcaption>
+</figure>
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/holmodrive-peixao-laboratory.png" aria-label="Open full photograph: Researchers in laboratory coats examining sediment samples beside an opened sediment core."><img src="../assets/projects/holmodrive-peixao-laboratory.png" alt="Researchers in laboratory coats examining sediment samples beside an opened sediment core." loading="lazy" decoding="async"></a>
+<figcaption>Working with the sediment archive in the laboratory</figcaption>
+</figure>
+</div>
+```
+
 ## Publications
 
 Listed from oldest to newest.

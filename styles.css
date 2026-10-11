@@ -203,3 +203,10 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .project-contribution h2 {font-size:1.5rem;margin:0 0 12px;}
 .project-contribution p:last-child {margin-bottom:0;}
 @media(max-width:720px) {.project-contribution {padding:20px;}}
+
+.project-gallery {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:16px 0 34px;}
+.project-gallery-photo {min-width:0;margin:0;}
+.project-gallery-link {display:block;overflow:hidden;border-radius:3px;background:var(--wash);}
+.project-gallery-link img {display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;}
+.project-gallery-photo figcaption {font-size:.75rem;color:var(--muted);line-height:1.6;padding-top:10px;}
+@media(max-width:600px) {.project-gallery {grid-template-columns:1fr;gap:24px;}}

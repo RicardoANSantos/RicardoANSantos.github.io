@@ -40,6 +40,26 @@ def photo_html(project, prefix="", caption=False):
     return f'<figure class="{figure_class}">' + content + '</figure>'
 
 
+def gallery_html(project):
+    figures = []
+    for photo in project.get("gallery", []):
+        path = escape("../" + photo["image"], quote=True)
+        alt = escape(photo["alt"], quote=True)
+        caption = [escape(photo["caption"])] if photo.get("caption") else []
+        if photo.get("credit_name"):
+            credit = escape(photo["credit_name"])
+            if photo.get("credit_url"):
+                credit = f'<a href="{escape(photo["credit_url"], quote=True)}">{credit}</a>'
+            caption.append("Photograph: " + credit)
+        figures.append("\n".join([
+            '<figure class="project-gallery-photo">',
+            f'<a class="project-gallery-link" href="{path}" aria-label="Open full photograph: {alt}"><img src="{path}" alt="{alt}" loading="lazy" decoding="async"></a>',
+            *(['<figcaption>' + " ".join(caption) + '</figcaption>'] if caption else []),
+            '</figure>',
+        ]))
+    return '<div class="project-gallery">\n' + "\n".join(figures) + '\n</div>'
+
+
 def card_html(project):
     title = escape(project["title"])
     url = "projects/" + project["slug"] + ".html"
@@ -159,6 +179,11 @@ def page_text(project, bibliography):
         '## About the project', '', project["about"], '',
         '## Approach', '', project["approach"], '',
     ])
+    if project.get("gallery"):
+        lines.extend([
+            '## Project photos', '', 'Select a photo to view it in full.', '',
+            '```{=html}', gallery_html(project), '```', '',
+        ])
     papers = project_papers(project, bibliography)
     if papers:
         lines.extend(['## Publications', ''])
@@ -208,6 +233,12 @@ def main():
                 raise ValueError(f"Photo must be inside assets/: {slug}")
             if not (ROOT / path).is_file() or not project.get("photo_alt"):
                 raise ValueError(f"Photo is missing or has no alt text: {slug}")
+        for photo in project.get("gallery", []):
+            path = Path(photo["image"])
+            if not photo["image"].startswith("assets/") or ".." in path.parts:
+                raise ValueError(f"Gallery photo must be inside assets/: {slug}")
+            if not (ROOT / path).is_file() or not photo.get("alt"):
+                raise ValueError(f"Gallery photo is missing or has no alt text: {slug}")
     lines = [
         '---', 'title: "Research"',
         '---', '', '::: {.page-intro}', data["introduction"], ':::', '',
