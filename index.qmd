@@ -12,9 +12,10 @@ body-classes: home-page
     <h1 id="intro-title">Ricardo N. Santos</h1>
     <p class="position">Organic geochemist</p>
     <p class="affiliation">University of Basel, Switzerland</p>
-    <p class="intro-lead"><em>Reading the past through sedimentary lipid biomarkers.</em></p>
+    <p class="intro-lead"><em>Reading the past through sedimentary lipid biomarkers</em></p>
     <p>I’m a geologist by training, using lipid biomarkers and compound-specific stable isotope analyses to reconstruct past climates and environments from lake-sediment archives. I study how hydroclimate, vegetation, and human activity have shaped landscapes and lake ecosystems from the last deglaciation to the present.</p>
-    <p>What fascinates me is how organic geochemistry allows us to explore connections between the biosphere, hydrosphere, atmosphere, and geosphere—and how sediments preserve evidence of those relationships through time. A single sedimentary lipid record can reflect the intertwined histories of climate, terrestrial vegetation, aquatic ecosystems, and human activity. My research explores how to disentangle these influences and understand the processes that shape biomarker signals. I focus particularly on refining our lipid biomarker toolkit to improve our ability to reconstruct long‑term environmental change, while making the uncertainties in those interpretations explicit.</p>
+    <p>What fascinates me is how organic geochemistry allows us to explore connections between the biosphere, hydrosphere, atmosphere, and geosphere, and how sediments preserve evidence of those relationships through time. A single sedimentary lipid record can reflect the intertwined histories of climate, terrestrial vegetation, aquatic ecosystems, and human activity.</p>
+    <p>My research explores how to disentangle these influences and understand the processes that shape biomarker signals. I focus particularly on refining our lipid biomarker toolkit to improve our ability to reconstruct long‑term environmental change, while making the uncertainties in those interpretations explicit.</p>
     <div class="profile-links" aria-label="Professional profiles">
       <a href="https://orcid.org/0000-0002-8252-3619">ORCID ↗</a>
       <a href="https://scholar.google.com/citations?user=VAgWEa4AAAAJ&amp;hl=en">Google Scholar ↗</a>
@@ -36,9 +37,9 @@ body-classes: home-page
 <section class="research-intro" aria-labelledby="research-title">
   <div class="section-heading"><p class="eyebrow">RESEARCH FOCUS</p><h2 id="research-title">Lipid biomarker toolkit</h2></div>
   <div class="focus-grid">
-    <div><span class="focus-number">01</span><h3>Modern calibration &amp; proxy development</h3><p>Understanding modern lipid sources and isotope signals to refine environmental proxies and make uncertainties in their interpretation explicit.</p></div>
-    <div><span class="focus-number">02</span><h3>Past hydroclimate</h3><p>Using sedimentary plant-wax hydrogen isotopes to investigate past hydroclimate, while accounting for changes in vegetation and lipid sources.</p></div>
-    <div><span class="focus-number">03</span><h3>Ecosystem &amp; landscape reconstruction</h3><p>Tracing changes in terrestrial vegetation, lake ecology, and human land use through lipid biomarkers and complementary sedimentary evidence.</p></div>
+    <div><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M9 3h6M10 3v6L4.5 18.5Q3.1 21 6 21h12q2.9 0 1.5-2.5L14 9V3"/><path d="M7 15h10"/></svg></span><h3>Modern calibration &amp; proxy development</h3><p>Understanding modern lipid sources and isotope signals to refine environmental proxies and make uncertainties in their interpretation explicit.</p></div>
+    <div><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M12 3C10 6 5 11 5 15a7 7 0 0 0 14 0C19 11 14 6 12 3Z"/><path d="M8 16c2-2 6 2 8 0"/></svg></span><h3>Past hydroclimate</h3><p>Using sedimentary plant-wax hydrogen isotopes to investigate past hydroclimate, while accounting for changes in vegetation and lipid sources.</p></div>
+    <div><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 20h18M3 20l5-8 5 8M17 14v6"/><path d="m17 4-5 10h10Z"/></svg></span><h3>Ecosystem &amp; landscape reconstruction</h3><p>Tracing changes in terrestrial vegetation, lake ecology, and human land use through lipid biomarkers and complementary sedimentary evidence.</p></div>
   </div>
 </section>
 <section class="selected-work" aria-labelledby="selected-title">
