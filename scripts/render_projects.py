@@ -81,14 +81,27 @@ def outreach_html(item):
     outlet = escape(item["outlet"])
     if item.get("language"):
         outlet += " · " + escape(item["language"])
-    return "\n".join([
+    lines = [
         '<article class="publication">',
         f'<h3><a href="{url}">{escape(item["title"])}</a></h3>',
         f'<p class="journal"><em>{outlet}</em></p>',
         f'<p class="authors">{escape(item["description"])}</p>',
         f'<p class="doi"><a href="{url}">{escape(item.get("link_label", "Read more"))} ↗</a></p>',
-        '</article>',
-    ])
+    ]
+    if item.get("youtube_id"):
+        video_id = item["youtube_id"]
+        if not re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id):
+            raise ValueError(f"Invalid YouTube video ID: {video_id}")
+        lines.append(
+            '<div class="project-video">'
+            f'<iframe src="https://www.youtube-nocookie.com/embed/{video_id}" '
+            f'title="{escape(item["title"], quote=True)}" loading="lazy" '
+            'width="560" height="315" referrerpolicy="strict-origin-when-cross-origin" '
+            'allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>'
+            '</div>'
+        )
+    lines.append('</article>')
+    return "\n".join(lines)
 
 
 def page_text(project, bibliography):

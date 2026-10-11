@@ -60,6 +60,12 @@ Listed from oldest to newest.
 <p class="journal"><em>Quaternary Science Reviews</em> · 2024</p>
 <p class="doi"><a href="https://doi.org/10.1016/j.quascirev.2024.108796">DOI: 10.1016/j.quascirev.2024.108796 ↗</a></p>
 </article>
+<article class="publication" data-doi="10.1029/2026PA005517">
+<h3><a href="https://doi.org/10.1029/2026PA005517">North Atlantic ocean–atmosphere dynamics controlled the hydroclimate in western Iberia during the Holocene</a></h3>
+<p class="authors">Fernández-Pérez, U., <strong>Santos, R. N.</strong>, Rodrigues, T., Schefuß, E., Bao, R., Raposeiro, P., et al.</p>
+<p class="journal"><em>Paleoceanography and Paleoclimatology</em> · 2026</p>
+<p class="doi"><a href="https://doi.org/10.1029/2026PA005517">DOI: 10.1029/2026PA005517 ↗</a></p>
+</article>
 ```
 
 ## Outreach {.outreach}
@@ -70,6 +76,13 @@ Listed from oldest to newest.
 <p class="journal"><em>National Geographic Portugal · Portuguese</em></p>
 <p class="authors">Outreach on our research at Lagoa do Peixão in Serra da Estrela, Portugal.</p>
 <p class="doi"><a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">Read feature ↗</a></p>
+</article>
+<article class="publication">
+<h3><a href="https://youtu.be/WWDSYIWuOYk">Lake Peixão project video</a></h3>
+<p class="journal"><em>YouTube</em></p>
+<p class="authors">A video I made while working on the HOLMODRIVE project at Lake Peixão.</p>
+<p class="doi"><a href="https://youtu.be/WWDSYIWuOYk">Watch on YouTube ↗</a></p>
+<div class="project-video"><iframe src="https://www.youtube-nocookie.com/embed/WWDSYIWuOYk" title="Lake Peixão project video" loading="lazy" width="560" height="315" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
 </article>
 ```
 

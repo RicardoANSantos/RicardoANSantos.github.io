@@ -36,8 +36,9 @@ explicitly authorized photographs of the project.
 Maintain citation metadata in `data/publications.json`. Project
 `publication_dois` and `outreach_urls` reference those records. Project papers
 are displayed oldest first; order DOI references chronologically within a year.
-HOLMODRIVE currently includes the four papers and National Geographic Portugal
-feature supplied by Ricardo; ADAPT includes DOI `10.1029/2025PA005401`.
+HOLMODRIVE currently includes five papers, the National Geographic Portugal
+feature, and Ricardo’s project video. The video is embedded in the project’s
+Outreach section and linked from Publications & outreach. ADAPT includes DOI `10.1029/2025PA005401`.
 Do not add papers to MEMELAND without a supplied or verified project association.
 
 The earlier standalone research-topic pages remain available for existing links.
