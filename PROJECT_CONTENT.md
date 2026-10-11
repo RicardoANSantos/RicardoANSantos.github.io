@@ -8,7 +8,7 @@ by `scripts/render_projects.py`. Ricardo confirmed the following groupings on
 
 | Project | Suggested image | Current grouping |
 | --- | --- | --- |
-| ADAPT | Lake Rotsee, sediment coring, aquatic plants, or laboratory work | Ongoing |
+| ADAPT | Supplied Lake Rotsee shoreline photo, awaiting file transfer | Ongoing |
 | MEMELAND | Supplied project logo, displayed in full | Ongoing |
 | HOLMODRIVE · Lake Peixão | Lake Peixão, fieldwork, or sediment coring | Past |
 
@@ -111,3 +111,23 @@ The supplied logo matches the original PNG at
 card displays it in full with `object-fit: contain`; preserve the original pixels.
 `contribution` supplies the highlighted “My contribution” section on the project
 page. Do not describe the logo as a photograph or assign a photographer credit.
+
+## ADAPT scope, research aims, and supplied Rotsee photo
+
+Ricardo confirmed on 11 October 2026 that ADAPT also studied lakes in the USA.
+The Research card and project page therefore label the study area as
+“Switzerland · USA”. The summary follows the official project description at
+https://duw.unibas.ch/en/forschungsgruppen/organic-geochemistry/adapt/:
+modern algal calibration with lipid biomarkers and sedimentary DNA, Swiss lake
+records of 20th-century phosphorus changes and Roman-period water-quality
+impacts, natural variability over 10,000 years, and climatic context and
+macroalgae reconstructed with plant waxes and H/C isotopes.
+Keep the original Swiss-lake aims distinct from the wider geographic scope.
+
+Ricardo supplied a Lake Rotsee shoreline photo showing trees, the lake at sunset,
+and a nature-reserve sign. The expected repository destination is
+`assets/projects/adapt-rotsee.jpg`. After adding the original file there, set
+ADAPT’s `photo` to that path, render, and verify the Research card and project
+page. Alt text and caption are prepared in the project data. Do not substitute
+a different lake image. Leave photographer credit unstated unless Ricardo
+confirms it.

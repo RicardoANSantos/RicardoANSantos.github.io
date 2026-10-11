@@ -8,22 +8,23 @@
       "period": null,
       "role": null,
       "photo": null,
-      "photo_alt": null,
-      "photo_caption": null,
+      "photo_alt": "Lake Rotsee in Switzerland at sunset, with trees overhead and a Rotsee nature-reserve sign beside the shore.",
+      "photo_caption": "Lake Rotsee, Switzerland.",
       "slug": "adapt",
       "title": "ADAPT",
       "group": "ongoing",
-      "location": "Swiss lakes · Switzerland",
+      "location": "Switzerland · USA",
       "phase": "Lake ecology · Hydroclimate",
-      "summary": "Tracing how climate and human activity shape lake ecosystems, and improving the biomarker tools used to reconstruct their histories.",
-      "question": "How can sedimentary biomarkers distinguish changes in lake ecology from changes in climate?",
-      "about": "ADAPT explores how lake algal communities have responded to natural variability and human activity. Modern measurements of lipid biomarkers and sedimentary DNA help connect sediment signals to the organisms that produce them, before applying these tools to lake archives.\n\nMy work within the project focuses on the climatic context and biomarker source effects, including vegetation-corrected plant-wax δ²H records from Lake Rotsee.",
-      "approach": "Modern biomarker calibration, lipid distributions, compound-specific hydrogen and carbon isotopes, and lake-sediment reconstructions. The wider project also uses sedimentary DNA to investigate past algal communities.",
+      "summary": "Using lipid biomarkers and sedimentary DNA to understand how lake algal communities respond to natural change and human activity.",
+      "question": "How have natural change and human activity shaped lake algal communities over time?",
+      "about": "ADAPT is a Swiss National Science Foundation project investigating the history of lake algae, whose communities affect water quality, food webs, and the carbon cycle. Lipid biomarkers and sedimentary DNA preserved in sediments provide complementary evidence of past algal occurrence and composition.\n\nOur lake studies span Switzerland and the USA.",
+      "approach": "- **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities.\n- **Past algal dynamics:** Use Swiss lake sediments to investigate 20th-century phosphorus changes, Roman-period effects on water quality, and natural algal variability over the last 10,000 years.\n- **Climate and aquatic vegetation:** Reconstruct local climate and relative macroalgal abundance using plant-wax distributions and compound-specific δ²H and δ¹³C measurements.",
       "project_url": "https://duw.unibas.ch/en/forschungsgruppen/organic-geochemistry/adapt/",
       "publication_dois": [
         "10.1029/2025PA005401"
       ],
-      "outreach_urls": []
+      "outreach_urls": [],
+      "contribution": "My work reconstructs the climatic context and investigates how terrestrial and aquatic plant sources influence biomarker signals, including vegetation-corrected plant-wax δ²H records from Lake Rotsee."
     },
     {
       "period": null,
