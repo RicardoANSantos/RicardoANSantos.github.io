@@ -3,10 +3,10 @@ title: "Research"
 ---
 
 ::: {.page-intro}
-I use organic molecules to investigate past climate and environmental change. My work combines lipid biomarkers and compound-specific δ²H and δ¹³C measurements with other evidence preserved in lake sediments.
-:::
+I use lipid biomarkers to reconstruct past climates, ecosystems, and human impacts from lake sediments. My work combines molecular distributions and compound-specific δ²H and δ¹³C measurements with other evidence preserved in these natural archives.
 
-A central challenge is separating climatic signals from changes in the plants and aquatic organisms that produce the molecules we measure. I investigate these source effects through modern calibration studies and sedimentary records.
+Interpreting these records requires understanding both environmental conditions and the organisms that produce the molecules we measure. I combine modern calibration studies with sedimentary records to investigate source effects, refine biomarker proxies, and make the uncertainties in past environmental reconstructions explicit.
+:::
 
 ```{=html}
 <nav class="project-jumps" aria-label="Research sections">
