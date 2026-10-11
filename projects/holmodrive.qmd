@@ -49,7 +49,7 @@ Select an image to view it in full.
 <div class="project-gallery">
 <figure class="project-gallery-photo project-gallery-photo--wide">
 <a class="project-gallery-link" href="../assets/outreach/peixao-glacial-lake-formation.png" aria-label="Open full illustration: Three-stage illustration of Lake Peixão’s formation: a glacier fills a rocky basin, the ice retreats and meltwater collects, and the lake remains after deglaciation."><img src="../assets/outreach/peixao-glacial-lake-formation.png" alt="Three-stage illustration of Lake Peixão’s formation: a glacier fills a rocky basin, the ice retreats and meltwater collects, and the lake remains after deglaciation." loading="lazy" decoding="async"></a>
-<figcaption>From glacier to lake: the formation of Lake Peixão Source: <a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">National Geographic Portugal</a></figcaption>
+<figcaption>From glacier to lake: the formation of Lake Peixão. Source: <a href="https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781">National Geographic Portugal</a></figcaption>
 </figure>
 <figure class="project-gallery-photo">
 <a class="project-gallery-link" href="../assets/projects/holmodrive-peixao-landscape.jpg" aria-label="Open full photograph: Lake Peixão surrounded by rocky slopes in Serra da Estrela, Portugal."><img src="../assets/projects/holmodrive-peixao-landscape.jpg" alt="Lake Peixão surrounded by rocky slopes in Serra da Estrela, Portugal." loading="lazy" decoding="async"></a>
