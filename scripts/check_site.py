@@ -15,10 +15,13 @@ class Page(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.links, self.ids, self.images, self.titles = [], set(), [], []
         self.title_active = False
+        self.publication_dois = []
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == "article" and a.get("data-doi"):
+            self.publication_dois.append(a["data-doi"])
         if a.get("id"):
             self.ids.add(a["id"])
         for key in ("href", "src"):
@@ -75,6 +78,29 @@ def main():
     for paper in data["published"]:
         if "https://doi.org/" + paper["doi"] not in pub:
             errors.append(f"Publication DOI missing from output: {paper['doi']}")
+    projects = json.loads((ROOT / "data/projects.json").read_text(encoding="utf-8"))["projects"]
+    overview = pages.get((DIST / "research.html").resolve())
+    expected_projects = {"projects/" + project["slug"] + ".html" for project in projects}
+    overview_links = {link for link in overview.links if link.startswith("projects/") and urlsplit(link).path.endswith(".html")} if overview else set()
+    if overview_links != expected_projects:
+        errors.append("Research overview does not match the main projects in data/projects.json")
+    papers = {paper["doi"]: paper for paper in data["published"]}
+    for project in projects:
+        path = "projects/" + project["slug"] + ".html"
+        page = pages.get((DIST / path).resolve())
+        if page is None:
+            errors.append(f"Missing project page: {path}")
+            continue
+        ordered_dois = sorted(project.get("publication_dois", []), key=lambda doi: papers[doi]["year"])
+        if page.publication_dois != ordered_dois:
+            errors.append(f"{path}: project publications are missing or out of chronological order")
+        expected_links = {"https://doi.org/" + doi for doi in ordered_dois}
+        expected_links.update(project.get("outreach_urls", []))
+        if project.get("project_url"):
+            expected_links.add(project["project_url"])
+        for link in expected_links:
+            if link not in page.links:
+                errors.append(f"{path}: missing project, publication, or outreach link: {link}")
     if not (DIST / "assets/Ricardo_CV.pdf").exists():
         errors.append("Downloadable CV is missing")
     prohibited = {"AGENTS.md", "README.md", "SETUP.md", "UPDATE_WORKFLOW.md", "publications.json", "projects.json", "PROJECT_CONTENT.md", "hosting.json"}
@@ -82,7 +108,7 @@ def main():
     if errors:
         print("\n".join(errors), file=sys.stderr)
         raise SystemExit(1)
-    print(f"Verified {len(files)} pages, {refs} local references, image descriptions, CV, and {len(data['published'])} publication DOI links.")
+    print(f"Verified {len(files)} pages, {refs} local references, image descriptions, CV, {len(data['published'])} publication DOI links, and {len(projects)} main projects with chronological paper lists.")
 
 
 if __name__ == "__main__":

@@ -1,110 +1,73 @@
 {
-  "updated": "2026-10-10",
-  "source": "Ricardo's existing research page and October 2026 CV. Ongoing/past groupings are provisional and should be confirmed by Ricardo; the past Peixão entry covers the completed MSc phase, not all later collaborative work.",
+  "updated": "2026-10-11",
+  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json.",
   "introduction": "I use the chemical signatures of organic molecules to investigate past climate and environmental change. My work combines lipid biomarkers and compound-specific δ²H and δ¹³C measurements with other evidence preserved in lake sediments.",
   "context": "A central challenge is separating climatic signals from changes in the plants and aquatic organisms that produce the molecules we measure. I investigate these source effects through modern calibration studies and sedimentary records.",
   "projects": [
     {
-      "slug": "rotsee",
-      "title": "Hydroclimate at Lake Rotsee",
-      "group": "ongoing",
-      "location": "Central Europe · Switzerland",
-      "phase": "Doctoral research",
       "period": null,
       "role": null,
-      "summary": "Separating vegetation effects from the hydroclimatic signals recorded by plant waxes in a Swiss lake.",
-      "question": "How can we distinguish changes in vegetation from changes in hydroclimate in sedimentary plant-wax isotope records?",
-      "about": "My work on Lake Rotsee examines how vegetation changes affect the hydrogen-isotope composition of sedimentary plant waxes. Vegetation-corrected reconstructions help assess the hydroclimatic information preserved across the transition from the Younger Dryas into the Holocene and through later environmental change.",
-      "approach": "Plant-wax δ²H and δ¹³C, lipid distributions, vegetation correction, and multi-proxy lake records.",
       "photo": null,
       "photo_alt": null,
       "photo_caption": null,
-      "links": [
-        {
-          "label": "Vegetation-corrected hydroclimate reconstruction · 2026",
-          "url": "https://doi.org/10.1029/2025PA005401"
-        }
-      ]
+      "slug": "adapt",
+      "title": "ADAPT",
+      "group": "ongoing",
+      "location": "Swiss lakes · Switzerland",
+      "phase": "Lake ecology · Hydroclimate",
+      "summary": "Tracing how climate and human activity shape lake ecosystems, and improving the biomarker tools used to reconstruct their histories.",
+      "question": "How can sedimentary biomarkers distinguish changes in lake ecology from changes in climate?",
+      "about": "ADAPT explores how lake algal communities have responded to natural variability and human activity. Modern measurements of lipid biomarkers and sedimentary DNA help connect sediment signals to the organisms that produce them, before applying these tools to lake archives.\n\nMy work within the project focuses on the climatic context and biomarker source effects, including vegetation-corrected plant-wax δ²H records from Lake Rotsee.",
+      "approach": "Modern biomarker calibration, lipid distributions, compound-specific hydrogen and carbon isotopes, and lake-sediment reconstructions. The wider project also uses sedimentary DNA to investigate past algal communities.",
+      "project_url": "https://duw.unibas.ch/en/forschungsgruppen/organic-geochemistry/adapt/",
+      "publication_dois": [
+        "10.1029/2025PA005401"
+      ],
+      "outreach_urls": []
     },
     {
-      "slug": "owasco",
-      "title": "Postglacial hydroclimate at Owasco Lake",
-      "group": "ongoing",
-      "location": "North America · New York State",
-      "phase": "Lake-sediment research",
       "period": null,
       "role": null,
-      "summary": "Investigating postglacial hydroclimate in the northeastern United States using vegetation-corrected plant-wax isotopes.",
-      "question": "How did the residual Laurentide Ice Sheet influence early Holocene hydroclimate in the northeastern United States?",
-      "about": "My ongoing work on Owasco Lake uses vegetation-corrected plant-wax isotope records to investigate postglacial hydroclimate in the northeastern United States, including early Holocene influences of the residual Laurentide Ice Sheet.",
-      "approach": "Plant-wax δ²H, vegetation correction, and sedimentary archives.",
       "photo": null,
       "photo_alt": null,
       "photo_caption": null,
-      "links": []
+      "slug": "memeland",
+      "title": "MEMELAND",
+      "group": "ongoing",
+      "location": "European landscapes",
+      "phase": "Historical land use · Biodiversity",
+      "summary": "Exploring how historical land use has shaped biodiversity and landscapes, using molecular evidence preserved in lake sediments.",
+      "question": "How have centuries of human land use shaped the biodiversity and landscapes we see today?",
+      "about": "MEMELAND investigates how historical land use has shaped European biodiversity over the last two millennia. By combining molecular evidence from lake sediments with archaeological and palaeoecological records, the project aims to distinguish local land-use histories from wider regional changes.\n\nI am now involved in this collaboration, which connects my interest in sedimentary biomarkers with the long-term interactions between people, ecosystems, and landscapes.",
+      "approach": "Paired lake-sediment archives, molecular proxies, and archaeological and palaeoecological evidence.",
+      "project_url": "https://memeland.no/en/About/about.html",
+      "publication_dois": [],
+      "outreach_urls": []
     },
     {
-      "slug": "aquatic-plants",
-      "title": "Aquatic-plant lipid biomarkers",
-      "group": "ongoing",
-      "location": "Proxy development · Aquatic plants",
-      "phase": "Modern calibration studies",
       "period": null,
       "role": null,
-      "summary": "Understanding how charophytes and submerged vascular plants influence the lipid signals preserved in lake sediments.",
-      "question": "How do different aquatic plants contribute to the lipid and isotope signals used to reconstruct past environments?",
-      "about": "I compare the lipid signatures and hydrogen-isotope compositions of charophytes and submerged vascular plants. Understanding differences between these groups helps evaluate how changing aquatic communities influence the biomarker signals preserved in lake sediments.",
-      "approach": "Modern aquatic-plant lipids, compound-specific isotope analysis, and proxy calibration.",
       "photo": null,
       "photo_alt": null,
       "photo_caption": null,
-      "links": []
-    },
-    {
-      "slug": "younger-dryas",
-      "title": "Younger Dryas Working Group",
-      "group": "ongoing",
-      "location": "Collaboration · European climate archives",
-      "phase": "Scientific collaboration",
-      "period": "2025–present",
-      "role": "Co-initiator",
-      "summary": "Bringing together researchers and different climate archives to synthesize European evidence for the Younger Dryas.",
-      "question": "How can evidence from different European climate archives improve our understanding of the Younger Dryas?",
-      "about": "I am a co-initiator of the Younger Dryas Working Group, which brings together researchers working on lake records, speleothems, glaciers, chironomids, lipid biomarkers, and climate modelling to synthesize European evidence for this abrupt climate event.",
-      "approach": "Scientific exchange and synthesis across lake records, speleothems, glaciers, chironomids, lipid biomarkers, and climate modelling.",
-      "photo": null,
-      "photo_alt": null,
-      "photo_caption": null,
-      "links": []
-    },
-    {
-      "slug": "peixao",
-      "title": "Atlantic climate at Lake Peixão",
+      "slug": "holmodrive",
+      "title": "HOLMODRIVE · Lake Peixão",
       "group": "past",
-      "location": "Western Iberia · Portugal",
-      "phase": "MSc research",
-      "period": "2019–2021",
-      "role": "MSc researcher",
-      "summary": "Reconstructing western Iberian hydroclimate over the last 2,000 years from the sediments of a mountain lake.",
-      "question": "How have Atlantic climate variability, vegetation, and human activity shaped the environment around Lake Peixão?",
-      "about": "My MSc research used leaf-wax biomarkers from Lake Peixão in Serra da Estrela to investigate western Iberian hydroclimate over the last 2,000 years. This work examines connections between North Atlantic atmospheric circulation, local hydroclimate, vegetation, and human activity. The lake archive also supports collaborative studies of longer Holocene records.",
-      "approach": "Leaf-wax biomarkers, stable isotopes, pollen, and complementary sedimentary proxies.",
-      "photo": null,
-      "photo_alt": null,
-      "photo_caption": null,
-      "links": [
-        {
-          "label": "Climate and vegetation over the last 2,000 years · 2024",
-          "url": "https://doi.org/10.1016/j.quascirev.2024.108796"
-        },
-        {
-          "label": "Modern leaf-wax calibration · 2022",
-          "url": "https://doi.org/10.3389/fenvs.2022.994377"
-        },
-        {
-          "label": "National Geographic Portugal feature",
-          "url": "https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781"
-        }
+      "location": "Serra da Estrela · Portugal",
+      "phase": "North Atlantic climate · Western Iberia",
+      "summary": "Reading the Lake Peixão sediment archive to understand climate, vegetation, and environmental change in western Iberia.",
+      "question": "How have North Atlantic climate variability, vegetation, and human activity shaped the environment around Lake Peixão?",
+      "about": "HOLMODRIVE investigated how North Atlantic atmospheric patterns have influenced western Iberian climate from the Late Glacial to the present. At Lake Peixão in Portugal’s Serra da Estrela, the sediment archive records changes in climate, vegetation, and the surrounding landscape.\n\nMy contributions include modern leaf-wax calibration, reconstructions of climate and vegetation over the last 2,000 years, and collaborative studies of deglaciation, dust inputs, and lake-sediment geochemistry.",
+      "approach": "Lipid biomarkers and compound-specific stable isotopes alongside pollen, sedimentology, and inorganic geochemistry.",
+      "project_url": "https://holmodrive.rd.ciencias.ulisboa.pt/index.html",
+      "publication_dois": [
+        "10.3389/fenvs.2022.994377",
+        "10.1002/esp.5536",
+        "10.1016/j.scitotenv.2023.166179",
+        "10.1016/j.quascirev.2024.108796"
+      ],
+      "outreach_urls": [
+        "https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781"
       ]
     }
   ]

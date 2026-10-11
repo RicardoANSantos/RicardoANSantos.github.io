@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description: "Ongoing and past projects in organic geochemistry and paleoclimate."
+description: "ADAPT, MEMELAND, and HOLMODRIVE: ongoing and past research on biomarkers, climate, and environmental change."
 ---
 
 ::: {.page-intro}
@@ -21,51 +21,27 @@ A central challenge is separating climatic signals from changes in the plants an
 ```{=html}
 <div class="projects-grid projects-grid--ongoing">
 <article class="project-card">
-<a class="project-photo-link" href="projects/rotsee.html" aria-label="Explore Hydroclimate at Lake Rotsee">
-<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Hydroclimate at Lake Rotsee"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+<a class="project-photo-link" href="projects/adapt.html" aria-label="Explore ADAPT">
+<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for ADAPT"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
 </a>
 <div class="project-card-copy">
-<p class="eyebrow">Central Europe · Switzerland</p>
-<h3><a href="projects/rotsee.html">Hydroclimate at Lake Rotsee</a></h3>
-<p>Separating vegetation effects from the hydroclimatic signals recorded by plant waxes in a Swiss lake.</p>
-<p class="project-phase">Doctoral research</p>
-<a class="project-more" href="projects/rotsee.html">Explore project <span aria-hidden="true">→</span></a>
+<p class="eyebrow">Swiss lakes · Switzerland</p>
+<h3><a href="projects/adapt.html">ADAPT</a></h3>
+<p>Tracing how climate and human activity shape lake ecosystems, and improving the biomarker tools used to reconstruct their histories.</p>
+<p class="project-phase">Lake ecology · Hydroclimate</p>
+<a class="project-more" href="projects/adapt.html">Explore project <span aria-hidden="true">→</span></a>
 </div>
 </article>
 <article class="project-card">
-<a class="project-photo-link" href="projects/owasco.html" aria-label="Explore Postglacial hydroclimate at Owasco Lake">
-<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Postglacial hydroclimate at Owasco Lake"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+<a class="project-photo-link" href="projects/memeland.html" aria-label="Explore MEMELAND">
+<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for MEMELAND"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
 </a>
 <div class="project-card-copy">
-<p class="eyebrow">North America · New York State</p>
-<h3><a href="projects/owasco.html">Postglacial hydroclimate at Owasco Lake</a></h3>
-<p>Investigating postglacial hydroclimate in the northeastern United States using vegetation-corrected plant-wax isotopes.</p>
-<p class="project-phase">Lake-sediment research</p>
-<a class="project-more" href="projects/owasco.html">Explore project <span aria-hidden="true">→</span></a>
-</div>
-</article>
-<article class="project-card">
-<a class="project-photo-link" href="projects/aquatic-plants.html" aria-label="Explore Aquatic-plant lipid biomarkers">
-<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Aquatic-plant lipid biomarkers"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
-</a>
-<div class="project-card-copy">
-<p class="eyebrow">Proxy development · Aquatic plants</p>
-<h3><a href="projects/aquatic-plants.html">Aquatic-plant lipid biomarkers</a></h3>
-<p>Understanding how charophytes and submerged vascular plants influence the lipid signals preserved in lake sediments.</p>
-<p class="project-phase">Modern calibration studies</p>
-<a class="project-more" href="projects/aquatic-plants.html">Explore project <span aria-hidden="true">→</span></a>
-</div>
-</article>
-<article class="project-card">
-<a class="project-photo-link" href="projects/younger-dryas.html" aria-label="Explore Younger Dryas Working Group">
-<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Younger Dryas Working Group"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
-</a>
-<div class="project-card-copy">
-<p class="eyebrow">Collaboration · European climate archives</p>
-<h3><a href="projects/younger-dryas.html">Younger Dryas Working Group</a></h3>
-<p>Bringing together researchers and different climate archives to synthesize European evidence for the Younger Dryas.</p>
-<p class="project-phase">Scientific collaboration · 2025–present</p>
-<a class="project-more" href="projects/younger-dryas.html">Explore project <span aria-hidden="true">→</span></a>
+<p class="eyebrow">European landscapes</p>
+<h3><a href="projects/memeland.html">MEMELAND</a></h3>
+<p>Exploring how historical land use has shaped biodiversity and landscapes, using molecular evidence preserved in lake sediments.</p>
+<p class="project-phase">Historical land use · Biodiversity</p>
+<a class="project-more" href="projects/memeland.html">Explore project <span aria-hidden="true">→</span></a>
 </div>
 </article>
 </div>
@@ -76,15 +52,15 @@ A central challenge is separating climatic signals from changes in the plants an
 ```{=html}
 <div class="projects-grid projects-grid--past">
 <article class="project-card">
-<a class="project-photo-link" href="projects/peixao.html" aria-label="Explore Atlantic climate at Lake Peixão">
-<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Atlantic climate at Lake Peixão"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+<a class="project-photo-link" href="projects/holmodrive.html" aria-label="Explore HOLMODRIVE · Lake Peixão">
+<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for HOLMODRIVE · Lake Peixão"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
 </a>
 <div class="project-card-copy">
-<p class="eyebrow">Western Iberia · Portugal</p>
-<h3><a href="projects/peixao.html">Atlantic climate at Lake Peixão</a></h3>
-<p>Reconstructing western Iberian hydroclimate over the last 2,000 years from the sediments of a mountain lake.</p>
-<p class="project-phase">MSc research · 2019–2021</p>
-<a class="project-more" href="projects/peixao.html">Explore project <span aria-hidden="true">→</span></a>
+<p class="eyebrow">Serra da Estrela · Portugal</p>
+<h3><a href="projects/holmodrive.html">HOLMODRIVE · Lake Peixão</a></h3>
+<p>Reading the Lake Peixão sediment archive to understand climate, vegetation, and environmental change in western Iberia.</p>
+<p class="project-phase">North Atlantic climate · Western Iberia</p>
+<a class="project-more" href="projects/holmodrive.html">Explore project <span aria-hidden="true">→</span></a>
 </div>
 </article>
 </div>

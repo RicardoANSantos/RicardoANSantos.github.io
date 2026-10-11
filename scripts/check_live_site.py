@@ -17,12 +17,15 @@ class Page(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.generator = ""
         self.links = set()
+        self.publication_dois = []
         self.images = set()
         self.classes = set()
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == "article" and attrs.get("data-doi"):
+            self.publication_dois.append(attrs["data-doi"])
         self.classes.update(attrs.get("class", "").split())
         if tag == "meta" and attrs.get("name") == "generator":
             self.generator = attrs.get("content", "")
@@ -57,12 +60,16 @@ def check(base, source):
         require(any(urlsplit(link).path.endswith("styles.css") for link in page.links), f"{name}: website stylesheet is missing")
         pages[name] = page
 
+    projects = []
     project_file = source / "data/projects.json"
     if project_file.exists():
         projects = json.loads(project_file.read_text(encoding="utf-8"))["projects"]
         for project in projects:
             link = "projects/" + project["slug"] + ".html"
             require(link in pages["research.html"].links, f"Project is missing from the research overview: {link}")
+        expected_projects = {"projects/" + project["slug"] + ".html" for project in projects}
+        overview_links = {link for link in pages["research.html"].links if link.startswith("projects/") and urlsplit(link).path.endswith(".html")}
+        require(overview_links == expected_projects, "Public Research overview has unexpected or missing main projects")
 
     home = pages["index.html"]
     require("intro" in home.classes, "The public homepage is missing the research introduction")
@@ -78,12 +85,25 @@ def check(base, source):
     for link in expected:
         require(link in pages["publications.html"].links, f"Publication or outreach link is missing: {link}")
 
+    papers = {paper["doi"]: paper for paper in data["published"]}
+    for project in projects:
+        name = "projects/" + project["slug"] + ".html"
+        page = pages[name]
+        ordered_dois = sorted(project.get("publication_dois", []), key=lambda doi: papers[doi]["year"])
+        require(page.publication_dois == ordered_dois, f"{name}: public project publications are missing or out of chronological order")
+        project_links = {"https://doi.org/" + doi for doi in ordered_dois}
+        project_links.update(project.get("outreach_urls", []))
+        if project.get("project_url"):
+            project_links.add(project["project_url"])
+        for link in project_links:
+            require(link in page.links, f"{name}: public project link is missing: {link}")
+
     assets = {"styles.css", "assets/Ricardo_CV.pdf"}
     assets.update(path for path in Page(index).images if path.startswith("assets/"))
     for path in sorted(assets):
         require(fetch(base, path) == (source / path).read_bytes(), f"Public asset differs from the source: {path}")
 
-    print(f"Verified the public Quarto website: {len(pages)} pages, professional profiles, {len(expected)} publication/outreach links, and {len(assets)} matching assets.")
+    print(f"Verified the public Quarto website: {len(pages)} pages, {len(projects)} main projects and their chronological paper lists, professional profiles, {len(expected)} publication/outreach links, and {len(assets)} matching assets.")
 
 
 def main():

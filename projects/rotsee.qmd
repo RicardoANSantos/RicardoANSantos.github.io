@@ -4,6 +4,10 @@ description: "Separating vegetation effects from the hydroclimatic signals recor
 body-classes: project-page
 ---
 
+::: {.page-intro}
+See [ADAPT](adapt.qmd) for the project overview and related publications.
+:::
+
 ```{=html}
 <section class="project-overview" aria-label="Project overview">
 <div class="project-overview-copy">
