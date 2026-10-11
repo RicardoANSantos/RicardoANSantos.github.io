@@ -150,11 +150,6 @@ Geology and Natural Resources.
 <p class="authors"><strong>Ricardo N. Santos</strong>, Antonia Klatt, Daniel B. Nelson, Carsten J. Schubert, Nathalie Dubois, Cindy De Jonge, S. Nemiah Ladd</p>
 </article>
 <article class="publication cv-conference">
-<p class="cv-conference-meta"><span>Urbino Summer School in Paleoclimatology · Urbino · 2025</span><span class="cv-conference-type">Oral presentation &amp; poster</span></p>
-<h3>Reconstructing precipitation δ²H values since the Younger Dryas in Central Switzerland: Correcting vegetation biases in plant-wax records</h3>
-<p class="authors"><strong>Ricardo N. Santos</strong>, Antonia Klatt, Daniel B. Nelson, Carsten J. Schubert, Nathalie Dubois, Cindy De Jonge, S. Nemiah Ladd</p>
-</article>
-<article class="publication cv-conference">
 <p class="cv-conference-meta"><span>EGU General Assembly · Vienna · 2025</span><span class="cv-conference-type">Oral presentation</span></p>
 <h3>Disentangling the impact of vegetation and hydroclimate dynamics on plant wax stable isotopes since the Younger Dryas in Central Switzerland</h3>
 <p class="authors"><strong>Ricardo N. Santos</strong>, Antonia Klatt, Daniel B. Nelson, Fatemeh Ajallooeian, Carsten J. Schubert, Nathalie Dubois, Cindy De Jonge, S. Nemiah Ladd</p>
