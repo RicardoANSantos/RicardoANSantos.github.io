@@ -1,0 +1,31 @@
+name: Inspect supplied Peixao photos
+on:
+  push:
+    branches: [peixao-project-gallery-20261011]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Prepare image inspection
+        run: python3 -m pip install --quiet Pillow
+      - name: Read supplied photos
+        run: |
+          python3 - <<'PY'
+          from PIL import Image, ImageOps
+          from pathlib import Path
+          from io import BytesIO
+          import base64, json
+          for name in ("Lake Peixao_1.png", "Lake Peixao_2.png", "Lake Peixao_3.png", "Peixao_Ricardo.jpg"):
+              path = Path("assets/projects") / name
+              with Image.open(path) as original:
+                  metadata = {"path": str(path), "format": original.format, "size": original.size}
+                  preview = ImageOps.exif_transpose(original).convert("RGB")
+                  preview.thumbnail((640, 480))
+                  buffer = BytesIO()
+                  preview.save(buffer, format="JPEG", quality=80)
+                  metadata["preview"] = base64.b64encode(buffer.getvalue()).decode("ascii")
+                  print("PHOTO_PREVIEW " + json.dumps(metadata))
+          PY
