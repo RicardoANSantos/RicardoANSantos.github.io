@@ -164,6 +164,27 @@ def funding_html(funding):
     ) + '\n</dl>'
 
 
+def overview_html(project):
+    links = {item["label"]: item["url"] for item in project.get("overview_links", [])}
+    pattern = re.compile("|".join(re.escape(label) for label in sorted(links, key=len, reverse=True))) if links else None
+    paragraphs = []
+    for paragraph in project["overview_text"].split("\n\n"):
+        if pattern is None:
+            content = escape(paragraph)
+        else:
+            chunks = []
+            end = 0
+            for match in pattern.finditer(paragraph):
+                chunks.append(escape(paragraph[end:match.start()]))
+                label = match.group()
+                chunks.append(f'<a href="{escape(links[label], quote=True)}">{escape(label)}</a>')
+                end = match.end()
+            chunks.append(escape(paragraph[end:]))
+            content = "".join(chunks)
+        paragraphs.append(f'<p>{content}</p>')
+    return '<div class="project-overview-notes">' + "".join(paragraphs) + '</div>'
+
+
 def page_text(project, bibliography):
     group = "Ongoing project" if project["group"] == "ongoing" else "Past project"
     anchor = "ongoing-projects" if project["group"] == "ongoing" else "past-projects"
@@ -189,9 +210,7 @@ def page_text(project, bibliography):
         f'<p class="project-lead">{escape(project["summary"])}</p>',
         f'<dl class="project-facts">{facts_html}</dl>',
         f'<p><a class="project-more" href="{escape(project["project_url"], quote=True)}">Project website <span aria-hidden="true">↗</span></a></p>',
-        *(['<div class="project-overview-notes">'
-           + "".join(f'<p>{escape(paragraph)}</p>' for paragraph in project["overview_text"].split("\n\n"))
-           + '</div>'] if project.get("overview_text") else []),
+        *([overview_html(project)] if project.get("overview_text") else []),
         '</div>',
         photo_html(project, "../", caption=True),
         '</section>',
@@ -254,6 +273,11 @@ def main():
             raise ValueError(f"Invalid project group: {slug}")
         if not project.get("project_url", "").startswith("https://"):
             raise ValueError(f"Missing HTTPS project website: {slug}")
+        for link in project.get("overview_links", []):
+            if not link.get("label") or link["label"] not in project.get("overview_text", ""):
+                raise ValueError(f"Overview link label is missing from the text: {slug}")
+            if not link.get("url", "").startswith("https://"):
+                raise ValueError(f"Overview link must use HTTPS: {slug}")
         if project.get("funding"):
             funding = project["funding"]
             if not all(funding.get(key) for key in ("funder", "award", "grant_number", "source_url")):

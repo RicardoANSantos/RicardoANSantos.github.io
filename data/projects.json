@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-11",
-  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json. Funding supplied by Ricardo and checked against project, funder, and research sources on 11 October 2026.",
+  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json. Funding supplied by Ricardo and checked against project, funder, and research sources on 11 October 2026. ADAPT overview expanded from Ricardo's account of his PhD research, supplied on 11 October 2026; the supervisor link was checked against the University of Basel page.",
   "introduction": "I use organic molecules to investigate past climate and environmental change. My work combines lipid biomarkers and compound-specific δ²H and δ¹³C measurements with other evidence preserved in lake sediments.",
   "context": "A central challenge is separating climatic signals from changes in the plants and aquatic organisms that produce the molecules we measure. I investigate these source effects through modern calibration studies and sedimentary records.",
   "projects": [
@@ -60,7 +60,14 @@
         "grant_number": "PCEFP2_194211",
         "recipient": "S. Nemiah Ladd",
         "source_url": "https://data.snf.ch/grants/grant/194211"
-      }
+      },
+      "overview_text": "This work formed part of my PhD in the Organic Geochemistry group at the University of Basel, supervised by Prof. Nemiah Ladd. I investigated how changes in lipid sources affect sedimentary records from temperate lakes in Europe and northeastern North America, and how these effects can be identified, quantified, and corrected.\n\nPlant-derived lipids, including long-chain n-alkanes, fatty acids, and phytol, preserve evidence of past climate and vegetation. Their hydrogen-isotope values (δ²H) are particularly useful for reconstructing hydroclimate. Yet lipids reach sediments from both the lake and its catchment: shifts between aquatic and terrestrial plants, or between grasses and trees, can alter the isotope signal even when precipitation remains unchanged.\n\nI combined modern calibration data with sediment records extending back to the last deglaciation. In northeastern Germany, I showed that charophytes and submerged vascular plants differ in their lipid production and hydrogen-isotope fractionation, with implications for how widely used aquatic biomarker indices are interpreted.\n\nAt Lake Rotsee in Switzerland and Owasco Lake in New York, I tested and applied a vegetation correction based on the relative abundances of long-chain n-alkanes. Accounting for vegetation effects substantially reduced abrupt late-Holocene isotope shifts associated with forest clearance and agricultural expansion. The corrected records reveal clearer, regionally coherent hydroclimate signals linked to insolation, ice-sheet retreat, and atmospheric circulation. Together, these results highlight the importance of accounting for source changes when interpreting sedimentary lipid δ²H.",
+      "overview_links": [
+        {
+          "label": "Prof. Nemiah Ladd",
+          "url": "https://duw.unibas.ch/en/research-groups/organic-geochemistry/team/ladd/"
+        }
+      ]
     },
     {
       "period": null,
