@@ -8,7 +8,7 @@ by `scripts/render_projects.py`. Ricardo confirmed the following groupings on
 
 | Project | Suggested image | Current grouping |
 | --- | --- | --- |
-| ADAPT | Supplied Lake Rotsee shoreline photo, awaiting file transfer | Ongoing |
+| ADAPT | Supplied Lake Rotsee shoreline photo | Ongoing |
 | MEMELAND | Supplied project logo, displayed in full | Ongoing |
 | HOLMODRIVE · Lake Peixão | Lake Peixão, fieldwork, or sediment coring | Past |
 
@@ -124,10 +124,9 @@ impacts, natural variability over 10,000 years, and climatic context and
 macroalgae reconstructed with plant waxes and H/C isotopes.
 Keep the original Swiss-lake aims distinct from the wider geographic scope.
 
-Ricardo supplied a Lake Rotsee shoreline photo showing trees, the lake at sunset,
-and a nature-reserve sign. The expected repository destination is
-`assets/projects/adapt-rotsee.jpg`. After adding the original file there, set
-ADAPT’s `photo` to that path, render, and verify the Research card and project
-page. Alt text and caption are prepared in the project data. Do not substitute
-a different lake image. Leave photographer credit unstated unless Ricardo
-confirms it.
+Ricardo uploaded the supplied Lake Rotsee shoreline photo showing trees, the lake
+at sunset, and a nature-reserve sign. Its original bytes are stored at
+`assets/projects/adapt-rotsee.jpg`. ADAPT uses it on the Research card and project
+page, with a compact crop on the card and the full portrait on the project page.
+Alt text and the caption “Lake Rotsee, Switzerland.” are supplied in the project
+data. Leave photographer credit unstated unless Ricardo confirms it.
