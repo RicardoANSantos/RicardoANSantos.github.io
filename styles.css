@@ -224,3 +224,10 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .project-gallery-photo--wide {grid-column:1/-1;}
 .project-gallery-photo--wide .project-gallery-link {background:#fff;}
 .project-gallery-photo--wide img {aspect-ratio:auto;height:auto;}
+
+/* CV role summaries and highlighted peer-review service */
+.cv-role-summary {display:block;color:var(--muted);font-size:.82rem;line-height:1.65;margin-top:6px;}
+.cv-peer-review {max-width:900px;padding:20px 24px;margin:0 0 24px;background:var(--wash);border-left:3px solid var(--accent);}
+.cv-peer-review p:first-child {color:var(--accent);margin-bottom:8px;}
+.cv-peer-review p:last-child {margin-bottom:0;}
+@media(max-width:720px) {.cv-role-summary {font-size:.8rem;}.cv-peer-review {padding:18px 20px;}}
