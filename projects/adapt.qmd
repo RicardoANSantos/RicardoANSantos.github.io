@@ -43,8 +43,33 @@ ADAPT is funded through an SNSF Eccellenza Professorial Fellowship awarded to S.
 
 - **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities, and characterise lipid distributions and hydrogen-isotope fractionation in charophytes and submerged vascular plants.
 - **Vegetation-corrected hydroclimate:** Use the relative abundances of long-chain n-alkanes to account for vegetation effects in plant-wax δ²H records from Rotsee and Owasco, and interpret climate change since the last deglaciation alongside other sedimentary evidence.
-- **Past algal dynamics:** Within the wider ADAPT project, use Swiss lake sediments to investigate 20th-century phosphorus changes, Roman-period water-quality impacts, and natural algal variability over the last 10,000 years.
+- **Past algal dynamics:** Investigate how nutrient enrichment, changes in water quality, and natural environmental variability have shaped algal communities throughout the Holocene. Swiss-lake studies address 20th-century phosphorus changes and Roman-period water-quality impacts. Comparable assessments of algal dynamics also include Owasco and Skaneateles lakes in New York, USA.
 - **Aquatic sources and vegetation:** Combine lipid distributions, compound-specific δ²H and δ¹³C measurements, and modern calibration data to interpret aquatic biomarker indices and reconstruct changes in macroalgal abundance.
+
+## Project images {#project-photos}
+
+Select an image to view it in full.
+
+```{=html}
+<div class="project-gallery">
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/adapt-macrophytes-lipid-extraction.jpg" aria-label="Open full photograph: Total lipid extraction from aquatic macrophytes for ADAPT biomarker analyses."><img src="../assets/projects/adapt-macrophytes-lipid-extraction.jpg" alt="Total lipid extraction from aquatic macrophytes for ADAPT biomarker analyses." loading="lazy" decoding="async"></a>
+<figcaption>Total lipid extraction from aquatic macrophytes.</figcaption>
+</figure>
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/adapt-lake-murten-coring.jpg" aria-label="Open full photograph: Researchers operating sediment-coring equipment on a boat at Lake Murten, Switzerland."><img src="../assets/projects/adapt-lake-murten-coring.jpg" alt="Researchers operating sediment-coring equipment on a boat at Lake Murten, Switzerland." loading="lazy" decoding="async"></a>
+<figcaption>Sediment coring at Lake Murten, Switzerland.</figcaption>
+</figure>
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/adapt-basel-stable-isotope-lab.jpg" aria-label="Open full photograph: The Stable Isotope Ecology Lab in Basel, where compound-specific isotope analyses were carried out."><img src="../assets/projects/adapt-basel-stable-isotope-lab.jpg" alt="The Stable Isotope Ecology Lab in Basel, where compound-specific isotope analyses were carried out." loading="lazy" decoding="async"></a>
+<figcaption>Compound-specific isotope analyses at the Stable Isotope Ecology Lab, Basel.</figcaption>
+</figure>
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/adapt-owasco-hyperspectral-analysis.jpeg" aria-label="Open full photograph: An Owasco Lake sediment core positioned in a hyperspectral scanner at the University of Bern."><img src="../assets/projects/adapt-owasco-hyperspectral-analysis.jpeg" alt="An Owasco Lake sediment core positioned in a hyperspectral scanner at the University of Bern." loading="lazy" decoding="async"></a>
+<figcaption>Hyperspectral analysis of Owasco Lake sediments at the University of Bern.</figcaption>
+</figure>
+</div>
+```
 
 ## Publications
 

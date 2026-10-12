@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-12",
-  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json. Funding supplied by Ricardo and checked against project, funder, and research sources on 11 October 2026. ADAPT overview expanded from Ricardo's account of his PhD research, supplied on 11 October 2026; the supervisor link was checked against the University of Basel page. ADAPT contribution, research question, project context, and approach aligned with Ricardo's expanded PhD overview on 11 October 2026 while retaining the official project's algal research aims. Lake Peixão proxy list and simplified funding presentation updated from Ricardo's instructions on 12 October 2026. Funder logos are original vector versions with provenance recorded in THIRD_PARTY_NOTICES.md.",
+  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json. Funding supplied by Ricardo and checked against project, funder, and research sources on 11 October 2026. ADAPT overview expanded from Ricardo's account of his PhD research, supplied on 11 October 2026; the supervisor link was checked against the University of Basel page. ADAPT contribution, research question, project context, and approach aligned with Ricardo's expanded PhD overview on 11 October 2026 while retaining the official project's algal research aims. Lake Peixão proxy list and simplified funding presentation updated from Ricardo's instructions on 12 October 2026. Funder logos are original vector versions with provenance recorded in THIRD_PARTY_NOTICES.md. ADAPT past algal dynamics wording updated to the Holocene and Swiss/US assessments, including Owasco and Skaneateles, as confirmed by Ricardo on 12 October 2026. Four ADAPT gallery photographs were uploaded in commit 80479400044971ee325db94ddd2e62bdaae4d9ad; activity and location captions follow Ricardo's descriptions.",
   "introduction": "I use lipid biomarkers to reconstruct past climates, ecosystems, and human impacts from lake sediments. My work combines molecular distributions and compound-specific δ²H and δ¹³C measurements with other evidence preserved in these natural archives.",
   "context": "Interpreting these records requires understanding both environmental conditions and the organisms that produce the molecules we measure. I combine modern calibration studies with sedimentary records to investigate source effects, refine biomarker proxies, and make the uncertainties in past environmental reconstructions explicit.",
   "projects": [
@@ -48,7 +48,7 @@
       "summary": "Using lipid biomarkers and sedimentary DNA to understand how lake algal communities respond to natural change and human activity.",
       "question": "How can we distinguish hydroclimate signals from changes in terrestrial and aquatic plant sources in sedimentary lipid records?",
       "about": "ADAPT (Algal Dynamics and Productivity through Time) is a Swiss National Science Foundation project investigating how lake algal communities respond to natural environmental change and human activity. It combines lipid biomarkers and sedimentary DNA to reconstruct past algal communities and their links to water quality, food webs, and carbon cycling.\n\nMy PhD contribution connects modern calibration studies in northeastern Germany with lake-sediment archives from Switzerland and northeastern North America. It develops ways to account for lipid source changes and reconstruct the climatic context of past ecosystem change.\n\nADAPT is funded through an SNSF Eccellenza Professorial Fellowship awarded to S. Nemiah Ladd.",
-      "approach": "- **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities, and characterise lipid distributions and hydrogen-isotope fractionation in charophytes and submerged vascular plants.\n- **Vegetation-corrected hydroclimate:** Use the relative abundances of long-chain n-alkanes to account for vegetation effects in plant-wax δ²H records from Rotsee and Owasco, and interpret climate change since the last deglaciation alongside other sedimentary evidence.\n- **Past algal dynamics:** Within the wider ADAPT project, use Swiss lake sediments to investigate 20th-century phosphorus changes, Roman-period water-quality impacts, and natural algal variability over the last 10,000 years.\n- **Aquatic sources and vegetation:** Combine lipid distributions, compound-specific δ²H and δ¹³C measurements, and modern calibration data to interpret aquatic biomarker indices and reconstruct changes in macroalgal abundance.",
+      "approach": "- **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities, and characterise lipid distributions and hydrogen-isotope fractionation in charophytes and submerged vascular plants.\n- **Vegetation-corrected hydroclimate:** Use the relative abundances of long-chain n-alkanes to account for vegetation effects in plant-wax δ²H records from Rotsee and Owasco, and interpret climate change since the last deglaciation alongside other sedimentary evidence.\n- **Past algal dynamics:** Investigate how nutrient enrichment, changes in water quality, and natural environmental variability have shaped algal communities throughout the Holocene. Swiss-lake studies address 20th-century phosphorus changes and Roman-period water-quality impacts. Comparable assessments of algal dynamics also include Owasco and Skaneateles lakes in New York, USA.\n- **Aquatic sources and vegetation:** Combine lipid distributions, compound-specific δ²H and δ¹³C measurements, and modern calibration data to interpret aquatic biomarker indices and reconstruct changes in macroalgal abundance.",
       "project_url": "https://duw.unibas.ch/en/forschungsgruppen/organic-geochemistry/adapt/",
       "publication_dois": [
         "10.1029/2025PA005401"
@@ -68,6 +68,28 @@
         {
           "label": "Prof. Nemiah Ladd",
           "url": "https://duw.unibas.ch/en/research-groups/organic-geochemistry/team/ladd/"
+        }
+      ],
+      "gallery": [
+        {
+          "image": "assets/projects/adapt-macrophytes-lipid-extraction.jpg",
+          "alt": "Total lipid extraction from aquatic macrophytes for ADAPT biomarker analyses.",
+          "caption": "Total lipid extraction from aquatic macrophytes."
+        },
+        {
+          "image": "assets/projects/adapt-lake-murten-coring.jpg",
+          "alt": "Researchers operating sediment-coring equipment on a boat at Lake Murten, Switzerland.",
+          "caption": "Sediment coring at Lake Murten, Switzerland."
+        },
+        {
+          "image": "assets/projects/adapt-basel-stable-isotope-lab.jpg",
+          "alt": "The Stable Isotope Ecology Lab in Basel, where compound-specific isotope analyses were carried out.",
+          "caption": "Compound-specific isotope analyses at the Stable Isotope Ecology Lab, Basel."
+        },
+        {
+          "image": "assets/projects/adapt-owasco-hyperspectral-analysis.jpeg",
+          "alt": "An Owasco Lake sediment core positioned in a hyperspectral scanner at the University of Bern.",
+          "caption": "Hyperspectral analysis of Owasco Lake sediments at the University of Bern."
         }
       ]
     },
