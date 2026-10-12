@@ -123,6 +123,7 @@ Geology and Natural Resources.
 *Quaternary Science Reviews* and *Palaeogeography, Palaeoclimatology, Palaeoecology*.
 :::
 
+- **BiG‑CV n‑alkyl lipid team contributor:** Development of standardized biomarker nomenclature and synonym mapping.
 - **2025–present:** Co-initiator, Younger Dryas Working Group, bringing together researchers across disciplines to synthesise European proxy evidence.
 - **2021–2025:** Blog Editor & Outreach Team, [EGU Climate: Past, Present and Future](https://blogs.egu.eu/divisions/cl/category/egu/).
 - Research featured in [*O Tempo Preso na Lagoa*, National Geographic Portugal (2023)](https://www.nationalgeographic.pt/meio-ambiente/o-tempo-preso-na-lagoa-do-peixao-na-serra-da-estrela_3781).
