@@ -2,10 +2,20 @@
 title: "Research"
 ---
 
+::: {.research-intro}
+
 ::: {.page-intro}
 I use lipid biomarkers to reconstruct past climates, ecosystems, and human impacts from lake sediments. My work combines molecular distributions and compound-specific δ²H and δ¹³C measurements with other evidence preserved in these natural archives.
 
 Interpreting these records requires understanding both environmental conditions and the organisms that produce the molecules we measure. I combine modern calibration studies with sedimentary records to investigate source effects, refine biomarker proxies, and make the uncertainties in past environmental reconstructions explicit.
+:::
+
+```{=html}
+<figure class="research-intro-photo">
+<a href="assets/photos/research-introduction.jpeg" aria-label="Open full photograph: A mountain lake framed by conifer trees, green slopes, and low clouds."><img src="assets/photos/research-introduction.jpeg" alt="A mountain lake framed by conifer trees, green slopes, and low clouds." style="object-position:50% 50%" loading="lazy" decoding="async"></a>
+</figure>
+```
+
 :::
 
 ```{=html}

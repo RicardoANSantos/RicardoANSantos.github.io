@@ -313,10 +313,26 @@ def main():
                 raise ValueError(f"Gallery photo must be inside assets/: {slug}")
             if not (ROOT / path).is_file() or not photo.get("alt"):
                 raise ValueError(f"Gallery photo is missing or has no alt text: {slug}")
+    introduction = ['::: {.page-intro}', data["introduction"], '', data["context"], ':::']
+    if data.get("introduction_photo"):
+        photo = data["introduction_photo"]
+        path = Path(photo["image"])
+        if not photo["image"].startswith("assets/") or ".." in path.parts:
+            raise ValueError("Research introduction photo must be inside assets/")
+        if not (ROOT / path).is_file() or not photo.get("alt"):
+            raise ValueError("Research introduction photo is missing or has no alt text")
+        src = escape(photo["image"], quote=True)
+        alt = escape(photo["alt"], quote=True)
+        position = escape(photo.get("position", "50% 50%"), quote=True)
+        introduction = [
+            '::: {.research-intro}', '', *introduction, '', '```{=html}',
+            '<figure class="research-intro-photo">',
+            f'<a href="{src}" aria-label="Open full photograph: {alt}"><img src="{src}" alt="{alt}" style="object-position:{position}" loading="lazy" decoding="async"></a>',
+            '</figure>', '```', '', ':::',
+        ]
     lines = [
         '---', 'title: "Research"',
-        '---', '', '::: {.page-intro}', data["introduction"], '',
-        data["context"], ':::', '', '```{=html}',
+        '---', '', *introduction, '', '```{=html}',
         '<nav class="project-jumps" aria-label="Research sections">',
         '<a href="#ongoing-projects">Ongoing projects <span aria-hidden="true">↓</span></a>',
         '<a href="#past-projects">Past projects <span aria-hidden="true">↓</span></a>',
