@@ -271,3 +271,23 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .research-intro-photo a {display:block;overflow:hidden;border-radius:3px;}
 .research-intro-photo img {display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;}
 @media(max-width:720px) {.research-intro {grid-template-columns:1fr;gap:24px;}.research-intro-photo {justify-self:center;}}
+
+/* Laboratory portrait beside the publications title and first year heading. */
+.publications-page #title-block-header {display:none;}
+.publications-overview {display:grid;grid-template-columns:minmax(0,1fr) 280px;column-gap:42px;align-items:start;margin-bottom:18px;}
+.publications-heading {grid-column:1;grid-row:1;min-width:0;}
+.publications-heading h1 {margin:0 0 14px;}
+.publications-subtitle {font-size:1.07rem;line-height:1.65;margin:0;}
+.publications-list-heading {grid-column:1;grid-row:2;align-self:end;}
+.publications-list-heading h2 {margin:32px 0 0;}
+.publications-list-heading .publication-year {margin:32px 0 0;}
+.publications-page-photo {grid-column:2;grid-row:1/span 2;align-self:center;width:280px;max-width:100%;margin:0;}
+.publications-page-photo a {display:block;overflow:hidden;border-radius:3px;}
+.publications-page-photo img {display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;}
+@media(max-width:720px) {
+  .publications-overview {grid-template-columns:1fr;gap:24px;}
+  .publications-heading {grid-column:1;grid-row:1;}
+  .publications-page-photo {grid-column:1;grid-row:2;justify-self:center;}
+  .publications-list-heading {grid-column:1;grid-row:3;}
+  .publications-list-heading h2 {margin-top:0;}
+}

@@ -55,14 +55,44 @@ def main():
         if doi in seen or not doi.startswith("10."):
             raise ValueError(f"Duplicate or malformed DOI: {doi}")
         seen.add(doi)
+    years = sorted({p["year"] for p in data["published"]}, reverse=True)
+    photo = data.get("header_photo")
     lines = [
         '---', 'title: "Publications & outreach"',
         'description: "Research papers, outreach, and science communication."',
+        *(['body-classes: publications-page'] if photo else []),
         '---', '',
-        '## Peer-reviewed publications', '', '```{=html}'
     ]
-    for year in sorted({p["year"] for p in data["published"]}, reverse=True):
-        lines.append(f'<h3 class="publication-year" id="publications-{year}">{year}</h3>')
+    if photo:
+        path = Path(photo["image"])
+        if not photo["image"].startswith("assets/") or ".." in path.parts:
+            raise ValueError("Publications header photo must be inside assets/")
+        if not (ROOT / path).is_file() or not photo.get("alt"):
+            raise ValueError("Publications header photo is missing or has no alt text")
+        src = escape(photo["image"], quote=True)
+        alt = escape(photo["alt"], quote=True)
+        position = escape(photo.get("position", "50% 50%"), quote=True)
+        lines.extend([
+            '```{=html}',
+            '<section class="publications-overview" aria-label="Publications and outreach overview">',
+            '<div class="publications-heading">',
+            '<h1>Publications &amp; outreach</h1>',
+            '<p class="publications-subtitle">Research papers, outreach, and science communication.</p>',
+            '</div>',
+            '<div class="publications-list-heading">',
+            '<h2 id="peer-reviewed-publications">Peer-reviewed publications</h2>',
+            *([f'<h3 class="publication-year" id="publications-{years[0]}">{years[0]}</h3>'] if years else []),
+            '</div>',
+            '<figure class="publications-page-photo">',
+            f'<a href="{src}" aria-label="Open full photograph: {alt}"><img src="{src}" alt="{alt}" style="object-position:{position}" loading="lazy" decoding="async"></a>',
+            '</figure>', '</section>', '```', '',
+        ])
+    else:
+        lines.extend(['## Peer-reviewed publications', ''])
+    lines.append('```{=html}')
+    for year in years:
+        if not photo or year != years[0]:
+            lines.append(f'<h3 class="publication-year" id="publications-{year}">{year}</h3>')
         for paper in (p for p in data["published"] if p["year"] == year):
             doi = escape(paper["doi"], quote=True)
             journal = escape(paper["journal"])
