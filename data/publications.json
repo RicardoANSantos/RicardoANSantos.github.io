@@ -1,6 +1,11 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "source": "Peer-reviewed publications: Ricardo_CV.pdf, October 2026, pages 2–3. Outreach: links supplied by Ricardo.",
+  "header_photo": {
+    "image": "assets/photos/ricardo-santos-lipid-biomarkers.jpeg",
+    "alt": "Ricardo N. Santos in a laboratory, wearing a lab coat and holding a research paper.",
+    "position": "50% 35%"
+  },
   "published": [
     {
       "year": 2026,

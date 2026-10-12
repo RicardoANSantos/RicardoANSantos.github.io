@@ -1,12 +1,26 @@
 ---
 title: "Publications & outreach"
 description: "Research papers, outreach, and science communication."
+body-classes: publications-page
 ---
 
-## Peer-reviewed publications
+```{=html}
+<section class="publications-overview" aria-label="Publications and outreach overview">
+<div class="publications-heading">
+<h1>Publications &amp; outreach</h1>
+<p class="publications-subtitle">Research papers, outreach, and science communication.</p>
+</div>
+<div class="publications-list-heading">
+<h2 id="peer-reviewed-publications">Peer-reviewed publications</h2>
+<h3 class="publication-year" id="publications-2026">2026</h3>
+</div>
+<figure class="publications-page-photo">
+<a href="assets/photos/ricardo-santos-lipid-biomarkers.jpeg" aria-label="Open full photograph: Ricardo N. Santos in a laboratory, wearing a lab coat and holding a research paper."><img src="assets/photos/ricardo-santos-lipid-biomarkers.jpeg" alt="Ricardo N. Santos in a laboratory, wearing a lab coat and holding a research paper." style="object-position:50% 35%" loading="lazy" decoding="async"></a>
+</figure>
+</section>
+```
 
 ```{=html}
-<h3 class="publication-year" id="publications-2026">2026</h3>
 <article class="publication">
 <h3><a href="https://doi.org/10.1029/2026PA005517">North Atlantic ocean–atmosphere dynamics controlled the hydroclimate in western Iberia during the Holocene</a></h3>
 <p class="authors">Fernández-Pérez, U., <strong>Santos, R. N.</strong>, Rodrigues, T., Schefuß, E., Bao, R., Raposeiro, P., et al.</p>
