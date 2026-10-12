@@ -262,3 +262,12 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .contact-photo {margin:36px 0 0;}
 .contact-photo a {display:block;}
 .contact-photo img {display:block;width:100%;height:auto;border-radius:3px;}
+
+/* Compact photograph beside the research introduction. */
+.research-intro {display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:36px;align-items:center;margin-bottom:30px;}
+.research-intro .page-intro {max-width:none;margin-bottom:0;}
+.research-intro .page-intro p:last-child {margin-bottom:0;}
+.research-intro-photo {width:220px;max-width:100%;margin:0;}
+.research-intro-photo a {display:block;overflow:hidden;border-radius:3px;}
+.research-intro-photo img {display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;}
+@media(max-width:720px) {.research-intro {grid-template-columns:1fr;gap:24px;}.research-intro-photo {justify-self:center;}}
