@@ -41,7 +41,10 @@ body-classes: home-page
   </figure>
 </section>
 <section class="research-intro" aria-labelledby="research-title">
-  <div class="section-heading"><p class="eyebrow">RESEARCH FOCUS</p><h2 id="research-title">Lipid biomarker toolkit</h2></div>
+  <div class="toolkit-heading">
+    <div class="section-heading"><p class="eyebrow">RESEARCH FOCUS</p><h2 id="research-title">Lipid biomarker toolkit</h2></div>
+    <figure class="toolkit-photo"><a href="assets/photos/lipid-biomarker-toolkit-landscape.jpeg" aria-label="Open full mountain landscape photograph"><img src="assets/photos/lipid-biomarker-toolkit-landscape.jpeg" alt="Mountain panorama with rocky peaks, conifer trees, a green meadow, and a lake in the distance." loading="lazy" decoding="async"></a></figure>
+  </div>
   <div class="focus-grid">
     <div><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M9 3h6M10 3v6L4.5 18.5Q3.1 21 6 21h12q2.9 0 1.5-2.5L14 9V3"/><path d="M7 15h10"/></svg></span><h3>Modern calibration &amp; proxy development</h3><p>Understanding modern lipid sources and isotope signals to refine environmental proxies and make uncertainties in their interpretation explicit.</p></div>
     <div><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M12 3C10 6 5 11 5 15a7 7 0 0 0 14 0C19 11 14 6 12 3Z"/><path d="M8 16c2-2 6 2 8 0"/></svg></span><h3>Past hydroclimate</h3><p>Using sedimentary plant-wax hydrogen isotopes to investigate past hydroclimate, while accounting for changes in vegetation and lipid sources.</p></div>

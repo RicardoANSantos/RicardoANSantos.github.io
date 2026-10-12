@@ -214,7 +214,7 @@ def page_text(project, bibliography):
         f'<p class="project-group">{group}</p>',
         f'<p class="project-lead">{escape(project["summary"])}</p>',
         f'<dl class="project-facts">{facts_html}</dl>',
-        f'<p><a class="project-more" href="{escape(project["project_url"], quote=True)}">Project website <span aria-hidden="true">↗</span></a></p>',
+        *([f'<p><a class="project-more" href="{escape(project["project_url"], quote=True)}">Project website <span aria-hidden="true">↗</span></a></p>'] if project.get("project_url") else []),
         *([overview_html(project)] if project.get("overview_text") else []),
         '</div>',
         photo_html(project, "../", caption=True),
@@ -231,6 +231,8 @@ def page_text(project, bibliography):
         '## About the project', '', project["about"], '',
         '## Approach', '', project["approach"], '',
     ])
+    if project.get("collaborators"):
+        lines.extend(['## Collaborators', '', project["collaborators"], ''])
     if project.get("gallery"):
         lines.extend([
             '## Project images {#project-photos}', '', 'Select an image to view it in full.', '',
@@ -276,8 +278,8 @@ def main():
         seen.add(slug)
         if project["group"] not in {"ongoing", "past"}:
             raise ValueError(f"Invalid project group: {slug}")
-        if not project.get("project_url", "").startswith("https://"):
-            raise ValueError(f"Missing HTTPS project website: {slug}")
+        if project.get("project_url") and not project["project_url"].startswith("https://"):
+            raise ValueError(f"Project website must use HTTPS: {slug}")
         for link in project.get("overview_links", []):
             if not link.get("label") or link["label"] not in project.get("overview_text", ""):
                 raise ValueError(f"Overview link label is missing from the text: {slug}")

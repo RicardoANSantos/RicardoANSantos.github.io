@@ -1,32 +1,70 @@
 ---
 title: "Younger Dryas Working Group"
-description: "Bringing together researchers and different climate archives to synthesize European evidence for the Younger Dryas."
+description: "An international working group integrating lake, cave, glacier, and model evidence to understand European hydroclimate during the Younger Dryas and the last deglaciation."
 body-classes: project-page
 ---
 
 ```{=html}
-<section class="project-overview" aria-label="Project overview">
+<section class="project-overview project-overview--with-photo" aria-label="Project overview">
 <div class="project-overview-copy">
-<p class="eyebrow">Collaboration · European climate archives</p>
+<p class="eyebrow">Europe · Mediterranean · Lateglacial</p>
 <p class="project-group">Ongoing project</p>
-<p class="project-lead">Bringing together researchers and different climate archives to synthesize European evidence for the Younger Dryas.</p>
-<dl class="project-facts"><div><dt>Focus</dt><dd>Scientific collaboration</dd></div><div><dt>Period</dt><dd>2025–present</dd></div><div><dt>My role</dt><dd>Co-initiator</dd></div></dl>
+<p class="project-lead">An international working group integrating lake, cave, glacier, and model evidence to understand European hydroclimate during the Younger Dryas and the last deglaciation.</p>
+<dl class="project-facts"><div><dt>Focus</dt><dd>Hydroclimate · Proxy–model integration</dd></div><div><dt>Period</dt><dd>September 2024–present</dd></div><div><dt>My role</dt><dd>Co-coordinator · Lake-sediment biomarker synthesis</dd></div></dl>
+<div class="project-overview-notes"><p>I co-coordinate the group with <a href="https://www.gfz.de/en/staff/cecile.blanchet/sec46">Cecile Blanchet</a> (GFZ Potsdam). My role centres on lake-sediment biomarker research, compiling compound-specific plant-wax δ²H records and developing consistent methods to compare them across sites.</p></div>
 </div>
-<figure class="project-photo"><div class="project-photo-placeholder" role="img" aria-label="Photo placeholder for Younger Dryas Working Group"><svg viewBox="0 0 64 48" width="64" height="48" fill="none" aria-hidden="true"><path d="M8 12h12l5-7h14l5 7h12v30H8V12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="32" cy="26" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M47 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>Project photo to come</span></div></figure>
+<figure class="project-photo project-logo"><img src="../assets/projects/younger-dryas-working-group-logo.png" alt="Younger Dryas Working Group logo." style="object-position:50% 50%" loading="lazy" decoding="async"></figure>
 </section>
 ```
 
+::: {.project-contribution}
+## My contribution
+
+I coordinate the lake-sediment group and am building a European compilation of Lateglacial plant-wax δ²H records covering approximately 15–10.5 cal ka BP.
+
+I am developing a consistent workflow to calculate isotopic offsets across the Allerød/Younger Dryas and Younger Dryas/Holocene transitions. It accounts for age-model uncertainty near interval boundaries and documents which samples are excluded.
+
+:::
+
 ## Research question
 
-How can evidence from different European climate archives improve our understanding of the Younger Dryas?
+How did hydroclimate change across the Bølling–Allerød, Younger Dryas, and early Holocene in Europe, and can proxy records and isotope-enabled models tell a consistent story?
 
 ## About the project
 
-I am a co-initiator of the Younger Dryas Working Group, which brings together researchers working on lake records, speleothems, glaciers, chironomids, lipid biomarkers, and climate modelling to synthesize European evidence for this abrupt climate event.
+Formed in September 2024, the group brings together researchers at different career stages working on speleothems, lipid biomarkers in lake sediments, glaciers, high-resolution hyperspectral sediment records, and climate models.
+
+The group meets regularly for talks and discussion, with invited presentations on glacier equilibrium lines, Alpine simulations, and Mediterranean moisture sources.
 
 ## Approach
 
-Scientific exchange and synthesis across lake records, speleothems, glaciers, chironomids, lipid biomarkers, and climate modelling.
+- **Data compilation:** Collect and harmonise published records in a shared template, using community databases such as SISAL for speleothems and LiPDverse for lake records as starting points.
+- **Offset analysis:** Calculate Allerød→Younger Dryas and Younger Dryas→Holocene isotopic offsets from curated interval means, with tiers of chronological reliability and tests of boundary sensitivity.
+- **Proxy comparison:** Compare plant-wax δ²H changes with European speleothem δ¹⁸O records, followed by glacier and sediment-pigment evidence.
+- **Model benchmarking:** Use the combined synthesis to evaluate isotope-enabled climate model simulations of the Younger Dryas.
+
+## Collaborators
+
+Collaborators include [Cecile Blanchet](https://www.gfz.de/en/staff/cecile.blanchet/sec46), S. Nemiah Ladd, Laura Endres, Stan Schouten, Brooke Snoll, Chanamon (Mork) Panbut, Andrea Columbu, Costanza Del Gobbo, Stéphane Affolter, Dominik Fleitmann, Francien Peterse, Brice Rea, Matteo Spagnolo, and others.
+
+The group brings together colleagues from GFZ Potsdam, Basel, Bern, Pisa, Aberdeen, Utrecht, Leeds, and other institutions.
+
+## Project images {#project-photos}
+
+Select an image to view it in full.
+
+```{=html}
+<div class="project-gallery">
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/younger-dryas-basel-hybrid-meeting.png" aria-label="Open full photograph: Video call showing the Basel meeting programme, remote participants, and working group members in a conference room."><img src="../assets/projects/younger-dryas-basel-hybrid-meeting.png" alt="Video call showing the Basel meeting programme, remote participants, and working group members in a conference room." loading="lazy" decoding="async"></a>
+<figcaption>Basel meeting, 18 June 2026: programme and hybrid discussion.</figcaption>
+</figure>
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/younger-dryas-first-basel-meeting.jpeg" aria-label="Open full photograph: Working group logo and a sign for the Basel meeting on a conference table."><img src="../assets/projects/younger-dryas-first-basel-meeting.jpeg" alt="Working group logo and a sign for the Basel meeting on a conference table." loading="lazy" decoding="async"></a>
+<figcaption>First in-person meeting in Basel, 17–19 June 2026.</figcaption>
+</figure>
+</div>
+```
 
 ::: {.project-page-links}
 [← Ongoing projects](../research.qmd#ongoing-projects) · [Publications & outreach](../publications.qmd) · [Get in touch](../contact.qmd)

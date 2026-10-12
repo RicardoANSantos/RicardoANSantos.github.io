@@ -1,10 +1,11 @@
 # Research project photos and details
 
-The three main projects and their pages are generated from `data/projects.json`
+The four main projects and their pages are generated from `data/projects.json`
 by `scripts/render_projects.py`. Ricardo confirmed the following groupings on
-11 October 2026.
+11–12 October 2026.
 
-Ongoing projects are shown newest first: MEMELAND before ADAPT. Keep this order
+Ongoing projects are shown newest first: MEMELAND, Younger Dryas Working Group,
+then ADAPT. Keep this order
 in `data/projects.json`; the generator uses the project array order for the cards.
 Each main project has a highlighted “My contribution” section. HOLMODRIVE uses
 Ricardo’s account of his modern leaf-wax calibration, climate and vegetation
@@ -15,6 +16,7 @@ reconstructions, and collaborative lake-sediment studies.
 | Project | Suggested image | Current grouping |
 | --- | --- | --- |
 | MEMELAND | Supplied project logo, displayed in full | Ongoing |
+| Younger Dryas Working Group | Supplied group logo and two Basel meeting images | Ongoing |
 | ADAPT | Supplied Lake Rotsee shoreline photo | Ongoing |
 | HOLMODRIVE · Lake Peixão | Supplied coring photograph, four-photo gallery, and lake-formation illustration | Past |
 
@@ -47,7 +49,8 @@ the project’s Outreach section and Publications & outreach. ADAPT includes DOI
 Do not add papers to MEMELAND without a supplied or verified project association.
 
 The earlier standalone research-topic pages remain available for existing links.
-They are not additional main-project cards.
+The Younger Dryas Working Group page is now a main project generated from the
+project data. Other standalone topic pages are not additional main-project cards.
 
 ## Supplied HOLMODRIVE photograph
 
@@ -191,12 +194,12 @@ illustration. The heading is “Project images”, with the existing
 
 ## Project funding acknowledgments
 
-Each main project has a Funding section near the bottom of its detailed page.
-The structured `funding` record in `data/projects.json` supplies the same
-Funder, Award, and Grant fields in that order. `recipient` and `start_date`
-appear when relevant and confirmed. `source_url` links the grant number to
-the official project or funder record. The generator escapes these fields
-and uses the existing project-facts layout.
+Projects with confirmed funding have a Funding section near the bottom of their
+detailed pages. The structured `funding` record in `data/projects.json` supplies
+Funder and Grant fields, with `source_url` linking the grant number to the
+official project or funder record. Funder logos retain their original colours
+and proportions. The Younger Dryas Working Group has no funding record or section,
+as requested by Ricardo on 12 October 2026.
 
 Ricardo supplied the funding details on 11 October 2026. HOLMODRIVE was funded
 by Fundação para a Ciência e a Tecnologia (FCT), Portugal, under
@@ -246,3 +249,34 @@ these project aims from Ricardo’s specific PhD contribution.
 Ricardo also requested the geographic label to reflect Germany or temperate
 settings. Both the Research card and ADAPT detail page use
 “Temperate lakes · Germany · Switzerland · USA”.
+
+## Younger Dryas Working Group
+
+Ricardo supplied the working-group description on 12 October 2026. The group was
+formed in September 2024, and he co-coordinates it with Cecile Blanchet while
+leading the lake-sediment biomarker compilation. The existing
+`projects/younger-dryas.qmd` page is now generated from the main-project data.
+
+The `collaborators` field supplies the Collaborators section. No external project
+website was supplied, so the optional website link is omitted. The green
+contribution box covers the 15–10.5 cal ka BP plant-wax compilation and the
+chronological uncertainty and sample exclusions around transition boundaries.
+
+The original logo is reused under
+`assets/projects/younger-dryas-working-group-logo.png`. Ricardo uploaded the two
+Basel meeting images on 12 October 2026; their captions describe the hybrid
+discussion on 18 June 2026 and the first in-person meeting on 17–19 June 2026.
+Both gallery images link to their original full-size files.
+
+Cecile Blanchet links to her GFZ profile:
+https://www.gfz.de/en/staff/cecile.blanchet/sec46.
+Chanamon (Mork) Panbut's full name was confirmed in her self-authored EAG article:
+https://www.eagblog.org/news/mork/.
+
+## Homepage toolkit landscape
+
+Ricardo supplied the landscape image in his “Lipid biomarkers toolkit” upload.
+It is shown beside the section heading at its natural landscape proportions,
+with a link to the original. The heading and photograph have their own layout;
+the three focus cards stay in a separate, full-width grid below. On mobile,
+the heading and landscape stack above the focus cards.

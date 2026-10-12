@@ -42,6 +42,18 @@ Interpreting these records requires understanding both environmental conditions 
 </div>
 </article>
 <article class="project-card">
+<a class="project-photo-link" href="projects/younger-dryas.html" aria-label="Explore Younger Dryas Working Group">
+<figure class="project-photo project-logo"><img src="assets/projects/younger-dryas-working-group-logo.png" alt="Younger Dryas Working Group logo." style="object-position:50% 50%" loading="lazy" decoding="async"></figure>
+</a>
+<div class="project-card-copy">
+<p class="eyebrow">Europe · Mediterranean · Lateglacial</p>
+<h3><a href="projects/younger-dryas.html">Younger Dryas Working Group</a></h3>
+<p>An international working group integrating lake, cave, glacier, and model evidence to understand European hydroclimate during the Younger Dryas and the last deglaciation.</p>
+<p class="project-phase">Hydroclimate · Proxy–model integration · September 2024–present</p>
+<a class="project-more" href="projects/younger-dryas.html">Explore project <span aria-hidden="true">→</span></a>
+</div>
+</article>
+<article class="project-card">
 <a class="project-photo-link" href="projects/adapt.html" aria-label="Explore ADAPT">
 <figure class="project-photo"><img src="assets/projects/adapt-rotsee.jpg" alt="Lake Rotsee in Switzerland at sunset, with trees overhead and a Rotsee nature-reserve sign beside the shore." style="object-position:50% 50%" loading="lazy" decoding="async"></figure>
 </a>
