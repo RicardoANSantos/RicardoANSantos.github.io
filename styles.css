@@ -250,13 +250,6 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .photo-grid--research img {height:auto;aspect-ratio:4/3;object-fit:contain;object-position:50% 50%;}
 .photo-grid--research figure:nth-child(2) img {object-position:50% 50%;}
 .photo-grid--research figcaption {display:block;line-height:1.6;}
-.cv-overview {display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:40px;align-items:start;margin-bottom:28px;}
-.cv-overview-copy {min-width:0;}
-.cv-portrait {width:180px;max-width:100%;margin:0;padding-top:8px;}
-.cv-portrait a {display:block;}
-.cv-portrait img {display:block;width:100%;height:auto;border-radius:3px;}
-.cv-portrait figcaption {font-size:.72rem;line-height:1.6;color:var(--muted);padding-top:10px;}
-@media(max-width:720px) {.cv-overview {grid-template-columns:1fr;gap:22px;}.cv-portrait {justify-self:center;padding-top:0;}}
 
 /* Landscape photograph below the contact details. */
 .contact-photo {margin:36px 0 0;}
