@@ -289,9 +289,11 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 @media(min-width:992px) {.projects-grid--ongoing {grid-template-columns:repeat(3,minmax(0,1fr));}}
 
 /* Centered landscape below the toolkit heading and above the focus cards. */
-.toolkit-heading {display:block;margin-bottom:30px;}
+.toolkit-heading {display:block;margin-bottom:18px;}
 .toolkit-heading .section-heading {margin-bottom:24px;}
 .toolkit-heading .section-heading h2 {margin-bottom:0;}
-.toolkit-photo {width:100%;max-width:700px;margin:0 auto;}
+.toolkit-photo {position:relative;width:100%;max-width:920px;margin:0 auto;}
 .toolkit-photo a {display:block;overflow:hidden;border-radius:3px;}
 .toolkit-photo img {display:block;width:100%;height:auto;}
+.toolkit-photo figcaption {position:absolute;right:12px;bottom:10px;max-width:calc(100% - 24px);padding:4px 8px;background:rgba(253,252,249,.92);border-radius:2px;color:var(--ink);font-size:.68rem;line-height:1.5;pointer-events:none;}
+@media(max-width:600px) {.toolkit-photo figcaption {right:8px;bottom:8px;max-width:calc(100% - 16px);font-size:.6rem;}}

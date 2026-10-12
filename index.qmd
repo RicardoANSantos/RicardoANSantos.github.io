@@ -43,7 +43,7 @@ body-classes: home-page
 <section class="research-intro" aria-labelledby="research-title">
   <div class="toolkit-heading">
     <div class="section-heading"><p class="eyebrow">RESEARCH FOCUS</p><h2 id="research-title">Lipid biomarker toolkit</h2></div>
-    <figure class="toolkit-photo"><a href="assets/photos/lipid-biomarker-toolkit-landscape.jpeg" aria-label="Open full mountain landscape photograph"><img src="assets/photos/lipid-biomarker-toolkit-landscape.jpeg" alt="Mountain panorama with rocky peaks, conifer trees, a green meadow, and a lake in the distance." loading="lazy" decoding="async"></a></figure>
+    <figure class="toolkit-photo"><a href="assets/photos/lipid-biomarker-toolkit-landscape.jpeg" aria-label="Open full Hochstuckli landscape photograph"><img src="assets/photos/lipid-biomarker-toolkit-landscape.jpeg" alt="Mountain panorama from Hochstuckli, Schwyz, Switzerland, with rocky peaks, conifer trees, a green meadow, and a lake in the distance." loading="lazy" decoding="async"></a><figcaption>© Ricardo N. Santos · Hochstuckli, Schwyz, Switzerland</figcaption></figure>
   </div>
   <div class="focus-grid">
     <div><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M9 3h6M10 3v6L4.5 18.5Q3.1 21 6 21h12q2.9 0 1.5-2.5L14 9V3"/><path d="M7 15h10"/></svg></span><h3>Modern calibration &amp; proxy development</h3><p>Understanding modern lipid sources and isotope signals to refine environmental proxies and make uncertainties in their interpretation explicit.</p></div>
