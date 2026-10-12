@@ -276,7 +276,7 @@ https://www.eagblog.org/news/mork/.
 ## Homepage toolkit landscape
 
 Ricardo supplied the landscape image in his “Lipid biomarkers toolkit” upload.
-It is shown beside the section heading at its natural landscape proportions,
-with a link to the original. The heading and photograph have their own layout;
-the three focus cards stay in a separate, full-width grid below. On mobile,
-the heading and landscape stack above the focus cards.
+It is centred below the section heading, above the three focus cards, at its
+natural landscape proportions and up to 700 px wide. It links to the original
+image and scales to the available width on mobile. The focus cards stay in a
+separate, full-width grid below.

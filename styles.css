@@ -288,10 +288,10 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 /* Three ongoing project cards share a row on wide screens. */
 @media(min-width:992px) {.projects-grid--ongoing {grid-template-columns:repeat(3,minmax(0,1fr));}}
 
-/* Landscape beside the toolkit heading; the focus cards remain full width below. */
-.toolkit-heading {display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:36px;align-items:center;margin-bottom:30px;}
+/* Centered landscape below the toolkit heading and above the focus cards. */
+.toolkit-heading {display:block;margin-bottom:30px;}
+.toolkit-heading .section-heading {margin-bottom:24px;}
 .toolkit-heading .section-heading h2 {margin-bottom:0;}
-.toolkit-photo {margin:0;}
+.toolkit-photo {width:100%;max-width:700px;margin:0 auto;}
 .toolkit-photo a {display:block;overflow:hidden;border-radius:3px;}
 .toolkit-photo img {display:block;width:100%;height:auto;}
-@media(max-width:720px) {.toolkit-heading {grid-template-columns:1fr;gap:20px;}}
