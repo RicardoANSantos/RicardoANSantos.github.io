@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-12",
-  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json. Funding supplied by Ricardo and checked against project, funder, and research sources on 11 October 2026. ADAPT overview expanded from Ricardo's account of his PhD research, supplied on 11 October 2026; the supervisor link was checked against the University of Basel page. ADAPT contribution, research question, project context, and approach aligned with Ricardo's expanded PhD overview on 11 October 2026 while retaining the official project's algal research aims. Lake Peixão proxy list and simplified funding presentation updated from Ricardo's instructions on 12 October 2026. Funder logos are original vector versions with provenance recorded in THIRD_PARTY_NOTICES.md. ADAPT past algal dynamics wording updated to the Holocene and Swiss/US assessments, including Owasco and Skaneateles, as confirmed by Ricardo on 12 October 2026. Four ADAPT gallery photographs were uploaded in commit 80479400044971ee325db94ddd2e62bdaae4d9ad; activity and location captions follow Ricardo's descriptions.",
+  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json. Funding supplied by Ricardo and checked against project, funder, and research sources on 11 October 2026. ADAPT overview expanded from Ricardo's account of his PhD research, supplied on 11 October 2026; the supervisor link was checked against the University of Basel page. ADAPT contribution, research question, project context, and approach aligned with Ricardo's expanded PhD overview on 11 October 2026 while retaining the official project's algal research aims. Lake Peixão proxy list and simplified funding presentation updated from Ricardo's instructions on 12 October 2026. Funder logos are original vector versions with provenance recorded in THIRD_PARTY_NOTICES.md. ADAPT past algal dynamics wording updated to the Holocene and Swiss/US assessments, including Owasco and Skaneateles, as confirmed by Ricardo on 12 October 2026. Four ADAPT gallery photographs were uploaded in commit 80479400044971ee325db94ddd2e62bdaae4d9ad; activity and location captions follow Ricardo's descriptions. ADAPT gallery reordered with the Lake Murten landscape photograph first and full-width, plus silica-column and Owasco core-opening photographs selected from Ricardo's upload on 12 October 2026.",
   "introduction": "I use lipid biomarkers to reconstruct past climates, ecosystems, and human impacts from lake sediments. My work combines molecular distributions and compound-specific δ²H and δ¹³C measurements with other evidence preserved in these natural archives.",
   "context": "Interpreting these records requires understanding both environmental conditions and the organisms that produce the molecules we measure. I combine modern calibration studies with sedimentary records to investigate source effects, refine biomarker proxies, and make the uncertainties in past environmental reconstructions explicit.",
   "projects": [
@@ -72,14 +72,25 @@
       ],
       "gallery": [
         {
+          "image": "assets/projects/adapt-lake-murten-coring.jpg",
+          "alt": "Researchers operating sediment-coring equipment on a boat at Lake Murten, Switzerland.",
+          "caption": "Sediment coring at Lake Murten, Switzerland.",
+          "layout": "wide"
+        },
+        {
+          "image": "assets/projects/adapt-opening-owasco-core.jpeg",
+          "alt": "A researcher opening an Owasco Lake sediment core using a core-splitting setup.",
+          "caption": "Opening a sediment core from Owasco Lake."
+        },
+        {
           "image": "assets/projects/adapt-macrophytes-lipid-extraction.jpg",
           "alt": "Total lipid extraction from aquatic macrophytes for ADAPT biomarker analyses.",
           "caption": "Total lipid extraction from aquatic macrophytes."
         },
         {
-          "image": "assets/projects/adapt-lake-murten-coring.jpg",
-          "alt": "Researchers operating sediment-coring equipment on a boat at Lake Murten, Switzerland.",
-          "caption": "Sediment coring at Lake Murten, Switzerland."
+          "image": "assets/projects/adapt-silica-column-chromatography.jpg",
+          "alt": "Silica columns used to separate lipid extracts for biomarker analyses.",
+          "caption": "Silica-column separation of lipid extracts."
         },
         {
           "image": "assets/projects/adapt-basel-stable-isotope-lab.jpg",

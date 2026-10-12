@@ -52,13 +52,21 @@ Select an image to view it in full.
 
 ```{=html}
 <div class="project-gallery">
+<figure class="project-gallery-photo project-gallery-photo--wide">
+<a class="project-gallery-link" href="../assets/projects/adapt-lake-murten-coring.jpg" aria-label="Open full photograph: Researchers operating sediment-coring equipment on a boat at Lake Murten, Switzerland."><img src="../assets/projects/adapt-lake-murten-coring.jpg" alt="Researchers operating sediment-coring equipment on a boat at Lake Murten, Switzerland." loading="lazy" decoding="async"></a>
+<figcaption>Sediment coring at Lake Murten, Switzerland.</figcaption>
+</figure>
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/adapt-opening-owasco-core.jpeg" aria-label="Open full photograph: A researcher opening an Owasco Lake sediment core using a core-splitting setup."><img src="../assets/projects/adapt-opening-owasco-core.jpeg" alt="A researcher opening an Owasco Lake sediment core using a core-splitting setup." loading="lazy" decoding="async"></a>
+<figcaption>Opening a sediment core from Owasco Lake.</figcaption>
+</figure>
 <figure class="project-gallery-photo">
 <a class="project-gallery-link" href="../assets/projects/adapt-macrophytes-lipid-extraction.jpg" aria-label="Open full photograph: Total lipid extraction from aquatic macrophytes for ADAPT biomarker analyses."><img src="../assets/projects/adapt-macrophytes-lipid-extraction.jpg" alt="Total lipid extraction from aquatic macrophytes for ADAPT biomarker analyses." loading="lazy" decoding="async"></a>
 <figcaption>Total lipid extraction from aquatic macrophytes.</figcaption>
 </figure>
 <figure class="project-gallery-photo">
-<a class="project-gallery-link" href="../assets/projects/adapt-lake-murten-coring.jpg" aria-label="Open full photograph: Researchers operating sediment-coring equipment on a boat at Lake Murten, Switzerland."><img src="../assets/projects/adapt-lake-murten-coring.jpg" alt="Researchers operating sediment-coring equipment on a boat at Lake Murten, Switzerland." loading="lazy" decoding="async"></a>
-<figcaption>Sediment coring at Lake Murten, Switzerland.</figcaption>
+<a class="project-gallery-link" href="../assets/projects/adapt-silica-column-chromatography.jpg" aria-label="Open full photograph: Silica columns used to separate lipid extracts for biomarker analyses."><img src="../assets/projects/adapt-silica-column-chromatography.jpg" alt="Silica columns used to separate lipid extracts for biomarker analyses." loading="lazy" decoding="async"></a>
+<figcaption>Silica-column separation of lipid extracts.</figcaption>
 </figure>
 <figure class="project-gallery-photo">
 <a class="project-gallery-link" href="../assets/projects/adapt-basel-stable-isotope-lab.jpg" aria-label="Open full photograph: The Stable Isotope Ecology Lab in Basel, where compound-specific isotope analyses were carried out."><img src="../assets/projects/adapt-basel-stable-isotope-lab.jpg" alt="The Stable Isotope Ecology Lab in Basel, where compound-specific isotope analyses were carried out." loading="lazy" decoding="async"></a>
