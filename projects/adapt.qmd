@@ -73,6 +73,10 @@ Select an image to view it in full.
 <figcaption>Compound-specific isotope analyses at the Stable Isotope Ecology Lab, Basel.</figcaption>
 </figure>
 <figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/adapt-owasco-core-scanning.jpeg" aria-label="Open full photograph: An Owasco Lake sediment core positioned inside a sediment-core scanner."><img src="../assets/projects/adapt-owasco-core-scanning.jpeg" alt="An Owasco Lake sediment core positioned inside a sediment-core scanner." loading="lazy" decoding="async"></a>
+<figcaption>Scanning a sediment core from Owasco Lake.</figcaption>
+</figure>
+<figure class="project-gallery-photo">
 <a class="project-gallery-link" href="../assets/projects/adapt-owasco-hyperspectral-analysis.jpeg" aria-label="Open full photograph: An Owasco Lake sediment core positioned in a hyperspectral scanner at the University of Bern."><img src="../assets/projects/adapt-owasco-hyperspectral-analysis.jpeg" alt="An Owasco Lake sediment core positioned in a hyperspectral scanner at the University of Bern." loading="lazy" decoding="async"></a>
 <figcaption>Hyperspectral analysis of Owasco Lake sediments at the University of Bern.</figcaption>
 </figure>
