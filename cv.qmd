@@ -3,12 +3,15 @@ title: "Curriculum vitae"
 image: assets/mountain-portrait.jpg
 ---
 
+::: {.cv-overview}
+
+::: {.cv-overview-copy}
 ::: {.page-intro}
 Organic geochemist and geologist specializing in lipid biomarkers, compound-specific stable isotopes, and multi-proxy lake-sediment archives.
 :::
 
 ::: {.download-banner}
-[Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [Last updated: 11 October 2026 (web CV) · PDF edition: October 2026]{.small-note}
+[Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [Last updated: 12 October 2026 (web CV) · PDF edition: October 2026]{.small-note}
 :::
 
 ## Research expertise
@@ -19,6 +22,16 @@ Organic geochemist and geologist specializing in lipid biomarkers, compound-spec
 - Development and calibration of aquatic and terrestrial biomarker proxies
 - Multi-proxy paleolimnology, age–depth modelling and quantitative uncertainty analysis
 - Human–environment interactions in Holocene sedimentary records
+:::
+
+```{=html}
+<figure class="cv-portrait">
+<a href="assets/mountain-portrait.jpg" aria-label="Open full winter-retreat portrait"><img src="assets/mountain-portrait.jpg" alt="Ricardo in a yellow hat with snowy mountains behind him during the Organic Geochemistry group’s winter retreat in Engelberg." width="1200" height="1600" loading="lazy" decoding="async"></a>
+<figcaption>Organic Geochemistry group retreat, winter in Engelberg.</figcaption>
+</figure>
+```
+
+:::
 
 ## Education
 

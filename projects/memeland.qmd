@@ -42,6 +42,23 @@ Read more about [the Eawag team’s research](https://memeland.no/en/Team/eawag.
 
 Biomarker records will be integrated with hyperspectral imaging and geochemical and chronological data from the University of Salzburg team. Together with archaeobotany, sedimentary DNA, and socio-environmental modelling, these records will help compare medieval agricultural practices across Europe.
 
+## Project images {#project-photos}
+
+Select an image to view it in full.
+
+```{=html}
+<div class="project-gallery">
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/memeland-rotsee-coring-platform.jpeg" aria-label="Open full photograph: A sediment-coring platform with a tripod on Lake Rotsee, framed by trees and autumn foliage."><img src="../assets/projects/memeland-rotsee-coring-platform.jpeg" alt="A sediment-coring platform with a tripod on Lake Rotsee, framed by trees and autumn foliage." loading="lazy" decoding="async"></a>
+<figcaption>Sediment-coring platform at Lake Rotsee, Switzerland.</figcaption>
+</figure>
+<figure class="project-gallery-photo">
+<a class="project-gallery-link" href="../assets/projects/memeland-second-annual-meeting.jpeg" aria-label="Open full photograph: A MEMELAND-branded pen and the programme for the project&#x27;s second annual meeting in Murten."><img src="../assets/projects/memeland-second-annual-meeting.jpeg" alt="A MEMELAND-branded pen and the programme for the project&#x27;s second annual meeting in Murten." loading="lazy" decoding="async"></a>
+<figcaption>Programme from MEMELAND’s second annual meeting in Murten.</figcaption>
+</figure>
+</div>
+```
+
 ## Funding {#funding}
 
 ```{=html}

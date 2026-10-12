@@ -165,7 +165,20 @@ def check(base, source):
             require(any(urlsplit(src).path.endswith(item["image"]) for src in pages["publications.html"].images), "Outreach image is missing")
         if item.get("credit_url"):
             require(item["credit_url"] in pages["publications.html"].links, "Outreach author credit is missing")
+    extra_images = set()
+    for name in ("photos", "cv"):
+        source_page = Page((source / (name + ".qmd")).read_text(encoding="utf-8"))
+        expected_images = {src for src in source_page.images if src.startswith("assets/")}
+        public_images = {urlsplit(src).path.lstrip("/") for src in pages[name + ".html"].images
+                         if urlsplit(src).path.lstrip("/").startswith("assets/")}
+        require(public_images == expected_images, f"{name}.html: public images are missing or outdated")
+        for link in source_page.links & expected_images:
+            require(any(urlsplit(href).path.lstrip("/") == link for href in pages[name + ".html"].links),
+                    f"{name}.html: full photograph link is missing: {link}")
+        extra_images.update(expected_images)
+
     assets = {"styles.css", "assets/Ricardo_CV.pdf"}
+    assets.update(extra_images)
     assets.update(item["image"] for item in data.get("outreach", []) if item.get("image"))
     assets.update(project["photo"] for project in projects if project.get("photo"))
     assets.update(project["funding"]["logo"] for project in projects if project.get("funding", {}).get("logo"))
