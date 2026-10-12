@@ -152,16 +152,21 @@ def outreach_html(item):
 def funding_html(funding):
     rows = [
         ("Funder", escape(funding["funder"])),
-        ("Award", escape(funding["award"])),
         ("Grant", f'<a href="{escape(funding["source_url"], quote=True)}">{escape(funding["grant_number"])}</a>'),
     ]
-    if funding.get("recipient"):
-        rows.append(("Recipient", escape(funding["recipient"])))
-    if funding.get("start_date"):
-        rows.append(("Start date", escape(funding["start_date"])))
-    return '<dl class="project-facts project-funding">\n' + "\n".join(
+    details = '<dl class="project-facts project-funding">\n' + "\n".join(
         f'<div><dt>{label}</dt><dd>{value}</dd></div>' for label, value in rows
     ) + '\n</dl>'
+    if not funding.get("logo"):
+        return details
+    src = escape("../" + funding["logo"], quote=True)
+    alt = escape(funding["logo_alt"], quote=True)
+    return (
+        '<div class="project-funding-block">\n'
+        '<figure class="project-funder-logo">'
+        f'<img src="{src}" alt="{alt}" loading="lazy" decoding="async">'
+        '</figure>\n' + details + '\n</div>'
+    )
 
 
 def overview_html(project):
@@ -280,10 +285,16 @@ def main():
                 raise ValueError(f"Overview link must use HTTPS: {slug}")
         if project.get("funding"):
             funding = project["funding"]
-            if not all(funding.get(key) for key in ("funder", "award", "grant_number", "source_url")):
+            if not all(funding.get(key) for key in ("funder", "grant_number", "source_url")):
                 raise ValueError(f"Incomplete funding acknowledgment: {slug}")
             if not funding["source_url"].startswith("https://"):
                 raise ValueError(f"Funding source must use HTTPS: {slug}")
+            if funding.get("logo"):
+                path = Path(funding["logo"])
+                if not funding["logo"].startswith("assets/") or ".." in path.parts:
+                    raise ValueError(f"Funding logo must be inside assets/: {slug}")
+                if not (ROOT / path).is_file() or not funding.get("logo_alt"):
+                    raise ValueError(f"Funding logo is missing or has no alt text: {slug}")
         dois = project.get("publication_dois", [])
         urls = project.get("outreach_urls", [])
         if len(dois) != len(set(dois)) or not set(dois) <= known_dois:

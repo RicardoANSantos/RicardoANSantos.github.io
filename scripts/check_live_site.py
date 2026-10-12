@@ -154,6 +154,9 @@ def check(base, source):
             require("funding" in page.ids, f"{name}: public funding section is missing")
             require(funding["grant_number"] in " ".join(page.text), f"{name}: public funding grant number is missing")
             project_links.add(funding["source_url"])
+            if funding.get("logo"):
+                require("project-funding-block" in page.classes, f"{name}: public funding layout is missing")
+                require(any(urlsplit(src).path.endswith(funding["logo"]) for src in page.images), f"{name}: public funder logo is missing")
         for link in project_links:
             require(link in page.links, f"{name}: public project link is missing: {link}")
 
@@ -165,6 +168,7 @@ def check(base, source):
     assets = {"styles.css", "assets/Ricardo_CV.pdf"}
     assets.update(item["image"] for item in data.get("outreach", []) if item.get("image"))
     assets.update(project["photo"] for project in projects if project.get("photo"))
+    assets.update(project["funding"]["logo"] for project in projects if project.get("funding", {}).get("logo"))
     assets.update(photo["image"] for project in projects for photo in project.get("gallery", []))
     assets.update(path for path in Page(index).images if path.startswith("assets/"))
     for path in sorted(assets):

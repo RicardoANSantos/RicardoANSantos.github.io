@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-11",
-  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json. Funding supplied by Ricardo and checked against project, funder, and research sources on 11 October 2026. ADAPT overview expanded from Ricardo's account of his PhD research, supplied on 11 October 2026; the supervisor link was checked against the University of Basel page. ADAPT contribution, research question, project context, and approach aligned with Ricardo's expanded PhD overview on 11 October 2026 while retaining the official project's algal research aims.",
+  "updated": "2026-10-12",
+  "source": "Three main projects and their ongoing/past status confirmed by Ricardo on 11 October 2026. Descriptions checked against the official project websites and project-authored papers/abstracts. Related publications and outreach supplied by Ricardo; citation metadata comes from data/publications.json. Funding supplied by Ricardo and checked against project, funder, and research sources on 11 October 2026. ADAPT overview expanded from Ricardo's account of his PhD research, supplied on 11 October 2026; the supervisor link was checked against the University of Basel page. ADAPT contribution, research question, project context, and approach aligned with Ricardo's expanded PhD overview on 11 October 2026 while retaining the official project's algal research aims. Lake Peixão proxy list and simplified funding presentation updated from Ricardo's instructions on 12 October 2026. Funder logos are original vector versions with provenance recorded in THIRD_PARTY_NOTICES.md.",
   "introduction": "I use lipid biomarkers to reconstruct past climates, ecosystems, and human impacts from lake sediments. My work combines molecular distributions and compound-specific δ²H and δ¹³C measurements with other evidence preserved in these natural archives.",
   "context": "Interpreting these records requires understanding both environmental conditions and the organisms that produce the molecules we measure. I combine modern calibration studies with sedimentary records to investigate source effects, refine biomarker proxies, and make the uncertainties in past environmental reconstructions explicit.",
   "projects": [
@@ -17,7 +17,7 @@
       "phase": "Medieval land use · Molecular biomarkers",
       "summary": "Reconstructing medieval land use from lake sediments, using fecal and plant biomarkers to trace farming practices and environmental impacts.",
       "question": "How can molecular traces in lake sediments reveal medieval farming practices and their environmental impacts?",
-      "about": "MEMELAND investigates how human land use has shaped European landscapes and biodiversity over the last two millennia. It combines lake-sediment archives with archaeological, palaeoecological, and molecular evidence to distinguish local land-use histories from regional change.\n\nRead more about [the Eawag team’s research](https://memeland.no/en/Team/eawag.html).",
+      "about": "MEMELAND is an ERC Synergy project funded under the European Union’s Horizon Europe programme. It began on 1 July 2025 and investigates how human land use has shaped European landscapes and biodiversity over the last two millennia. It combines lake-sediment archives with archaeological, palaeoecological, and molecular evidence to distinguish local land-use histories from regional change.\n\nRead more about [the Eawag team’s research](https://memeland.no/en/Team/eawag.html).",
       "approach": "- **Grazing and manuring:** Fecal sterols and bile acids will trace animal and human inputs, complement animal sedimentary DNA records, and test links between nutrient enrichment and low-oxygen lake conditions.\n- **Soil erosion:** Compound-specific radiocarbon dating of leaf waxes and refractory organic carbon analyses will investigate soil disturbance linked to ploughing and livestock.\n- **Crop cultivation:** Miliacin (millet) and cannabinol (*Cannabis* spp.) will be used to investigate cultivation and practices such as hemp retting.\n\nBiomarker records will be integrated with hyperspectral imaging and geochemical and chronological data from the University of Salzburg team. Together with archaeobotany, sedimentary DNA, and socio-environmental modelling, these records will help compare medieval agricultural practices across Europe.",
       "project_url": "https://memeland.no/en/About/about.html",
       "publication_dois": [],
@@ -27,10 +27,11 @@
       "contribution": "I will join Prof. [Nathalie Dubois](https://memeland.no/en/Team/people.html#prof.-dr.-nathalie-dubois) in the Eawag team’s biomarker work, using lake sediments to reconstruct medieval agricultural practices and their effects on aquatic ecosystems.",
       "funding": {
         "funder": "European Research Council (ERC)",
-        "award": "ERC Synergy Grant, Horizon Europe",
         "grant_number": "101166850",
-        "start_date": "1 July 2025",
-        "source_url": "https://cordis.europa.eu/project/id/101166850"
+        "source_url": "https://cordis.europa.eu/project/id/101166850",
+        "logo": "assets/funders/erc-eu.svg",
+        "logo_alt": "European Union emblem and European Research Council (ERC) logo",
+        "logo_source_url": "https://erc.europa.eu/support/logos"
       }
     },
     {
@@ -46,7 +47,7 @@
       "phase": "Lake ecology · Hydroclimate",
       "summary": "Using lipid biomarkers and sedimentary DNA to understand how lake algal communities respond to natural change and human activity.",
       "question": "How can we distinguish hydroclimate signals from changes in terrestrial and aquatic plant sources in sedimentary lipid records?",
-      "about": "ADAPT (Algal Dynamics and Productivity through Time) is a Swiss National Science Foundation project investigating how lake algal communities respond to natural environmental change and human activity. It combines lipid biomarkers and sedimentary DNA to reconstruct past algal communities and their links to water quality, food webs, and carbon cycling.\n\nMy PhD contribution connects modern calibration studies in northeastern Germany with lake-sediment archives from Switzerland and northeastern North America. It develops ways to account for lipid source changes and reconstruct the climatic context of past ecosystem change.",
+      "about": "ADAPT (Algal Dynamics and Productivity through Time) is a Swiss National Science Foundation project investigating how lake algal communities respond to natural environmental change and human activity. It combines lipid biomarkers and sedimentary DNA to reconstruct past algal communities and their links to water quality, food webs, and carbon cycling.\n\nMy PhD contribution connects modern calibration studies in northeastern Germany with lake-sediment archives from Switzerland and northeastern North America. It develops ways to account for lipid source changes and reconstruct the climatic context of past ecosystem change.\n\nADAPT is funded through an SNSF Eccellenza Professorial Fellowship awarded to S. Nemiah Ladd.",
       "approach": "- **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities, and characterise lipid distributions and hydrogen-isotope fractionation in charophytes and submerged vascular plants.\n- **Vegetation-corrected hydroclimate:** Use the relative abundances of long-chain n-alkanes to account for vegetation effects in plant-wax δ²H records from Rotsee and Owasco, and interpret climate change since the last deglaciation alongside other sedimentary evidence.\n- **Past algal dynamics:** Within the wider ADAPT project, use Swiss lake sediments to investigate 20th-century phosphorus changes, Roman-period water-quality impacts, and natural algal variability over the last 10,000 years.\n- **Aquatic sources and vegetation:** Combine lipid distributions, compound-specific δ²H and δ¹³C measurements, and modern calibration data to interpret aquatic biomarker indices and reconstruct changes in macroalgal abundance.",
       "project_url": "https://duw.unibas.ch/en/forschungsgruppen/organic-geochemistry/adapt/",
       "publication_dois": [
@@ -56,10 +57,11 @@
       "contribution": "My contribution focuses on distinguishing hydroclimate signals from changes in the plants that supply lipids to lake sediments. I combine modern aquatic-plant calibration in northeastern Germany with vegetation-corrected plant-wax δ²H records from Lake Rotsee in Switzerland and Owasco Lake in New York.\n\nThis work tests how source changes affect aquatic biomarker indices and reduces vegetation-related shifts in sedimentary isotope records, helping reconstruct past hydroclimate and provide context for changes in lake ecosystems.",
       "funding": {
         "funder": "Swiss National Science Foundation (SNSF)",
-        "award": "Eccellenza Professorial Fellowship",
         "grant_number": "PCEFP2_194211",
-        "recipient": "S. Nemiah Ladd",
-        "source_url": "https://data.snf.ch/grants/grant/194211"
+        "source_url": "https://data.snf.ch/grants/grant/194211",
+        "logo": "assets/funders/snsf.svg",
+        "logo_alt": "Swiss National Science Foundation (SNSF) logo",
+        "logo_source_url": "https://www.snf.ch/en/d3iYI2UUG6uDFSaE/page/aboutus/contact/logo-snf"
       },
       "overview_text": "This work formed part of my PhD in the Organic Geochemistry group at the University of Basel, supervised by Prof. Nemiah Ladd. I investigated how changes in lipid sources affect sedimentary records from temperate lakes in Europe and northeastern North America, and how these effects can be identified, quantified, and corrected.\n\nPlant-derived lipids, including long-chain n-alkanes, fatty acids, and phytol, preserve evidence of past climate and vegetation. Their hydrogen-isotope values (δ²H) are particularly useful for reconstructing hydroclimate. Yet lipids reach sediments from both the lake and its catchment: shifts between aquatic and terrestrial plants, or between grasses and trees, can alter the isotope signal even when precipitation remains unchanged.\n\nI combined modern calibration data with sediment records extending back to the last deglaciation. In northeastern Germany, I showed that charophytes and submerged vascular plants differ in their lipid production and hydrogen-isotope fractionation, with implications for how widely used aquatic biomarker indices are interpreted.\n\nAt Lake Rotsee in Switzerland and Owasco Lake in New York, I tested and applied a vegetation correction based on the relative abundances of long-chain n-alkanes. Accounting for vegetation effects substantially reduced abrupt late-Holocene isotope shifts associated with forest clearance and agricultural expansion. The corrected records reveal clearer, regionally coherent hydroclimate signals linked to insolation, ice-sheet retreat, and atmospheric circulation. Together, these results highlight the importance of accounting for source changes when interpreting sedimentary lipid δ²H.",
       "overview_links": [
@@ -82,8 +84,8 @@
       "phase": "North Atlantic climate · Western Iberia",
       "summary": "Reading the Lake Peixão sediment archive to understand climate, vegetation, and environmental change in western Iberia.",
       "question": "How have North Atlantic climate variability, vegetation, and human activity shaped the environment around Lake Peixão?",
-      "about": "HOLMODRIVE investigated how North Atlantic atmospheric patterns have influenced western Iberian climate from the Late Glacial to the present. At Lake Peixão in Portugal’s Serra da Estrela, the sediment archive records changes in climate, vegetation, and the surrounding landscape.",
-      "approach": "Lipid biomarkers and compound-specific stable isotopes alongside pollen, sedimentology, and inorganic geochemistry.",
+      "about": "HOLMODRIVE (*North Atlantic Atmospheric Patterns Influence on Western Iberia Climate: From the Late Glacial to the Present*) explored the links between large-scale atmospheric circulation and environmental change in western Iberia. At Lake Peixão in Portugal’s Serra da Estrela, the sediment archive records changes in climate, vegetation, and the surrounding landscape.",
+      "approach": "A multi-proxy approach combining lipid biomarkers and compound-specific stable isotope measurements (δ²H and δ¹³C) with pollen, diatoms, chironomids, macrocharcoal, sedimentology, and inorganic geochemistry. Together, these complementary records help reconstruct past hydroclimate, vegetation, lake ecology, and landscape change.",
       "project_url": "https://holmodrive.rd.ciencias.ulisboa.pt/index.html",
       "publication_dois": [
         "10.3389/fenvs.2022.994377",
@@ -135,9 +137,11 @@
       "overview_text": "During my time at IPMA and the University of Lisbon, I worked on Lake Peixão, a small glacial lake at around 1,700 m in Serra da Estrela. Its position between Atlantic and Mediterranean climate influences makes its sediments a sensitive archive of environmental change in western Iberia.\n\nI led the organic geochemistry work on the PEX19-01 sediment core, analysing leaf-wax n-alkanes and their compound-specific δ²H and δ¹³C values.",
       "funding": {
         "funder": "Fundação para a Ciência e a Tecnologia (FCT), Portugal",
-        "award": "HOLMODRIVE: North Atlantic Atmospheric Patterns Influence on Western Iberia Climate: From the Late Glacial to the Present",
         "grant_number": "PTDC/CTA-GEO/29029/2017",
-        "source_url": "https://holmodrive.rd.ciencias.ulisboa.pt/index.html"
+        "source_url": "https://holmodrive.rd.ciencias.ulisboa.pt/index.html",
+        "logo": "assets/funders/fct.svg",
+        "logo_alt": "Fundação para a Ciência e a Tecnologia (FCT) logo",
+        "logo_source_url": "https://www.fct.pt/media/media-e-identidade-de-marca/"
       }
     }
   ]
