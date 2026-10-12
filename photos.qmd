@@ -18,7 +18,8 @@ A selection of photographs from my research and scientific activities.
     <figcaption><strong>Aquatic macrophyte TLE being prepared for the Rocket evaporator</strong></figcaption>
   </figure>
   <figure>
-    <a href="assets/photos/research-photo-03.jpg" aria-label="Open full photograph: Photograph from Ricardo N. Santos’s research gallery, image 3."><img src="assets/photos/research-photo-03.jpg" alt="Photograph from Ricardo N. Santos’s research gallery, image 3." loading="lazy" decoding="async"></a>
+    <a href="assets/photos/research-photo-03.jpg" aria-label="Open full photograph: Sub-sampling for 210Pb and 137Cs measurements."><img src="assets/photos/research-photo-03.jpg" alt="Sub-sampling for 210Pb and 137Cs measurements." loading="lazy" decoding="async"></a>
+    <figcaption><strong>Sub-sampling for <sup>210</sup>Pb and <sup>137</sup>Cs</strong></figcaption>
   </figure>
   <figure>
     <a href="assets/photos/micadas-eth.jpg" aria-label="Open full photograph: MICADAS radiocarbon dating system at ETH."><img src="assets/photos/micadas-eth.jpg" alt="MICADAS radiocarbon dating system at ETH." loading="lazy" decoding="async"></a>
@@ -35,6 +36,10 @@ A selection of photographs from my research and scientific activities.
   <figure>
     <a href="assets/photos/ase-extraction-cell-assembly.jpeg" aria-label="Open full photograph: ASE extraction cells being assembled on a laboratory bench."><img src="assets/photos/ase-extraction-cell-assembly.jpeg" alt="ASE extraction cells being assembled on a laboratory bench." loading="lazy" decoding="async"></a>
     <figcaption><strong>ASE Extraction Cell Assembly</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="assets/photos/diatom-sample-preparation-a-coruna.jpg" aria-label="Open full photograph: Diatom sample preparation at the University of A Coruña."><img src="assets/photos/diatom-sample-preparation-a-coruna.jpg" alt="Diatom sample preparation at the University of A Coruña." loading="lazy" decoding="async"></a>
+    <figcaption><strong>Diatom sample preparation at the University of A Coruña</strong></figcaption>
   </figure>
 </div>
 ```
