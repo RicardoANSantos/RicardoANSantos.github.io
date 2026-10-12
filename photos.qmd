@@ -10,10 +10,12 @@ A selection of photographs from my research and scientific activities.
 ```{=html}
 <div class="photo-grid photo-grid--research">
   <figure>
-    <a href="assets/photos/research-photo-01.jpg" aria-label="Open full photograph: Photograph from Ricardo N. Santos’s research gallery, image 1."><img src="assets/photos/research-photo-01.jpg" alt="Photograph from Ricardo N. Santos’s research gallery, image 1." loading="lazy" decoding="async"></a>
+    <a href="assets/photos/research-photo-01.jpg" aria-label="Open full photograph: GC-FID autosampler with Owasco samples."><img src="assets/photos/research-photo-01.jpg" alt="GC-FID autosampler with Owasco samples." loading="lazy" decoding="async"></a>
+    <figcaption><strong>GC-FID autosampler with Owasco samples</strong></figcaption>
   </figure>
   <figure>
-    <a href="assets/photos/research-photo-02.jpg" aria-label="Open full photograph: Photograph from Ricardo N. Santos’s research gallery, image 2."><img src="assets/photos/research-photo-02.jpg" alt="Photograph from Ricardo N. Santos’s research gallery, image 2." loading="lazy" decoding="async"></a>
+    <a href="assets/photos/research-photo-02.jpg" aria-label="Open full photograph: Aquatic macrophyte total lipid extract being prepared for the Rocket evaporator."><img src="assets/photos/research-photo-02.jpg" alt="Aquatic macrophyte total lipid extract being prepared for the Rocket evaporator." loading="lazy" decoding="async"></a>
+    <figcaption><strong>Aquatic macrophyte TLE being prepared for the Rocket evaporator</strong></figcaption>
   </figure>
   <figure>
     <a href="assets/photos/research-photo-03.jpg" aria-label="Open full photograph: Photograph from Ricardo N. Santos’s research gallery, image 3."><img src="assets/photos/research-photo-03.jpg" alt="Photograph from Ricardo N. Santos’s research gallery, image 3." loading="lazy" decoding="async"></a>
@@ -23,8 +25,16 @@ A selection of photographs from my research and scientific activities.
     <figcaption><strong>MICADAS radiocarbon dating system, ETH.</strong></figcaption>
   </figure>
   <figure>
-    <a href="assets/photos/silica-column-fractionation.jpg" aria-label="Open full photograph: Silica-column fractionation setup."><img src="assets/photos/silica-column-fractionation.jpg" alt="Silica-column fractionation setup." loading="lazy" decoding="async"></a>
-    <figcaption><strong>Silica-column fractionation.</strong></figcaption>
+    <a href="assets/photos/silica-column-fractionation.jpg" aria-label="Open full photograph: Silica gel column chromatography setup."><img src="assets/photos/silica-column-fractionation.jpg" alt="Silica gel column chromatography setup." loading="lazy" decoding="async"></a>
+    <figcaption><strong>Silica Gel Column Chromatography</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="assets/photos/owasco-owa24-macrofossil-picking.jpeg" aria-label="Open full photograph: Macrofossils from OWA24 samples being picked into labelled bags."><img src="assets/photos/owasco-owa24-macrofossil-picking.jpeg" alt="Macrofossils from OWA24 samples being picked into labelled bags." loading="lazy" decoding="async"></a>
+    <figcaption><strong>OWA24 Macrofossil Picking</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="assets/photos/ase-extraction-cell-assembly.jpeg" aria-label="Open full photograph: ASE extraction cells being assembled on a laboratory bench."><img src="assets/photos/ase-extraction-cell-assembly.jpeg" alt="ASE extraction cells being assembled on a laboratory bench." loading="lazy" decoding="async"></a>
+    <figcaption><strong>ASE Extraction Cell Assembly</strong></figcaption>
   </figure>
 </div>
 ```
