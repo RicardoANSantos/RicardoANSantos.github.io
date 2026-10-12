@@ -28,13 +28,13 @@ I am developing a consistent workflow to calculate isotopic offsets across the A
 
 ## Research question
 
-How did hydroclimate change across the Bølling–Allerød, Younger Dryas, and early Holocene in Europe, and can proxy records and isotope-enabled models tell a consistent story?
+How did large-scale forcing, such as an AMOC slowdown, express itself regionally across Europe during the last deglaciation and early Holocene? How did hydroclimate change across the Bølling–Allerød, Younger Dryas, and early Holocene in Europe, and can proxy records and isotope-enabled models tell a consistent story?
 
 ## About the project
 
-Formed in September 2024, the group brings together researchers at different career stages working on speleothems, lipid biomarkers in lake sediments, glaciers, high-resolution hyperspectral sediment records, and climate models.
+This group brings together researchers working on lake sediments, speleothems, glaciers, climate models and multiple proxies to build a continent-scale understanding of the Younger Dryas and the wider last deglaciation in Europe.
 
-The group meets regularly for talks and discussion, with invited presentations on glacier equilibrium lines, Alpine simulations, and Mediterranean moisture sources.
+Many excellent records exist but are usually discussed within separate regional or proxy-specific contexts. We compile, critically evaluate and compare them, paying close attention to chronological control, proxy sensitivity, seasonality and uncertainty.
 
 ## Approach
 
@@ -45,7 +45,7 @@ The group meets regularly for talks and discussion, with invited presentations o
 
 ## Collaborators
 
-Collaborators include [Cecile Blanchet](https://www.gfz.de/en/staff/cecile.blanchet/sec46), S. Nemiah Ladd, Laura Endres, Stan Schouten, Brooke Snoll, Chanamon (Mork) Panbut, Andrea Columbu, Costanza Del Gobbo, Stéphane Affolter, Dominik Fleitmann, Francien Peterse, Brice Rea, Matteo Spagnolo, and others.
+Collaborators include [Cecile Blanchet](https://www.gfz.de/en/staff/cecile.blanchet/sec46), [S. Nemiah Ladd](https://duw.unibas.ch/en/research-groups/organic-geochemistry/team/ladd/), Laura Endres, Stan Schouten, Brooke Snoll, Chanamon (Mork) Panbut, Andrea Columbu, Costanza Del Gobbo, Stéphane Affolter, Dominik Fleitmann, Francien Peterse, Brice Rea, Matteo Spagnolo, and others.
 
 The group brings together colleagues from GFZ Potsdam, Basel, Bern, Pisa, Aberdeen, Utrecht, Leeds, and other institutions.
 
