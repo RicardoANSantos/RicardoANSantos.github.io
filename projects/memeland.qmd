@@ -30,7 +30,7 @@ How can molecular traces in lake sediments reveal medieval farming practices and
 
 ## About the project
 
-MEMELAND investigates how human land use has shaped European landscapes and biodiversity over the last two millennia. It combines lake-sediment archives with archaeological, palaeoecological, and molecular evidence to distinguish local land-use histories from regional change.
+MEMELAND is an ERC Synergy project funded under the European Union’s Horizon Europe programme. It began on 1 July 2025 and investigates how human land use has shaped European landscapes and biodiversity over the last two millennia. It combines lake-sediment archives with archaeological, palaeoecological, and molecular evidence to distinguish local land-use histories from regional change.
 
 Read more about [the Eawag team’s research](https://memeland.no/en/Team/eawag.html).
 
@@ -45,12 +45,13 @@ Biomarker records will be integrated with hyperspectral imaging and geochemical 
 ## Funding {#funding}
 
 ```{=html}
+<div class="project-funding-block">
+<figure class="project-funder-logo"><img src="../assets/funders/erc-eu.svg" alt="European Union emblem and European Research Council (ERC) logo" loading="lazy" decoding="async"></figure>
 <dl class="project-facts project-funding">
 <div><dt>Funder</dt><dd>European Research Council (ERC)</dd></div>
-<div><dt>Award</dt><dd>ERC Synergy Grant, Horizon Europe</dd></div>
 <div><dt>Grant</dt><dd><a href="https://cordis.europa.eu/project/id/101166850">101166850</a></dd></div>
-<div><dt>Start date</dt><dd>1 July 2025</dd></div>
 </dl>
+</div>
 ```
 
 ::: {.project-page-links}

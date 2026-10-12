@@ -35,11 +35,11 @@ How have North Atlantic climate variability, vegetation, and human activity shap
 
 ## About the project
 
-HOLMODRIVE investigated how North Atlantic atmospheric patterns have influenced western Iberian climate from the Late Glacial to the present. At Lake Peixão in Portugal’s Serra da Estrela, the sediment archive records changes in climate, vegetation, and the surrounding landscape.
+HOLMODRIVE (*North Atlantic Atmospheric Patterns Influence on Western Iberia Climate: From the Late Glacial to the Present*) explored the links between large-scale atmospheric circulation and environmental change in western Iberia. At Lake Peixão in Portugal’s Serra da Estrela, the sediment archive records changes in climate, vegetation, and the surrounding landscape.
 
 ## Approach
 
-Lipid biomarkers and compound-specific stable isotopes alongside pollen, sedimentology, and inorganic geochemistry.
+A multi-proxy approach combining lipid biomarkers and compound-specific stable isotope measurements (δ²H and δ¹³C) with pollen, diatoms, chironomids, macrocharcoal, sedimentology, and inorganic geochemistry. Together, these complementary records help reconstruct past hydroclimate, vegetation, lake ecology, and landscape change.
 
 ## Project images {#project-photos}
 
@@ -134,11 +134,13 @@ Listed from oldest to newest.
 ## Funding {#funding}
 
 ```{=html}
+<div class="project-funding-block">
+<figure class="project-funder-logo"><img src="../assets/funders/fct.svg" alt="Fundação para a Ciência e a Tecnologia (FCT) logo" loading="lazy" decoding="async"></figure>
 <dl class="project-facts project-funding">
 <div><dt>Funder</dt><dd>Fundação para a Ciência e a Tecnologia (FCT), Portugal</dd></div>
-<div><dt>Award</dt><dd>HOLMODRIVE: North Atlantic Atmospheric Patterns Influence on Western Iberia Climate: From the Late Glacial to the Present</dd></div>
 <div><dt>Grant</dt><dd><a href="https://holmodrive.rd.ciencias.ulisboa.pt/index.html">PTDC/CTA-GEO/29029/2017</a></dd></div>
 </dl>
+</div>
 ```
 
 ::: {.project-page-links}

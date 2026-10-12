@@ -58,9 +58,7 @@ def main():
     lines = [
         '---', 'title: "Publications & outreach"',
         'description: "Research papers, outreach, and science communication."',
-        '---', '', '::: {.page-intro}',
-        'Research papers and outreach on lipid biomarkers, paleohydroclimate, vegetation, and lake-sediment archives.',
-        ':::', '',
+        '---', '',
         '## Peer-reviewed publications', '', '```{=html}'
     ]
     for year in sorted({p["year"] for p in data["published"]}, reverse=True):

@@ -37,6 +37,8 @@ ADAPT (Algal Dynamics and Productivity through Time) is a Swiss National Science
 
 My PhD contribution connects modern calibration studies in northeastern Germany with lake-sediment archives from Switzerland and northeastern North America. It develops ways to account for lipid source changes and reconstruct the climatic context of past ecosystem change.
 
+ADAPT is funded through an SNSF Eccellenza Professorial Fellowship awarded to S. Nemiah Ladd.
+
 ## Approach
 
 - **Modern calibration:** Compare lipid biomarkers and sedimentary DNA in water and surface sediments with living algal communities, and characterise lipid distributions and hydrogen-isotope fractionation in charophytes and submerged vascular plants.
@@ -58,12 +60,13 @@ My PhD contribution connects modern calibration studies in northeastern Germany 
 ## Funding {#funding}
 
 ```{=html}
+<div class="project-funding-block">
+<figure class="project-funder-logo"><img src="../assets/funders/snsf.svg" alt="Swiss National Science Foundation (SNSF) logo" loading="lazy" decoding="async"></figure>
 <dl class="project-facts project-funding">
 <div><dt>Funder</dt><dd>Swiss National Science Foundation (SNSF)</dd></div>
-<div><dt>Award</dt><dd>Eccellenza Professorial Fellowship</dd></div>
 <div><dt>Grant</dt><dd><a href="https://data.snf.ch/grants/grant/194211">PCEFP2_194211</a></dd></div>
-<div><dt>Recipient</dt><dd>S. Nemiah Ladd</dd></div>
 </dl>
+</div>
 ```
 
 ::: {.project-page-links}

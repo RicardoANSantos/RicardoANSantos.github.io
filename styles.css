@@ -236,3 +236,11 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .cv-conference-meta {display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 18px;color:var(--accent);font-size:.78rem;line-height:1.6;margin-bottom:10px;}
 .cv-conference-type {display:inline-block;flex:none;border:1px solid var(--line);border-radius:2px;background:var(--wash);padding:2px 8px;font-size:.7rem;font-weight:600;}
 .cv-conference .authors {margin-bottom:0;}
+
+/* Funder marks retain their original colours, proportions, and clear space. */
+.project-funding-block {display:grid;grid-template-columns:minmax(180px,270px) minmax(0,1fr);align-items:center;gap:32px;margin:24px 0 32px;max-width:900px;}
+.project-funder-logo {margin:0;padding:18px;background:#fff;border:1px solid var(--line);border-radius:2px;}
+.project-funder-logo img {display:block;width:100%;height:auto;max-height:130px;object-fit:contain;}
+.project-funding-block .project-funding {margin:0;}
+.project-funding dd {overflow-wrap:anywhere;}
+@media(max-width:720px) {.project-funding-block {grid-template-columns:1fr;gap:20px;}.project-funder-logo {width:100%;max-width:270px;}}
