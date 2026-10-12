@@ -325,7 +325,7 @@ def main():
         alt = escape(photo["alt"], quote=True)
         position = escape(photo.get("position", "50% 50%"), quote=True)
         introduction = [
-            '::: {.research-intro}', '', *introduction, '', '```{=html}',
+            '::: {.research-overview-intro}', '', *introduction, '', '```{=html}',
             '<figure class="research-intro-photo">',
             f'<a href="{src}" aria-label="Open full photograph: {alt}"><img src="{src}" alt="{alt}" style="object-position:{position}" loading="lazy" decoding="async"></a>',
             '</figure>', '```', '', ':::',

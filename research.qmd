@@ -2,7 +2,7 @@
 title: "Research"
 ---
 
-::: {.research-intro}
+::: {.research-overview-intro}
 
 ::: {.page-intro}
 I use lipid biomarkers to reconstruct past climates, ecosystems, and human impacts from lake sediments. My work combines molecular distributions and compound-specific δ²H and δ¹³C measurements with other evidence preserved in these natural archives.
