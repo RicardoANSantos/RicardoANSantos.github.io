@@ -27,7 +27,6 @@ Organic geochemist and geologist specializing in lipid biomarkers, compound-spec
 ```{=html}
 <figure class="cv-portrait">
 <a href="assets/mountain-portrait.jpg" aria-label="Open full winter-retreat portrait"><img src="assets/mountain-portrait.jpg" alt="Ricardo in a yellow hat with snowy mountains behind him during the Organic Geochemistry group’s winter retreat in Engelberg." width="1200" height="1600" loading="lazy" decoding="async"></a>
-<figcaption>Organic Geochemistry group retreat, winter in Engelberg.</figcaption>
 </figure>
 ```
 
