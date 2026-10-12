@@ -277,6 +277,8 @@ https://www.eagblog.org/news/mork/.
 
 Ricardo supplied the landscape image in his “Lipid biomarkers toolkit” upload.
 It is centred below the section heading, above the three focus cards, at its
-natural landscape proportions and up to 700 px wide. It links to the original
+natural landscape proportions and up to 920 px wide. It links to the original
 image and scales to the available width on mobile. The focus cards stay in a
-separate, full-width grid below.
+separate, full-width grid below, with a reduced 18 px gap. A small on-image credit
+reads “© Ricardo N. Santos · Hochstuckli, Schwyz, Switzerland”, using the location
+and copyright credit supplied by Ricardo on 12 October 2026.
