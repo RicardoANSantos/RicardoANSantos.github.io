@@ -35,3 +35,9 @@ Please include a short description of the project or question, the archive or da
 :::
 
 :::
+
+```{=html}
+<figure class="contact-photo">
+  <a href="assets/projects/silica-columns-procedure-rotsee.jpg" aria-label="Open full photograph: Silica columns used for processing Rotsee samples."><img src="assets/projects/silica-columns-procedure-rotsee.jpg" alt="Silica columns used for processing Rotsee samples." width="2333" height="1214" loading="lazy" decoding="async"></a>
+</figure>
+```

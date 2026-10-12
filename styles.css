@@ -257,3 +257,8 @@ table td,table th {padding:11px 12px!important;vertical-align:top;}
 .cv-portrait img {display:block;width:100%;height:auto;border-radius:3px;}
 .cv-portrait figcaption {font-size:.72rem;line-height:1.6;color:var(--muted);padding-top:10px;}
 @media(max-width:720px) {.cv-overview {grid-template-columns:1fr;gap:22px;}.cv-portrait {justify-self:center;padding-top:0;}}
+
+/* Landscape photograph below the contact details. */
+.contact-photo {margin:36px 0 0;}
+.contact-photo a {display:block;}
+.contact-photo img {display:block;width:100%;height:auto;border-radius:3px;}
