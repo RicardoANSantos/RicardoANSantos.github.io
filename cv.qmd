@@ -7,7 +7,7 @@ Organic geochemist and geologist specializing in lipid biomarkers, compound-spec
 :::
 
 ::: {.download-banner}
-[Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [Last updated: 12 October 2026 (web CV) · PDF edition: October 2026]{.small-note}
+[Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [Last updated: 25 October 2026 (web CV) · PDF edition: October 2026]{.small-note}
 :::
 
 ## Research expertise
@@ -120,7 +120,7 @@ Geology and Natural Resources.
 ::: {.cv-peer-review}
 **Peer reviewer**
 
-*Quaternary Science Reviews* and *Palaeogeography, Palaeoclimatology, Palaeoecology*.
+*Quaternary Science Reviews*, *Palaeogeography, Palaeoclimatology, Palaeoecology*, and *Organic Geochemistry*.
 :::
 
 - **BiG‑CV n‑alkyl lipid team contributor:** Development of standardized biomarker nomenclature and synonym mapping.
