@@ -1,5 +1,5 @@
 ---
-title: "HOLMODRIVE · Lake Peixão"
+title: "HOLMODRIVE"
 description: "Reading the Lake Peixão sediment archive to understand climate, vegetation, and environmental change in western Iberia."
 body-classes: project-page
 ---
