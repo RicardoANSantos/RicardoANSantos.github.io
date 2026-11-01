@@ -12,7 +12,7 @@ body-classes: home-page
     <p class="eyebrow">ORGANIC GEOCHEMISTRY · PAST CLIMATES &amp; ENVIRONMENTS</p>
     <h1 id="intro-title">Ricardo N. Santos</h1>
     <p class="position">Organic geochemist · PhD</p>
-    <p class="affiliation">Postdoctoral researcher · <a href="https://www.eawag.ch/en/">Eawag, Dübendorf, Switzerland</a><br>From 2 November 2026 · <a href="projects/memeland.html">MEMELAND</a></p>
+    <p class="affiliation">Postdoctoral researcher · <a href="https://www.eawag.ch/en/">Eawag, Dübendorf, Switzerland</a></p>
     </div>
     <div class="intro-biography">
     <p class="intro-lead"><em>Reading the past through sedimentary lipid biomarkers</em></p>
