@@ -71,7 +71,7 @@ def gallery_html(project):
 
 
 def card_html(project):
-    title = escape(project["title"])
+    title = escape(project.get("card_title", project["title"]))
     url = "projects/" + project["slug"] + ".html"
     phase = escape(project["phase"])
     if project.get("period"):
