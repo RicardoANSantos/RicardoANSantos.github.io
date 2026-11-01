@@ -1,6 +1,6 @@
 ---
 title: "Ricardo N. Santos"
-description: "Organic geochemist at the University of Basel, using sedimentary lipid biomarkers and stable isotope analyses to reconstruct past climates and environments."
+description: "Organic geochemist with a PhD from the University of Basel. Postdoctoral researcher at Eawag from 2 November 2026, studying past climates, environments, and land use through sedimentary lipid biomarkers."
 title-block-banner: false
 body-classes: home-page
 ---
@@ -11,12 +11,12 @@ body-classes: home-page
     <div class="intro-heading">
     <p class="eyebrow">ORGANIC GEOCHEMISTRY · PAST CLIMATES &amp; ENVIRONMENTS</p>
     <h1 id="intro-title">Ricardo N. Santos</h1>
-    <p class="position">Organic geochemist</p>
-    <p class="affiliation"><a href="https://duw.unibas.ch/en/research-groups/organic-geochemistry/">Organic Geochemistry Group · University of Basel, Switzerland</a></p>
+    <p class="position">Organic geochemist · PhD</p>
+    <p class="affiliation">Postdoctoral researcher · <a href="https://www.eawag.ch/en/">Eawag, Dübendorf, Switzerland</a><br>From 2 November 2026 · <a href="projects/memeland.html">MEMELAND</a></p>
     </div>
     <div class="intro-biography">
     <p class="intro-lead"><em>Reading the past through sedimentary lipid biomarkers</em></p>
-    <p>I’m a geologist by training, using lipid biomarkers and compound-specific stable isotope analyses to reconstruct past climates and environments from lake-sediment archives. I study how hydroclimate, vegetation, and human activity have shaped landscapes and lake ecosystems from the last deglaciation to the present.</p>
+    <p>I’m a geologist and organic geochemist with a PhD from the University of Basel. I use lipid biomarkers and compound-specific stable isotope analyses to reconstruct past climates and environments from lake-sediment archives, studying how hydroclimate, vegetation, and human activity have shaped landscapes and lake ecosystems from the last deglaciation to the present.</p>
     <p>What fascinates me is how organic geochemistry allows us to explore connections between the biosphere, hydrosphere, atmosphere, and geosphere, and how sediments preserve evidence of those relationships through time. A single sedimentary lipid record can reflect the intertwined histories of climate, terrestrial vegetation, aquatic ecosystems, and human activity.</p>
     <p>My research explores how to disentangle these influences and understand the processes that shape biomarker signals. I focus particularly on refining our lipid biomarker toolkit to improve our ability to reconstruct long‑term environmental change, while making the uncertainties in those interpretations explicit.</p>
     </div>

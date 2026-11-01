@@ -3,11 +3,11 @@ title: "Curriculum vitae"
 ---
 
 ::: {.page-intro}
-Organic geochemist and geologist specializing in lipid biomarkers, compound-specific stable isotopes, and multi-proxy lake-sediment archives.
+Organic geochemist with a PhD from the University of Basel, specializing in lipid biomarkers, compound-specific stable isotopes, and multi-proxy lake-sediment archives.
 :::
 
 ::: {.download-banner}
-[Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [Last updated: 25 October 2026 (web CV) · PDF edition: October 2026]{.small-note}
+[Download my full CV · PDF](assets/Ricardo_CV.pdf){.primary-link} [Last updated: 1 November 2026 (web CV) · PDF edition: October 2026]{.small-note}
 :::
 
 ## Research expertise
@@ -30,7 +30,7 @@ Organic geochemist and geologist specializing in lipid biomarkers, compound-spec
 
 Research focus: disentangling vegetation and hydroclimate signals from lipid biomarker records.
 
-Supervisors: [S. Nemiah Ladd](https://duw.unibas.ch/en/research-groups/organic-geochemistry/team/ladd/) and Dominik Fleitmann. Defense anticipated in October 2026.
+Supervisors: [S. Nemiah Ladd](https://duw.unibas.ch/en/research-groups/organic-geochemistry/team/ladd/) and Dominik Fleitmann. PhD completed in 2026.
 :::
 
 ::: {.timeline-item}
@@ -67,6 +67,7 @@ Geology and Natural Resources.
 
 | Period | Role, institution, and research contribution |
 |:--|:--|
+| From 2 November 2026 | **Postdoctoral Researcher**, [Eawag](https://www.eawag.ch/en/), Dübendorf, Switzerland <span class="cv-role-summary">MEMELAND project: fecal and plant biomarkers to reconstruct medieval land use and its effects on lake ecosystems, working with Prof. Nathalie Dubois.</span> |
 | 2022–2026 | **Doctoral Candidate & Project Assistant**, Organic Geochemistry Group, University of Basel <span class="cv-role-summary">Lipid biomarkers and compound-specific isotopes to reconstruct climate, vegetation, and human impacts in European and North American lake sediments.</span> |
 | 2021–2022 | **Research Fellow**, IPMA, Lisbon <span class="cv-role-summary">Compound-specific δ²H and δ¹³C measurements of modern plant leaf waxes and lake sediments to investigate North Atlantic climate variability.</span> |
 | June–September 2021 | **ERASMUS+ Research Intern**, Biología Costera Group, University of A Coruña, Spain <span class="cv-role-summary">Sedimentary diatom analysis.</span> |
