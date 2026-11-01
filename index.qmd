@@ -11,7 +11,7 @@ body-classes: home-page
     <div class="intro-heading">
     <p class="eyebrow">ORGANIC GEOCHEMISTRY · PAST CLIMATES &amp; ENVIRONMENTS</p>
     <h1 id="intro-title">Ricardo N. Santos</h1>
-    <p class="position">Organic geochemist · PhD</p>
+    <p class="position">PhD in Organic Geochemistry</p>
     <p class="affiliation">Postdoctoral researcher · <a href="https://www.eawag.ch/en/">Eawag, Dübendorf, Switzerland</a></p>
     </div>
     <div class="intro-biography">
