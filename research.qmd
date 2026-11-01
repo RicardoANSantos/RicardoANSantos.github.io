@@ -73,12 +73,12 @@ Interpreting these records requires understanding both environmental conditions 
 ```{=html}
 <div class="projects-grid projects-grid--past">
 <article class="project-card">
-<a class="project-photo-link" href="projects/holmodrive.html" aria-label="Explore HOLMODRIVE · Lake Peixão">
+<a class="project-photo-link" href="projects/holmodrive.html" aria-label="Explore HOLMODRIVE">
 <figure class="project-photo"><img src="assets/projects/holmodrive-peixao-coring.png" alt="Researchers collecting sediment cores from a floating platform on Lake Peixão, Serra da Estrela, Portugal." style="object-position:50% 70%" loading="lazy" decoding="async"></figure>
 </a>
 <div class="project-card-copy">
 <p class="eyebrow">Serra da Estrela · Portugal</p>
-<h3><a href="projects/holmodrive.html">HOLMODRIVE · Lake Peixão</a></h3>
+<h3><a href="projects/holmodrive.html">HOLMODRIVE</a></h3>
 <p>Reading the Lake Peixão sediment archive to understand climate, vegetation, and environmental change in western Iberia.</p>
 <p class="project-phase">North Atlantic climate · Western Iberia</p>
 <p class="project-photo-credit">Photograph: <a href="https://filipepatrocinio.com/">Filipe Patrocínio</a></p>
