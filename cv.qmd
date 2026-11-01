@@ -28,9 +28,9 @@ Organic geochemist with a PhD from the University of Basel, specializing in lipi
 
 ### PhD in Organic Geochemistry
 
-Research focus: disentangling vegetation and hydroclimate signals from lipid biomarker records.
+**Thesis:** *Disentangling vegetation and hydroclimate signals from lipid biomarker records*.
 
-Supervisors: [S. Nemiah Ladd](https://duw.unibas.ch/en/research-groups/organic-geochemistry/team/ladd/) and Dominik Fleitmann. PhD completed in 2026.
+Supervisors: [S. Nemiah Ladd](https://duw.unibas.ch/en/research-groups/organic-geochemistry/team/ladd/) and Dominik Fleitmann.
 :::
 
 ::: {.timeline-item}
@@ -38,7 +38,11 @@ Supervisors: [S. Nemiah Ladd](https://duw.unibas.ch/en/research-groups/organic-g
 
 ### MSc in Geology
 
-Stratigraphy, Sedimentology, and Paleontology. Thesis on western Iberian hydroclimate over the last 2,000 years using leaf-wax *n*-alkanes from Lake Peixão.
+Stratigraphy, Sedimentology, and Paleontology.
+
+**Thesis:** *Hydroclimate of Western Iberia over the last 2000 years: Insights from leaf wax n-alkanes of Lake Peixão sediments (Serra da Estrela, Portugal)*.
+
+Supervisors: Alexandre Ramos and Dr. Teresa Rodrigues.
 :::
 
 ::: {.timeline-item}
