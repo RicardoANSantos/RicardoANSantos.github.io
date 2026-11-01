@@ -3,7 +3,7 @@ title: "Curriculum vitae"
 ---
 
 ::: {.page-intro}
-Organic geochemist with a PhD from the University of Basel, specializing in lipid biomarkers, compound-specific stable isotopes, and multi-proxy lake-sediment archives.
+My research focuses on reconstructing past climates, ecosystems, and human land use from molecular signals preserved in lake sediments.
 :::
 
 ::: {.download-banner}
