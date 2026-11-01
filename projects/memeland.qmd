@@ -10,7 +10,7 @@ body-classes: project-page
 <p class="eyebrow">European landscapes</p>
 <p class="project-group">Ongoing project</p>
 <p class="project-lead">Reconstructing medieval land use from lake sediments, using fecal and plant biomarkers to trace farming practices and environmental impacts.</p>
-<dl class="project-facts"><div><dt>Focus</dt><dd>Medieval land use · Molecular biomarkers</dd></div><div><dt>My role</dt><dd>Fecal and plant biomarker research · Eawag team</dd></div></dl>
+<dl class="project-facts"><div><dt>Focus</dt><dd>Medieval land use · Molecular biomarkers</dd></div><div><dt>My role</dt><dd>Postdoctoral researcher · Eawag · from 2 November 2026</dd></div></dl>
 <p><a class="project-more" href="https://memeland.no/en/About/about.html">Project website <span aria-hidden="true">↗</span></a></p>
 </div>
 <figure class="project-photo project-logo"><img src="../assets/projects/memeland-logo.png" alt="MEMELAND logo: Molecular Ecology of Medieval Landscapes, with a DNA helix, molecular structure, lake, castle, and an ox-drawn plough." style="object-position:50% 50%" loading="lazy" decoding="async"><figcaption>MEMELAND · Molecular Ecology of Medieval Landscapes</figcaption></figure>
@@ -20,7 +20,7 @@ body-classes: project-page
 ::: {.project-contribution}
 ## My contribution
 
-I will join Prof. [Nathalie Dubois](https://memeland.no/en/Team/people.html#prof.-dr.-nathalie-dubois) in the Eawag team’s biomarker work, using lake sediments to reconstruct medieval agricultural practices and their effects on aquatic ecosystems.
+My postdoctoral research at Eawag, starting on 2 November 2026, focuses on fecal and plant biomarkers. Working with Prof. [Nathalie Dubois](https://memeland.no/en/Team/people.html#prof.-dr.-nathalie-dubois), I use lake sediments to reconstruct medieval agricultural practices and their effects on aquatic ecosystems.
 
 :::
 
