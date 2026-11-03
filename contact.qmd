@@ -13,12 +13,15 @@ I welcome conversations about organic geochemistry, lipid biomarkers, paleoclima
 
 [r.n.santos@unibas.ch](mailto:r.n.santos@unibas.ch){.contact-email}
 
-### Affiliation
+### Affiliation and postal address
 
-Postdoctoral researcher · [MEMELAND](projects/memeland.qmd)  
-[Eawag](https://www.eawag.ch/en/)  
-Dübendorf, Switzerland  
-From 2 November 2026
+Postdoctoral Researcher in Organic Geochemistry  
+Department Surface Waters – Research and Management  
+Sedimentology Group  
+[Eawag, Swiss Federal Institute of Aquatic Science and Technology](https://www.eawag.ch/en/)  
+Überlandstrasse 133  
+8600 Dübendorf  
+Switzerland
 :::
 
 ::: {.contact-profiles}
